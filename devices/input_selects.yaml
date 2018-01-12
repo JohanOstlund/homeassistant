@@ -1,0 +1,23 @@
+### Input Select ###
+
+thermostat_mode:
+  name: Master Control
+  options:
+    - "auto"
+    - "cool"
+    - "dry"
+    - "fan"
+    - "heat"
+  initial: heat
+  icon: mdi:radiator
+  
+thermostat_fan_control:
+  name: Fan Control
+  options:
+    - "auto"
+    - "high"
+    - "medium"
+    - "low"
+    - "quiet"
+  initial: auto
+  icon: mdi:fan

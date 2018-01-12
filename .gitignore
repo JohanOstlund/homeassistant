@@ -1,0 +1,22 @@
+# ignore secrets.yaml
+secrets.yaml
+
+*.log
+OZW_Log.txt
+
+# ignore configuratorsettings.conf
+configuratorsettings.conf
+
+# ignore images
+/www/images/*
+
+# ignore .ios.conf
+.ios.conf
+
+# ignore spotify token cache
+.spotify-token-cache
+
+.uuid
+
+/tts/
+/.cloud/

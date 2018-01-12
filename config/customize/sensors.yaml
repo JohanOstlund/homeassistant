@@ -1,0 +1,43 @@
+### CUSTOMIZE ###
+  sensor.allrum_temperature:
+    homebridge_name: Innetemperatur
+    homebridge_visible: false
+  sensor.yr_temperature:
+    homebridge_name: Utetemperatur
+    homebridge_visible: true
+    google_assistant: true
+    google_assistant_name: Outside Temp
+  
+  sensor.verisure:
+    #entity_picture: /local/images/verisure.png
+    homebridge_name: Verisure
+    homebridge_visible: true
+  
+  binary_sensor.altandorr_barnrum:
+    device_class: opening
+    friendly_name: Altandörr Minelle
+  binary_sensor.altandorr_vardagsrum:
+    device_class: opening
+    friendly_name: Altandörr vardagsrum
+  binary_sensor.entredorr:
+    device_class: opening
+    friendly_name: Entrédörr
+  binary_sensor.fonster_barnrum:
+    device_class: opening
+    friendly_name: Fönster Minelle
+  binary_sensor.fonster_kok:
+    device_class: opening
+    friendly_name: Fönster kök
+  binary_sensor.fonster_kontor:
+    device_class: opening
+    friendly_name: Fönster korridor
+  binary_sensor.fonster_sovrum:
+    device_class: opening
+    friendly_name: Fönster Charlie
+
+  binary_sensor.camera_baksidan:
+    device_class: motion
+    friendly_name: Baksida
+  binary_sensor.camera_entre:
+    device_class: motion
+    friendly_name: Entré

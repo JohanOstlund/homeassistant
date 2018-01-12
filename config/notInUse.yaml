@@ -1,0 +1,122 @@
+    ## Nedan används för att få till lamporna i homebridge homekit som inte kan ha dubbla namn av det som används ##
+  light.kokspottar_level_2:
+    friendly_name: Kitchen Dimmer Level
+    hidden: true
+  light.spottar_step_size_5_0:
+    friendly_name: Kitchen Dimmer Step Size_Min
+    hidden: true
+  light.spottar_step_size_5_0_2:
+    friendly_name: Kitchen Dimmer Step Size_Max
+    hidden: true
+  light.spottar_step_size_5_6:
+    friendly_name: Kitchen Dimmer Step Size
+    hidden: true
+  light.spottar_step_size_5_6_2:
+    friendly_name: Kitchen Dimmer Step Size 2nd
+    hidden: true
+  light.spottar_step_size_6_0:
+    friendly_name: Hall Dimmer Step Size_Min
+    hidden: true
+  light.spottar_step_size_6_0_2:
+    friendly_name: Hall Dimmer Step Size_Max
+    hidden: true
+  light.korridorspottar_level_2:
+    friendly_name: Hall Dimmer Level
+    hidden: true
+  light.spottar_step_size_6_6:
+    friendly_name: Hall Dimmer Step Size
+    hidden: true
+  light.spottar_step_size_6_6_2:
+    friendly_name: Hall Dimmer Step Size 2nd
+    hidden: true
+  light.vagglampor_step_size_8_0:
+    friendly_name: Uterummet Dimmer Step Size_Min
+    hidden: true
+  light.vagglampor_step_size_8_0_2:
+    friendly_name: Uterummet Dimmer Step Size_Max
+    hidden: true
+  light.uterumslampor_level_2:
+    friendly_name: Uterummet Dimmer Level
+    hidden: true
+  light.vagglampor_step_size_8_6:
+    friendly_name: Uterummet Dimmer Step Size
+    hidden: true
+  light.vagglampor_step_size_8_6_2:
+    friendly_name: Uterummet Dimmer Step Size 2nd
+    hidden: true
+  light.taklampor_step_size_9_0:
+    friendly_name: Matsal Dimmer Step Size_Min
+    hidden: true
+  light.taklampor_step_size_9_0_2:
+    friendly_name: Matsal Dimmer Step Size_Max
+    hidden: true
+  light.matbordslampor_level_2:
+    friendly_name: Matsal Dimmer Level
+    hidden: true
+  light.taklampor_step_size_9_6:
+    friendly_name: Matsal Dimmer Step Size
+    hidden: true
+  light.taklampor_step_size_9_6_2:
+    friendly_name: Matsal Dimmer Step Size 2nd
+    hidden: true
+  light.taklampor_step_size_14_0:
+    friendly_name: Vardagsrum Dimmer Step Size_Min
+    hidden: true
+  light.taklampor_step_size_14_0_2:
+    friendly_name: Vardagsrum Dimmer Step Size_Max
+    hidden: true
+  light.vardagsrumstaklampor_level_2:
+    friendly_name: Vardagsrum Dimmer Level
+    hidden: true
+  light.taklampor_step_size_14_6:
+    friendly_name: Vardagsrum Dimmer Step Size
+    hidden: true
+  light.taklampor_step_size_14_6_2:
+    friendly_name: Vardagsrum Dimmer Step Size 2nd
+    hidden: true
+  
+  light.spottar_step_size_15_0:
+    hidden: true
+  light.spottar_step_size_15_0_2:
+    hidden: true
+  light.masterbedroomspottar_level_2:
+    hidden: true
+  light.spottar_step_size_15_6:
+    hidden: true
+  light.spottar_step_size_15_6_2:
+    hidden: true
+    
+  light.sanglampor_step_size_16_0:
+    hidden: true
+  light.sanglampor_step_size_16_0_2:
+    hidden: true
+  light.masterbedroomsanglampor_level_2:
+    hidden: true
+  light.sanglampor_step_size_16_6:
+    hidden: true
+  light.sanglampor_step_size_16_6_2:
+    hidden: true
+    
+  light.spottar_step_size_17_0:
+    hidden: true
+  light.spottar_step_size_17_0_2:
+    hidden: true
+  light.hallspottar_level_2:
+    hidden: true
+  light.spottar_step_size_17_6:
+    hidden: true
+  light.spottar_step_size_17_6_2:
+    hidden: true
+        
+  light.kokslampor_step_size_19_0:
+    hidden: true
+  light.kokslampor_step_size_19_0_2:
+    hidden: true
+  light.kokslampor_level_2:
+    hidden: true
+  light.kokslampor_step_size_19_6:
+    hidden: true
+  light.kokslampor_step_size_19_6_2:
+    hidden: true
+    
+  

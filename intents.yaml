@@ -1,0 +1,50 @@
+ ## ALEXA ##
+ActivateSceneIntent:
+    action:
+      service: scene.turn_on
+      data_template:
+        entity_id: scene.{{ Scene | replace(" ", "_") }}
+    speech:
+      type: plain
+      text: !include alexa_confirm.yaml
+
+ ## GOOGLE ##
+Temperature:
+  speech:
+    text: The temperature at home is {{ states('sensor.allrum_temperature') }} degrees
+LocateIntent:
+  speech:
+    text: >
+      {%- for state in states.device_tracker -%}
+        {%- if state.name.lower() == User.lower() -%}
+          {{ state.name }} is at {{ state.state }}
+        {%- elif loop.last -%}
+          I am sorry, I do not know where {{ User }} is.
+        {%- endif -%}
+      {%- else -%}
+        Sorry, I don't have any trackers registered.
+      {%- endfor -%}
+WhereAreWeIntent:
+  speech:
+    text: >
+      {%- if is_state('device_tracker.johan', 'home') and
+             is_state('device_tracker.sanna', 'home') -%}
+        You are both home, you silly
+      {%- else -%}
+        Sanna is at {{ states("device_tracker.sanna") }}
+        and Johan is at {{ states("device_tracker.johan") }}
+      {% endif %}
+TurnLights:
+  speech:
+    text: Turning {{ Room }} lights {{ OnOff }}
+  action:
+    - service_template: >
+        {%- if OnOff == "on" -%}
+          switch.turn_on
+        {%- else -%}
+          switch.turn_off
+        {%- endif -%}
+      data_template:
+        entity_id: "switch.light_{{ Room | replace(' ', '_') }}"
+
+   

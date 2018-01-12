@@ -1,0 +1,33 @@
+### CUSTOMIZE ###
+  scene.morninglights:
+    friendly_name: Morgonljus
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Morning lights"
+    google_assistant: true
+    google_assistant_name: Morning lights
+    
+  scene.daylights:
+    friendly_name: Dagsljus
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Daylights"
+    google_assistant: true
+    google_assistant_name: Daylight
+    
+  scene.eveninglights:
+    friendly_name: Kvällsljus
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Evening lights"
+    google_assistant: true
+    google_assistant_name: Evening lights
+    
+  scene.nightlights:
+    friendly_name: Nattljus
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Nightlights"
+    google_assistant: true
+    google_assistant_name: Night lights
+  

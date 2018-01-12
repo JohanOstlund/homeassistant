@@ -1,0 +1,109 @@
+##Lampor##
+  light.kokspottar_level:
+    friendly_name: Kök
+    homebridge_name: Spottar
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Kitchen downlights"
+    google_assistant: true
+    google_assistant_name: Kitchen downlights
+  sensor.kokspottar_energy:
+    friendly_name: Spottar kök
+    homebridge_name: Kökslampor energiförbrukning
+  sensor.kokspottar_power:
+    friendly_name: Spottar kök
+    homebridge_name: Kökslampor effekt
+ 
+    
+  light.kokslampor_level:
+    friendly_name: Kökslampor
+    homebridge_name: Taklampor
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Kitchen lamps"
+    google_assistant: true
+    google_assistant_name: Kitchen lamps
+    
+  light.korridorspottar_level:
+    friendly_name: Korridor
+    homebridge_name: Spottar
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Corridor"
+    google_assistant: true
+    google_assistant_name: Corridor
+  sensor.korridorspottar_energy:
+    friendly_name: Spottar korridor
+    homebridge_name: Korridorlampor energiförbrukning
+  sensor.korridorspottar_power:
+    friendly_name: Spottar korridor
+    homebridge_name: Korridorlampor effekt
+    
+  light.uterumslampor_level:
+    friendly_name: Uterummet
+    homebridge_name: Vägglampor
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Outdoor lamps"
+    google_assistant: true
+    google_assistant_name: Outdoor lamps
+  sensor.uterumslampor_energy:
+    friendly_name: Vägglampor uterum
+    homebridge_name: Uterumslampor energiförbrukning
+  sensor.uterumslampor_power:
+    friendly_name: Vägglampor uterum
+    homebridge_name: Uterumslampor effekt
+    
+  light.matbordslampor_level:
+    friendly_name: Matsal
+    homebridge_name: Taklampor
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Dinner table"
+    google_assistant: true
+    google_assistant_name: Dinner table
+  sensor.matbordslampor_energy:
+    friendly_name: Taklampor matsal
+    homebridge_name: Matsalslampor energiförbrukning
+  sensor.matbordslampor_power:
+    friendly_name: Taklampor Matsal
+    homebridge_name: Matsalslampor effekt
+ 
+  light.vardagsrumstaklampor_level:
+    friendly_name: Vardagsrum
+    homebridge_name: Taklampor
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Living room"
+    google_assistant: true
+    google_assistant_name: Living room
+  sensor.vardagsrumstaklampor_energy:
+    friendly_name: Taklampor vardagsrum
+    homebridge_name: Vardagsrumslampor energiförbrukning
+  sensor.vardagsrumstaklampor_power:
+    friendly_name: Taklampor vardagsrum
+    homebridge_name: Vardagsrumslampor effekt
+ 
+  light.masterbedroomspottar_level:
+    friendly_name: Spottar
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Master bedroom downlights"
+    google_assistant: true
+    google_assistant_name: Master bedroom downlights
+  
+  light.masterbedroomsanglampor_level:
+    friendly_name: Sänglampor
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Master bedroom nightstand"
+    google_assistant: true
+    google_assistant_name: Master bedroom nightstand
+    
+  light.hallspottar_level:
+    friendly_name: Spottar
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Hallway downlights"
+    google_assistant: true
+    google_assistant_name: Hallway downlights

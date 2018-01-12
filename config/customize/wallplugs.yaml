@@ -1,0 +1,38 @@
+   ##Övrigt#
+  switch.motorvarmaren_switch:
+    friendly_name: Motorvärmaren
+    icon: mdi:fan
+    emulated_hue_hidden: false
+    emulated_hue_name: "Car heater"
+  sensor.motorvarmaren_energy:
+    friendly_name: Motorvärmaren
+    homebridge_name: Motorvärmaren energiförbrukning
+  sensor.motorvarmaren_power:
+    friendly_name: Motorvärmaren
+    homebridge_name: Motorvärmaren effekt
+    
+  switch.element_switch:
+    friendly_name: Ljusstake
+    homebridge_name: Ljusstake
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Candlestick"
+  sensor.element_energy:
+    friendly_name: Ljusstake
+    homebridge_name: ljusstake energiförbrukning
+  sensor.element_power:
+    friendly_name: Ljusstake
+    homebridge_name: ljusstake effekt
+    
+  switch.diskmaskin_switch:
+    friendly_name: Diskmaskin
+  sensor.diskmaskin_energy:
+    friendly_name: Diskmaskin
+    homebridge_name: Diskmaskin energiförbrukning
+  sensor.diskmaskin_power:
+    friendly_name: Diskmaskin
+    homebridge_name: Diskmaskin effekt
+    
+  switch.ringklocka:
+    assumed_state: false
+ 

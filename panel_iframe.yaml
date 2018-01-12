@@ -1,0 +1,16 @@
+router:
+  title: 'Router'
+  icon: mdi:router-wireless
+  url: 'https://192.168.1.1:8443' 
+synology:
+  title: 'Synology'
+  icon: mdi:server-network
+  url: 'https://192.168.1.51:5001' 
+terminal:
+  title: 'Terminal'
+  icon: mdi:console
+  url: 'https://192.168.1.250:4200'
+configurator:
+    title: 'Configurator'
+    icon: mdi:wrench
+    url: 'https://192.168.1.250:3218'

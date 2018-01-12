@@ -1,0 +1,522 @@
+johansiphone:
+  hide_if_away: false
+  icon:
+  mac: 38:71:DE:A4:44:AB
+  name: Johan
+  picture: /local/images/Johan.jpg
+  track: false
+  vendor: Apple, Inc.
+   
+sannasiphone:
+  hide_if_away: false
+  icon:
+  mac: E0:5F:45:9E:17:C6
+  name: Sanna
+  picture: /local/images/Sanna.jpg
+  track: false
+  vendor: Apple, Inc.
+  
+sannasipad:
+  hide_if_away: false
+  icon:
+  mac: 74:81:14:50:62:31
+  name: Sannas-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+appletv:
+  hide_if_away: false
+  icon:
+  mac: D0:03:4B:05:BD:9A
+  name: Apple-TV
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+0005cd21b076:
+  hide_if_away: false
+  icon:
+  mac: 00:05:CD:21:B0:76
+  name: 0005CD21B076
+  picture:
+  track: false
+  vendor: D&M Holdings Inc.
+  
+rpi3white:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:1A:41:96
+  name: RPI3-White
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+  
+node304:
+  hide_if_away: false
+  icon:
+  mac: D8:50:E6:D1:2A:23
+  name: Node304
+  picture:
+  track: false
+  vendor: ASUSTek COMPUTER INC.
+  
+babymonitor:
+  hide_if_away: false
+  icon:
+  mac: A4:C3:61:02:46:F0
+  name: BabyMonitor
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+0023c1116950:
+  hide_if_away: false
+  icon:
+  mac: 00:23:C1:11:69:50
+  name: 0023c1116950
+  picture:
+  track: false
+  vendor: Securitas Direct AB
+  
+sanna:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Sanna
+  picture: /local/images/Sanna.jpg
+  track: true
+  vendor:
+  
+0403d6074405:
+  hide_if_away: false
+  icon:
+  mac: 04:03:D6:07:44:05
+  name: 0403d6074405
+  picture:
+  track: false
+  vendor: Nintendo Co.,Ltd
+  
+johan:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Johan
+  picture: /local/images/Johan.jpg
+  track: true
+  vendor:
+  
+mimmisiphone:
+  hide_if_away: true
+  icon:
+  mac: E4:E4:AB:22:BB:BB
+  name: Mimmi
+  picture: /local/images/Mimmi.jpg
+  track: true
+  vendor: Apple, Inc.
+  
+sannasmacbook:
+  hide_if_away: false
+  icon:
+  mac: 00:26:BB:1D:02:B0
+  name: SannasMacBook
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+amandasiphone:
+  hide_if_away: false
+  icon:
+  mac: F0:24:75:94:18:7A
+  name: Amanda
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+maggansiphone:
+  hide_if_away: false
+  icon:
+  mac: D0:25:98:7C:C2:D0
+  name: Maggan
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+mammasiphone:
+  hide_if_away: false
+  icon:
+  mac: 04:F7:E4:36:FB:BB
+  name: Els Marie
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+petersiphone2:
+  hide_if_away: false
+  icon:
+  mac: BC:54:36:15:E0:51
+  name: Peter
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+iphonedeisaiah:
+  hide_if_away: false
+  icon:
+  mac: 48:4B:AA:98:92:22
+  name: Isaiah
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 88:6B:6E:1E:5F:1C
+  name: iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+stefansiphone:
+  hide_if_away: false
+  icon:
+  mac: 28:5A:EB:D5:E0:7C
+  name: Stefan
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+maggansipad:
+  hide_if_away: false
+  icon:
+  mac: 84:89:AD:37:8A:93
+  name: Maggans-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+mattiastiphone7:
+  hide_if_away: false
+  icon:
+  mac: D0:C5:F3:40:7B:08
+  name: Mattias
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+partyburken:
+  hide_if_away: false
+  icon:
+  mac: 24:0A:64:71:7F:0F
+  name: PartyBurken
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+  
+raspberrypi:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:7B:7D:AB
+  name: raspberrypi
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+  
+amazon3890f7db6:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:D7:F0:A0
+  name: amazon-3890f7db6
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+  
+justinasiphone:
+  hide_if_away: false
+  icon:
+  mac: 9C:F4:8E:8F:B8:7A
+  name: Justina
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+diskstation:
+  hide_if_away: false
+  icon:
+  mac: 00:11:32:0C:66:1F
+  name: DiskStation
+  picture:
+  track: false
+  vendor: Synology Incorporated
+  
+rpi3black:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:A1:26:8E
+  name: RPI3-Black
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+  
+helenasiphone:
+  hide_if_away: false
+  icon:
+  mac: B0:70:2D:42:62:E0
+  name: Helena
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+magnusiphone:
+  hide_if_away: false
+  icon:
+  mac: 7C:01:91:5F:2E:42
+  name: Magnus
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+ellasiphone:
+  hide_if_away: false
+  icon:
+  mac: 88:1F:A1:C5:D4:FB
+  name: Ella
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+magnusipad:
+  hide_if_away: false
+  icon:
+  mac: 98:01:A7:23:9C:D4
+  name: Magnus-iPad
+  picture:
+  track: false
+  vendor: unknown
+  
+raspberrypi_2:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:F4:73:DB
+  name: raspberrypi
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+  
+squeezeboxcontro:
+  hide_if_away: false
+  icon:
+  mac: 00:04:20:1B:48:04
+  name: SqueezeboxContro
+  picture:
+  track: false
+  vendor: Slim Devices, Inc.
+  
+000420174638:
+  hide_if_away: false
+  icon:
+  mac: 00:04:20:17:46:38
+  name: 000420174638
+  picture:
+  track: false
+  vendor: unknown
+  
+00042017adb5:
+  hide_if_away: false
+  icon:
+  mac: 00:04:20:17:AD:B5
+  name: 00042017adb5
+  picture:
+  track: false
+  vendor: Slim Devices, Inc.
+  
+000420163a43:
+  hide_if_away: false
+  icon:
+  mac: 00:04:20:16:3A:43
+  name: 000420163a43
+  picture:
+  track: false
+  vendor: Slim Devices, Inc.
+  
+maggansipad_2:
+  hide_if_away: false
+  icon:
+  mac: E0:B9:BA:14:20:CF
+  name: Maggans-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+mattiassipad:
+  hide_if_away: false
+  icon:
+  mac: B0:65:BD:94:5F:84
+  name: Mattiass-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+  
+tinasiphone:
+  hide_if_away: false
+  icon:
+  mac: 3C:E0:72:A0:BD:00
+  name: Tina
+  picture:
+  track: true
+  vendor: unknown
+  
+ubuntu:
+  hide_if_away: false
+  icon:
+  mac: 08:00:27:24:39:37
+  name: ubuntu
+  picture:
+  track: false
+  vendor: PCS Systemtechnik GmbH
+  
+sonoszp:
+  hide_if_away: false
+  icon:
+  mac: 78:28:CA:02:D8:0A
+  name: SonosZP
+  picture:
+  track: false
+  vendor: Sonos, Inc.
+  
+petersiphone2_2:
+  hide_if_away: false
+  icon:
+  mac: D0:81:7A:6D:D4:B5
+  name: Peter
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+bcee7b565a02:
+  hide_if_away: false
+  icon:
+  mac: BC:EE:7B:56:5A:02
+  name: bcee7b565a02
+  picture:
+  track: true
+  vendor: ASUSTek COMPUTER INC.
+  
+amazon15dc41dbb:
+  hide_if_away: false
+  icon:
+  mac: 00:FC:8B:EC:EB:C3
+  name: amazon-15dc41dbb
+  picture:
+  track: true
+  vendor: unknown
+  
+7071bcc41863:
+  hide_if_away: false
+  icon:
+  mac: 70:71:BC:C4:18:63
+  name: 7071bcc41863
+  picture:
+  track: true
+  vendor: unknown
+  
+c42c0307ea35:
+  hide_if_away: false
+  icon:
+  mac: C4:2C:03:07:EA:35
+  name: c42c0307ea35
+  picture:
+  track: true
+  vendor: Apple, Inc.
+  
+
+7071bcd43056:
+  hide_if_away: false
+  icon:
+  mac: 70:71:BC:D4:30:56
+  name: 7071bcd43056
+  picture:
+  track: true
+  vendor: unknown
+
+1077b1ec4f37:
+  hide_if_away: false
+  icon:
+  mac: 10:77:B1:EC:4F:37
+  name: 1077b1ec4f37
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+magnusipad2:
+  hide_if_away: false
+  icon:
+  mac: 64:20:0C:C1:15:63
+  name: Magnus-Ipad-2
+  picture:
+  track: true
+  vendor: unknown
+
+elinsiphone:
+  hide_if_away: false
+  icon:
+  mac: 9C:F4:8E:A7:73:65
+  name: Elins-iPhone
+  picture:
+  track: true
+  vendor: unknown
+
+iphonewendy:
+  hide_if_away: false
+  icon:
+  mac: 28:A0:2B:31:D8:98
+  name: iPhone-Wendy
+  picture:
+  track: true
+  vendor: unknown
+
+emmasair2:
+  hide_if_away: false
+  icon:
+  mac: E0:AC:CB:67:39:40
+  name: Emmas-Air-2
+  picture:
+  track: true
+  vendor: unknown
+
+magnusmbp:
+  hide_if_away: false
+  icon:
+  mac: 78:31:C1:CA:E1:00
+  name: Magnus-MBP
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+iphone_2:
+  hide_if_away: false
+  icon:
+  mac: DC:56:E7:63:4B:89
+  name: iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+8c3bad0b9b38:
+  hide_if_away: false
+  icon:
+  mac: 8C:3B:AD:0B:9B:38
+  name: 8c3bad0b9b38
+  picture:
+  track: true
+  vendor: unknown
+
+appletvkabel:
+  hide_if_away: false
+  icon:
+  mac: D0:03:4B:05:BD:9C
+  name: Apple-TV-Kabel
+  picture:
+  track: true
+  vendor: Apple, Inc.

@@ -1,0 +1,10 @@
+  # Verisure
+  username: !secret ver_username
+  password: !secret ver_password
+  alarm: 1
+  hygrometers: 0
+  smartplugs: 0
+  thermometers: 1
+  locks: 1
+  mouse: 0
+  code_digits: 6

@@ -1,0 +1,46 @@
+name: Daylights 
+entities:
+  light.kokslampor_level:
+    state: on
+    brightness: 255
+  light.masterbedroomsanglampor_level_2:
+    state: off
+  light.uterumslampor_level:
+    state: off
+  light.masterbedroomspottar_level:
+    state: on
+    brightness: 255
+  light.vardagsrumstaklampor_level_2:
+    state: off
+  light.matbordslampor_level:
+    state: on
+    brightness: 255
+  light.vardagsrumstaklampor_level:
+    state: on
+    brightness: 51
+  light.korridorspottar_level_2:
+    state: off
+  light.matbordslampor_level_2:
+    state: off
+  light.korridorspottar_level:
+    state: on
+    brightness: 255
+  light.kokspottar_level_2:
+    state: off
+  light.kokslampor_level_2:
+    state: off
+  light.uterumslampor_level_2:
+    state: off
+  light.kokspottar_level:
+    state: on
+    brightness: 255
+  light.masterbedroomsanglampor_level:
+    state: on
+    brightness: 255
+  light.masterbedroomspottar_level_2:
+    state: off
+  light.hallspottar_level_2:
+    state: off
+  light.hallspottar_level:
+    state: on
+    brightness: 255

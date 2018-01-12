@@ -1,0 +1,8 @@
+  # Google Assistant
+  project_id: home-assistant-22337
+  client_id: 1bStQYBmvuIP8SAPRDymTkWwsA7A4ZagPNCsOc5Evabm8w9ZeVZsHpCK4L7hkK6IrtGkXR2uHwa50v4Y
+  access_token: kYoQbtENN0nywm7xYrZErpd7Red0yxJGA6bMPPLbouO8VBXjmi6oTZJiXgBnBC1tKXD2DSkQabyz5FTy
+  exposed_domains:
+    - switch
+    - light
+    - group

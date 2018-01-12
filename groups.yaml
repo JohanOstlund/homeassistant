@@ -1,0 +1,437 @@
+### grupper ###
+ 
+dörrar:
+  name: Dörrar
+  view: no
+  entities:
+   - binary_sensor.entredorr
+   - binary_sensor.altandorr_vardagsrum
+   - binary_sensor.altandorr_barnrum
+   
+fönster:
+  name: Fönster
+  view: no
+  entities:
+   - binary_sensor.fonster_barnrum
+   - binary_sensor.fonster_kok
+   - binary_sensor.fonster_kontor
+   - binary_sensor.fonster_sovrum
+   
+ #### RUM ####  
+entre:
+  name: Entré
+  view: no
+  control: hidden
+  entities:
+   - light.hallspottar_level
+   - lock.entredorr
+   - climate.varmegolv_heating
+
+kök:
+  name: Kök
+  view: no
+  entities:
+    - light.kokspottar_level
+    - light.kokslampor_level
+    - light.korridorspottar_level
+    - sensor.allrum_temperature
+    - binary_sensor.brandvarnare_matsal_sensor
+
+matsal:
+  name: Matsal
+  view: no
+  entities:
+   - sensor.brandvarnare_matsal_temperature
+   - light.matbordslampor_level
+      
+ 
+masterbedroom:
+  name: Master Bedroom
+  view: no
+  entities:
+    - light.masterbedroomspottar_level
+    - light.masterbedroomsanglampor_level
+    - sensor.brandvarnare_master_bedroom_temperature
+    - binary_sensor.brandvarnare_master_bedroom_sensor
+ 
+vardagsrummet:
+  name: Vardagsrummet
+  view: no
+  entities:
+   - light.vardagsrumstaklampor_level
+   - switch.wallplug1_switch
+
+sovrum2:
+  name: Minelles rum   
+  view: no
+  entities:
+    - sensor.brandvarnare_sovrum_2_temperature 
+    - switch.wallplug2_switch
+    - binary_sensor.brandvarnare_sovrum_2_sensor
+
+sovrum3:
+  name: Charlies rum   
+  view: no
+  entities:
+    - sensor.brandvarnare_sovrum_3_temperature
+    - binary_sensor.brandvarnare_sovrum_3_sensor
+    
+uterummet:
+  name: Uterummet
+  view: no
+  entities:
+   - light.uterumslampor_level
+   
+
+   ## Scenes groups ##
+scener_lampor:
+ name: Scener Lampor
+ view: no
+ control: hidden
+ entities:
+  - scene.morninglights
+  - scene.daylights
+  - scene.eveninglights
+  - scene.nightlights
+    
+## Lamp groups ##
+ 
+innelampor:
+  name: Innelampor
+  view: no
+  entities:
+   - group.kokslampor
+   - group.masterbedroomslampor
+   - group.vardagsrumslampor
+   - group.hallampor
+   - group.korridorlampor
+   - group.matsalslampor
+   
+morgonlampor:
+  name: Innelampor
+  view: no
+  entities:
+   - group.kokslampor
+   - group.vardagsrumslampor
+   - group.hallampor
+   - group.matsalslampor
+    
+kökslampor:
+  name: Kökslampor
+  view: no
+  entities:
+    - light.kokspottar_level
+    - light.kokslampor_level
+    
+vardagsrumslampor:
+  name: Vardagsrumslampor
+  view: no
+  entities:
+   - light.vardagsrumstaklampor_level
+   
+hallampor:
+  name: Hallampor
+  view: no
+  entities:
+   - light.hallspottar_level
+ 
+korridorlampor:
+  name: Korridorlampor
+  view: no
+  entities:
+   - light.korridorspottar_level
+    
+matsalslampor:
+  name: Matsalslampor
+  view: no
+  entities:
+   - light.matbordslampor_level
+    
+masterbedroomslampor:
+  name: Master Bedroom lampor
+  view: no
+  entities:
+    - light.masterbedroomspottar_level
+    - light.masterbedroomsanglampor_level
+    
+ 
+## Övrigt ##
+ 
+övervakning:
+  name: Övervakning
+  view: no
+  entities:
+   - camera.entre
+   - camera.baksidan
+   - camera.iphone5
+   - switch.synology_home_mode
+   - switch.camera_torch
+ 
+disarm_alarm:
+  name: Verisure
+  view: no
+  entities:
+   - script.disarm
+    
+arm_alarm:
+  name: Verisure
+  view: no
+  control: hidden
+  entities:
+   - script.homearm
+   - script.awayarm
+       
+värme:
+  name: Värme
+  view: no
+  control: hidden
+  entities:
+   - climate.varmegolv_heating
+   
+utomhus:
+  name: Utomhus
+  view: no
+  control: hidden
+  entities:
+   - switch.wallplug3_switch
+   - switch.ip44
+   
+energi:
+  name: Energi
+  view: no
+  entities:
+  #lampor#
+   - sensor.kokspottar_energy
+   - sensor.korridorspottar_energy
+   - sensor.uterumslampor_energy
+   - sensor.matbordslampor_energy
+   - sensor.vardagsrumstaklampor_energy
+  #övrigt#
+   - sensor.wallplug3_energy
+   - sensor.wallplug1_energy
+   - sensor.wallplug2_energy
+  
+  
+effekt:
+  name: Effekt
+  view: no
+  entities:
+  #lampor#
+   - sensor.kokspottar_power
+   - sensor.korridorspottar_power
+   - sensor.uterumslampor_power
+   - sensor.matbordslampor_power
+   - sensor.vardagsrumstaklampor_power
+  #övrigt#
+   - sensor.wallplug3_power
+   - sensor.wallplug1_power
+   - sensor.wallplug2_power
+  
+     
+soptunnan:
+  name: Var står soptunnan
+  view: no
+  entities:
+   - input_boolean.soptunna
+    
+    
+  ###########Automation Groups######################
+    
+lightsAutomation:
+  name: Lampor
+  view: no
+  entities:
+   - automation.toggle_masterbedroom_bedlights_one_click
+   - automation.turn_off_all_lights_when_alarmed_away
+   - automation.toggle_masterbedroom_spots_doubleclick
+   - automation.koksflaktslampa_onoff
+   - automation.stang_av_ljusstaken_i_vardagsrummet
+   - automation.satt_pa_ljusstaken_i_vardagsrummet
+     
+otherAutomation:
+  name: Övriga
+  view: no
+  entities:
+   - automation.soptunnan_nere
+   - automation.soptunnan_uppe
+   - automation.satt_soptunna_variabel_till_off_efter_0000
+   - automation.welcome_home_message_johan
+   - automation.welcome_home_message_sanna
+   - automation.auto_renew_ssl_cert
+   - automation.satt_ringklocka_till_off
+   - automation.play_doorbell_on_audio_alert_daytime
+   - automation.play_doorbell_on_audio_alert_evening
+   
+heatAutomation:
+  name: Värme
+  view: no
+  entities:
+   - automation.turn_on_minelles_heater
+   - automation.turn_off_minelles_heater
+   - automation.sank_hallgolvets_varme
+   - automation.sank_hallgolvets_varme
+   - automation.hoj_hallgolvets_varme
+   - automation.wallplug3_pa_0745
+   - automation.wallplug3_av_0915
+  
+iosAutomation:
+  name: iOSNotify
+  view: no
+  entities:
+   - automation.notify_ios_app_johan_ringer_pa_dorren
+   - automation.notify_ios_app_johan_soptunnan
+   - automation.notify_ios_app_sanna_soptunnan
+   - automation.notifi_ios_app_johan_rorelse_baksidan
+   - automation.notifi_ios_app_johan_rorelse_vid_entren
+     
+ytterdorrAutomation:
+  name: Ytterdörr
+  view: no
+  entities:
+   - automation.oppna_ytterdorren
+   - automation.las_ytterdorren
+    
+alarmAutomation:
+  name: Larm
+  view: no
+  entities:
+   - automation.hide_alarm_when_alarmed
+   - automation.hide_disarm_when_disarmed
+   - automation.show_alarm_when_disarmed
+   - automation.show_disarm_when_alarm_armed
+   - automation.nighttime
+   - automation.trigger_alarm_home
+   - automation.happens_when_alarmed_away
+   - automation.skal_larm_off_06001000
+   - automation.alarm_off_09001900
+   - automation.alarm_off_19002230
+   - automation.alarm_off_22300500
+     
+ 
+################################################################################################################################################## 
+ #################################################VIEWS############################################################################################
+ 
+## Views ## 
+  
+## Default View ##
+default_view:
+  name: Huset
+  view: yes
+  entities:
+  
+   - sensor.verisure
+  # - alarm_control_panel.sabbatsvagen_alarm
+   - sensor.allrum_temperature
+   - sensor.yr_temperature
+   - sensor.ssl_cert_expiry
+   - updater.updater
+   - device_tracker.johan
+   - device_tracker.sanna
+   - device_tracker.mimmisiphone
+   - binary_sensor.camera_baksidan
+   - binary_sensor.camera_entre
+   - binary_sensor.brandvarnare_matsal_sensor
+   - binary_sensor.brandvarnare_master_bedroom_sensor
+   - binary_sensor.brandvarnare_sovrum_2_sensor
+   - binary_sensor.brandvarnare_sovrum_3_sensor
+   - group.varme
+   - group.utomhus
+   - group.overvakning
+   - group.scener_lampor
+   - group.innelampor
+   - group.fonster
+   - group.dorrar    
+
+  
+rum:
+  name: Rum
+  view: yes
+  entities:
+   - group.kok
+   - group.entre
+   - group.allrummet
+   - group.vardagsrummet
+   - group.kontoret
+   - group.masterbedroom
+   - group.sovrum2
+   - group.sovrum3
+   - group.uterummet
+     
+media:
+  name: Media
+  view: yes
+  entities:
+    - media_player.spotify
+    - media_player.apple_tv
+    - media_player.denon
+    - media_player.vardagsrummet
+    - media_player.minelles_rum
+    - media_player.kitchen
+    
+kameror:
+  name: Kameror
+  view: yes
+  entities:
+   - camera.entre
+   - camera.baksidan
+   
+verisure:
+  name: Verisure
+  view: yes
+  entities:
+   - alarm_control_panel.sabbatsvagen_alarm
+   - group.disarm_alarm
+   - group.arm_alarm 
+   
+ström:
+  name: Strömförbrukning
+  view: yes
+  entities:
+  #lampor#
+   - group.energi
+   - group.effekt
+  
+## Automation groups ##
+  
+automation_groups:
+  name: Automations
+  view: yes
+  entities:
+   #- group.all_automations
+   - group.alarmAutomation
+   - group.lightsAutomation
+   - group.otherAutomation
+   - group.heatAutomation
+   - group.iosAutomation
+   - group.ytterdorrAutomation
+   
+nas:
+  name: DiskStation
+  view: yes
+  entities:
+   - sensor.memory_usage_real
+   - sensor.network_up
+   - sensor.network_down
+   - sensor.cpu_load_total
+   - sensor.total_size_volume_1
+   - sensor.used_space_volume_1
+   - sensor.volume_used_volume_1
+   
+#glances:
+#  name: HomeAssistant hårdvara
+#  view: yes
+#  entities:
+#   - sensor.glances_cpu_load
+#   - sensor.glances_cpu_temp
+#   - sensor.glances_ram_free
+#   - sensor.glances_disk_free
+
+
+#############Tillfälligt för ALEXA ###############
+
+nighttime:
+  name: Nighttime
+  view: no
+  entities:
+   - input_boolean.nighttime
+  

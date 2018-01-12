@@ -1,0 +1,37 @@
+   ##Övrigt#
+  switch.wallplug3_switch:
+    friendly_name: Motorvärmaren
+    icon: mdi:fan
+    # alexa_hidden: false
+    alexa_name: "Car heater"
+    
+  sensor.wallplug3_energy:
+    friendly_name: Motorvärmaren
+    
+  sensor.wallplug3_power:
+    friendly_name: Motorvärmaren
+    
+  switch.wallplug1_switch:
+    friendly_name: Ljusstake
+    # alexa_hidden: false
+    icon: mdi:lightbulb
+    alexa_name: "Candlestick"
+    name: 'Name for Alexa'
+    alexa_display_categories: 'LIGHT'
+  sensor.wallplug1_power:
+    friendly_name: Ljusstake
+  
+  switch.wallplug2_switch:
+    friendly_name: Smålampor
+    icon: mdi:lightbulb
+    alexa_name: "Window lamps"
+    alexa_display_categories: 'LIGHT'
+  sensor.wallplug2_energy:
+    friendly_name: Smålampor
+
+  sensor.wallplug2_power:
+    friendly_name: Smålampor
+ 
+  switch.ringklocka:
+    assumed_state: false
+ 

@@ -1,0 +1,4 @@
+#Zwave
+  usb_path: /dev/ttyACM0
+  polling_interval: 40000
+  network_key: !secret zwave_network_key

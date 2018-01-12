@@ -1,0 +1,11 @@
+- platform: spotify
+  client_id: !secret spotify_id
+  client_secret: !secret spotify_secret
+
+- platform: sonos
+  hosts: 192.168.1.90
+
+- platform: denonavr
+  host: 192.168.1.80
+  name: DENON
+  show_all_sources: False

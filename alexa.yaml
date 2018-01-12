@@ -1,0 +1,33 @@
+filter:
+  include_entities:
+    - switch.wallplug3_switch
+    - switch.wallplug1_switch
+    - scene.morninglights
+    - scene.daylights
+    - scene.eveninglights
+    - scene.nightlights
+    - switch.ip44
+    #- media_player.spotify
+    - media_player.apple_tv
+    - light.kokspottar_level
+    - light.kokslampor_level
+    - light.korridorspottar_level
+    - light.uterumslampor_level
+    - light.matbordslampor_level
+    - light.vardagsrumstaklampor_level
+    - light.masterbedroomspottar_level
+    - light.masterbedroomsanglampor_level
+    - light.hallspottar_level
+  include_domains:
+        - switch
+    #    - light
+    #    - media_player
+     #   - scene
+    #    - lock  
+  exclude_domains:
+        - automation    
+        - group  
+        - light
+        - media_player
+        - scene
+        - lock          

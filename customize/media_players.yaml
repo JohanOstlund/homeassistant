@@ -1,0 +1,11 @@
+### CUSTOMIZE ###
+  media_player.spotify: 
+    alexa_name: Spotify
+  
+  media_player.apple_tv:
+    alexa_name: Apple TV
+  
+  media_player.denon: 
+    alexa_name: Reciever
+    alexa_display_categories: SPEAKERS
+  

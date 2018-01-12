@@ -1,0 +1,59 @@
+### CUSTOMIZE ###
+
+ # sensor.yr_temperature:
+  
+  binary_sensor.altandorr_barnrum:
+    device_class: opening
+    friendly_name: Altandörr Minelle
+  binary_sensor.altandorr_vardagsrum:
+    device_class: opening
+    friendly_name: Altandörr vardagsrum
+  binary_sensor.entredorr:
+    device_class: opening
+    friendly_name: Entrédörr
+  binary_sensor.fonster_barnrum:
+    device_class: opening
+    friendly_name: Fönster Minelle
+  binary_sensor.fonster_kok:
+    device_class: opening
+    friendly_name: Fönster kök
+  binary_sensor.fonster_kontor:
+    device_class: opening
+    friendly_name: Fönster kontor
+  binary_sensor.fonster_sovrum:
+    device_class: opening
+    friendly_name: Fönster Charlie
+  binary_sensor.camera_baksidan:
+    device_class: motion
+    friendly_name: Baksida
+  binary_sensor.camera_entre:
+    device_class: motion
+    friendly_name: Entré
+  
+  binary_sensor.brandvarnare_master_bedroom_sensor:
+    device_class: smoke
+    friendly_name: Master Bedroom brandvarnare
+  binary_sensor.brandvarnare_sovrum_2_sensor:
+    device_class: smoke
+    friendly_name: Minelles brandvarnare
+  binary_sensor.brandvarnare_sovrum_3_sensor:
+    device_class: smoke
+    friendly_name: Charlies brandvarnare 
+  binary_sensor.brandvarnare_matsal_sensor:
+    device_class: smoke
+    friendly_name: Matsal brandvarnare
+    
+  sensor.brandvarnare_master_bedroom_temperature:
+    friendly_name: Rumstemperatur
+    
+  sensor.brandvarnare_sovrum_2_temperature:
+    friendly_name: Rumstemperatur
+    
+  sensor.brandvarnare_sovrum_3_temperature:
+    friendly_name: Rumstemperatur
+    
+  sensor.brandvarnare_matsal_temperature:
+    friendly_name: Rumstemperatur
+    
+  sensor.allrum_temperature:
+    friendly_name: Rumstemperatur

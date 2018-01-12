@@ -1,0 +1,22 @@
+- platform: command_line
+  switches:
+    synology_home_mode:
+       command_on: 'python3 home/homeassistant/synology_home_mode.py home'
+       command_off: 'python3 home/homeassistant/synology_home_mode.py away'
+       command_state: 'python3 home/homeassistant/synology_home_mode.py status'
+       friendly_name: Surveillance Station Home Mode
+       value_template: >
+         {% if value_json is defined %}
+           {{ value_json.data.on}}
+         {% else %}
+           {{ states.switch.synology_home_mode.state == 'on' }}
+         {% endif %}
+
+    camera_torch:
+        friendly_name: Torch
+        command_on: 'curl http://192.168.1.174/parameters?torch=1' 
+        command_off: 'curl http://192.168.1.174/parameters?torch=0'
+    camera_flip:
+        friendly_name: Flip Camera
+        command_on: 'curl http://192.168.1.174/parameters?flip=1' 
+        command_off: 'curl http://192.168.1.174/parameters?flip=0'

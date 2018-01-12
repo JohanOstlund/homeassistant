@@ -1,0 +1,5 @@
+### CUSTOMIZE ###
+  group.innelampor:
+    homebridge_name: Innelampor
+    homebridge_visible: true
+

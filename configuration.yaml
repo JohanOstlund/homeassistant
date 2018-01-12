@@ -1,0 +1,163 @@
+homeassistant:
+  name: Home
+  latitude: 59.427489
+  longitude: 17.809095
+  elevation: 26
+  unit_system: metric
+  time_zone: Europe/Stockholm
+
+   ## CUSTOMIZE### Enables configuration UI
+  customize: !include_dir_merge_named customize/
+
+config:
+
+# Enables the frontend 
+frontend:
+
+recorder:
+  db_url: !secret db_url
+  
+panel_iframe: !include panel_iframe.yaml
+
+http:
+  api_password: !secret http_password
+  ip_ban_enabled: True
+  login_attempts_threshold: 5
+  ssl_certificate: !secret ssl_cert
+  ssl_key: !secret ssl_key
+  base_url: !secret base_url
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+#discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+binary_sensor:
+  platform: flic
+
+# Text to speech
+tts:
+  - platform: google
+
+tellstick:
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts/scripts.yaml
+scene: !include_dir_list scenes
+ios: !include ios.yaml
+
+# Devices #
+camera: !include devices/cameras.yaml
+device_tracker: !include devices/device_tracker.yaml 
+zwave: !include devices/zwave.yaml 
+sensor: !include devices/sensors.yaml 
+verisure: !include devices/verisure.yaml 
+switch: !include devices/switches.yaml 
+media_player: !include devices/media_players.yaml 
+input_boolean: !include devices/input_booleans.yaml 
+shell_command: !include devices/shell_commands.yaml
+
+apple_tv:
+  - host: 192.168.1.144
+    login_id: 00000000-3c47-e6da-0347-19f996534e70
+    name: Apple TV
+    start_off: True
+
+cloud:
+  alexa:
+    filter:
+      include_entities:
+        - group.nighttime
+        - switch.wallplug3_switch
+        - switch.wallplug1_switch
+        - switch.wallplug2_switch
+        - scene.morninglights
+        - scene.daylights
+        - scene.eveninglights
+        - scene.nightlights
+        - switch.ip44
+        #- media_player.spotify
+        - media_player.apple_tv
+        - media_player.denon
+        - light.kokspottar_level
+        - light.kokslampor_level
+        - light.korridorspottar_level
+        - light.uterumslampor_level
+        - light.matbordslampor_level
+        - light.vardagsrumstaklampor_level
+        - light.masterbedroomspottar_level
+        - light.masterbedroomsanglampor_level
+        - light.hallspottar_level 
+        - lock.entredorr
+        
+alexa:
+
+
+climate:
+  platform: zwave
+
+#### ZONES ####
+zone:
+  name: Home
+  latitude: !secret lati
+  longitude: !secret long
+  radius: 50
+  icon: mdi:home
+  #friendly_name: Hemma
+
+zone 2:
+  name: Johans arbete
+  latitude: 59.331700
+  longitude: 18.06883
+  radius: 100
+  icon: mdi:worker 
+
+zone 3:
+  name: Jakobsbergs Station
+  latitude: 59.423696
+  longitude: 17.833053
+  radius: 100
+  icon: mdi:train 
+
+zone 4:
+  name: Centralen
+  latitude: 59.330450
+  longitude: 18.057650
+  radius: 100
+  icon: mdi:train
+  
+zone 5:
+  name: Danderyds sjukhus
+  latitude: 59.3922251
+  longitude: 18.0383817
+  radius: 100
+  icon: mdi:hospital 
+
+ifttt:
+  key: !secret iftt_key
+
+#################################
+

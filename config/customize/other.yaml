@@ -1,0 +1,71 @@
+### CUSTOMIZE ###
+  climate.varmegolv_heating:
+    friendly_name: Värmegolv
+
+  switch.alexapi_switch:
+    friendly_name: AlexaPi
+    icon: mdi:raspberrypi
+   
+  switch.synology_home_mode:
+    icon: mdi:webcam
+  
+  switch.ip44:
+    friendly_name: Ljusslinga
+    icon: mdi:lightbulb
+    
+  alarm_control_panel.sabbatsvagen_alarm:
+    entity_picture: /local/images/verisure.png
+    friendly_name: Verisure
+    homebridge_name: Larmet
+    homebridge_alarm_code: !secret mobil
+    homebridge_visible: true
+  
+  group.all_devices:
+    hidden: false
+    friendly_name: Vilka är hemma?
+    
+  group.all_automations:
+    hidden: false
+  
+  script.awayarm:
+    icon: mdi:security-home
+    friendly_name: Sätt på Larmet
+  script.homearm:
+    icon: mdi:security-home
+    friendly_name: Sätt på Skalskydd
+  script.disarm:
+    icon: mdi:home
+    friendly_name: Larma av
+  sensor.allrum_temperature:
+    homebridge_name: Temperatur
+    homebridge_visible: true
+   
+  input_boolean.nighttime:
+    homebridge_name: Night time
+    homebridge_visible: true
+    emulated_hue_hidden: false
+    emulated_hue_name: "Night-time"
+    google_assistant: true
+    google_assistant_name: Night-time
+    
+  input_boolean.larmav:
+    homebridge_name: Larma av
+    
+  input_boolean.larmpa:
+    homebridge_name: Larma på
+    
+  input_boolean.skallarm:
+    homebridge_name: Skalskydd
+
+  
+  input_boolean.unlockdoor:
+    emulated_hue_hidden: false
+    emulated_hue_name: "Open door"
+    google_assistant: true
+    google_assistant_name: Open door
+    
+  input_boolean.lockdoor:
+    emulated_hue_hidden: false
+    emulated_hue_name: "Close door"
+    google_assistant: true
+    google_assistant_name: Close door

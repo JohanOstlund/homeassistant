@@ -1,0 +1,44 @@
+### Input Boolean ###
+nighttime:
+    name: Night Time
+    initial: off 
+
+soptunna:
+    name: Sopkärlet
+    icon: mdi:delete
+    
+larmav:
+    name: Larma av
+    initial: off
+    
+skallarm:
+    name: Skal larm
+    initial: off
+    
+larmapa:
+    name: Larma på
+    initial: off
+    
+unlockdoor:
+    name: Öppna dörren
+    initial: off
+    
+lockdoor:
+    name: Lås dörren
+    initial: off
+
+eveninglights:
+    icon: mdi:lightbulb
+    name: Kväll 
+
+morninglights:
+    icon: mdi:lightbulb
+    name: Morgon 
+
+daylights:
+    icon: mdi:lightbulb
+    name: Dag 
+
+nightlights:
+    icon: mdi:lightbulb
+    name: Natt

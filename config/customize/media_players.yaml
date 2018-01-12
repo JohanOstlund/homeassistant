@@ -1,0 +1,12 @@
+### CUSTOMIZE ###
+  media_player.spotify:
+    google_assistant: true
+    google_assistant_name: Spotify
+
+  
+  media_player.denon:
+    google_assistant: true
+    google_assistant_name: Denon
+
+  
+ # media_player.minelles_rum:

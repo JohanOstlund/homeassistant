@@ -1,0 +1,64 @@
+### SENSORS ###
+- platform: yr
+  monitored_conditions:
+    - temperature
+    - symbol 
+
+- platform: synologydsm
+  host: 192.168.1.51
+  username: !secret syno_user
+  password: !secret syno_pass
+  monitored_conditions:
+    - cpu_total_load
+    - memory_real_usage
+    - network_up
+    - volume_status
+    - volume_size_total
+    - volume_size_used
+    - volume_percentage_used
+    - network_down 
+
+- platform: time_date
+  display_options:
+    - 'date_time'
+  
+- platform: command_line
+  name: SSL cert expiry
+  unit_of_measurement: days
+  scan_interval: 10800
+  command: "ssl-cert-check -b -c /etc/letsencrypt/live/homeassistant.loginto.me/cert.pem | awk '{ print $NF }'"
+  
+- platform: template
+  sensors:
+    verisure:
+      friendly_name: "Verisure"
+      entity_id:
+        - alarm_control_panel.sabbatsvagen_alarm
+      value_template: >-
+        {% if is_state('alarm_control_panel.sabbatsvagen_alarm', 'disarmed') %}
+          Avlarmat
+        {% elif is_state('alarm_control_panel.sabbatsvagen_alarm', 'armed_away') %}
+          Larmat
+        {% else %}
+          Skalskydd
+        {% endif %}
+
+
+#- platform: glances
+ # host: 192.168.1.222
+ # resources:
+ #   - 'disk_use_percent'
+ #   - 'disk_use'
+ #   - 'disk_free'
+ #   - 'memory_use_percent'
+  #  - 'memory_use'
+  #  - 'memory_free'
+  #  - 'swap_use_percent'
+  #  - 'swap_use'
+  #  - 'swap_free'
+  #  - 'processor_load'
+ #   - 'process_running'
+  #  - 'process_total'
+  #  - 'process_thread'
+  #  - 'process_sleeping'
+  #  - 'cpu_temp'

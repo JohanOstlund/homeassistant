@@ -1,0 +1,12 @@
+- platform: asuswrt
+  host: 192.168.1.1
+  protocol: telnet
+  username: admin
+  password: !secret router_password
+  #ssh_key: /root/.ssh/id_rsa
+  
+  # Optional configuration If new discovered devices are tracked by default (default: yes) track_new_devices: no 
+  # Seconds between each scan for new devices (default: 12)
+  interval_seconds: 12
+  # Seconds to wait till marking someone as not home after not being seen (default: 180)
+  consider_home: 120
