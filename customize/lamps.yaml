@@ -37,7 +37,7 @@
    
     
   light.matbordslampor_level:
-    friendly_name: Taklampor
+    friendly_name: Köksbord
     alexa_name: "Kitchen table"
    
   sensor.matbordslampor_energy:
