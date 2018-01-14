@@ -33,6 +33,7 @@ kök:
   entities:
     - light.kokspottar_level
     - light.kokslampor_level
+    - light.matbordslampor_level
     - light.korridorspottar_level
     - sensor.allrum_temperature
     - binary_sensor.brandvarnare_matsal_sensor
