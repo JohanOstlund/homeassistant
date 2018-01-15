@@ -110,7 +110,8 @@ cloud:
         - light.vardagsrumstaklampor_level
         - light.masterbedroomspottar_level
         - light.masterbedroomsanglampor_level
-        - light.hallspottar_level 
+        - light.hallspottar_level
+        - light.sovrum3_level
         - lock.entredorr
         
 alexa:
