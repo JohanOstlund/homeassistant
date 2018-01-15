@@ -520,3 +520,12 @@ appletvkabel:
   picture:
   track: true
   vendor: Apple, Inc.
+
+clarasiphone:
+  hide_if_away: false
+  icon:
+  mac: 70:70:0D:91:55:ED
+  name: Claras-iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.

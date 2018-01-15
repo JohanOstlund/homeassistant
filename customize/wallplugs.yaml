@@ -1,15 +1,20 @@
    ##Övrigt#
   switch.wallplug3_switch:
-    friendly_name: Motorvärmaren
-    icon: mdi:fan
+    friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     # alexa_hidden: false
-    alexa_name: "Car heater"
+    alexa_name: "Charlies window"
     
   sensor.wallplug3_energy:
-    friendly_name: Motorvärmaren
+    friendly_name: Fönsterlampa
     
   sensor.wallplug3_power:
+    friendly_name: Fönsterlampa
+
+  switch.ip44:
     friendly_name: Motorvärmaren
+    icon: mdi:fan
+    alexa_name: 'Car heater'
     
   switch.wallplug1_switch:
     friendly_name: Ljusstake

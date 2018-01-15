@@ -8,10 +8,7 @@
   switch.synology_home_mode:
     icon: mdi:webcam
   
-  switch.ip44:
-    friendly_name: Ljusslinga
-    icon: mdi:lightbulb
-    alexa_name: 'Tree light'
+  
   alarm_control_panel.sabbatsvagen_alarm:
     entity_picture: /local/images/verisure.png
     friendly_name: Verisure

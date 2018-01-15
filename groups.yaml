@@ -75,6 +75,7 @@ sovrum3:
   view: no
   entities:
     - light.sovrum3_level
+    - switch.wallplug3_switch
     - sensor.brandvarnare_sovrum_3_temperature
     - binary_sensor.brandvarnare_sovrum_3_sensor
     
@@ -195,7 +196,6 @@ utomhus:
   view: no
   control: hidden
   entities:
-   - switch.wallplug3_switch
    - switch.ip44
    
 energi:

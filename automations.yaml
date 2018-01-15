@@ -436,7 +436,7 @@
     platform: numeric_state
 - action:
   - data:
-      entity_id: switch.wallplug3_switch
+      entity_id: switch.ip44
     service: switch.turn_on
   alias: Motorvärmaren på 07:45
   condition: []
@@ -446,7 +446,7 @@
     platform: time
 - action:
   - data:
-      entity_id: switch.wallplug3_switch
+      entity_id: switch.ip44
     service: switch.turn_off
   alias: Motorvärmaren av 09:15
   condition: []
@@ -519,12 +519,12 @@
   alias: Stäng av motorvärmaren 1½ timme
   trigger:
     - platform: state
-      entity_id: switch.wallplug3_switch
+      entity_id: switch.ip44
       to: 'on'
   action:
     - delay: '01:30:00'
     - service: switch.turn_off
-      entity_id: switch.wallplug3_switch
+      entity_id: switch.ip44
  
 - id: People_greeting
   alias: 'People Greeting'
