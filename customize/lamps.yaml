@@ -57,6 +57,9 @@
   sensor.vardagsrumstaklampor_power:
     friendly_name: Taklampor vardagsrum
    
+  light.sovrum3_level:
+    friendly_name: Taklampa
+    alexa_name: "Charlies ceiling"
  
   light.masterbedroomspottar_level:
     friendly_name: Spottar
