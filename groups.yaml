@@ -74,6 +74,7 @@ sovrum3:
   name: Charlies rum   
   view: no
   entities:
+    - light.sovrum3_level
     - sensor.brandvarnare_sovrum_3_temperature
     - binary_sensor.brandvarnare_sovrum_3_sensor
     
