@@ -23,8 +23,9 @@ http:
   api_password: !secret http_password
   ip_ban_enabled: True
   login_attempts_threshold: 5
-  ssl_certificate: !secret ssl_cert
-  ssl_key: !secret ssl_key
+  #ssl_certificate: !secret ssl_cert
+  #ssl_key: !secret ssl_key
+  use_x_forwarded_for: true
   base_url: !secret base_url
 
 # Checks for available updates
@@ -62,6 +63,8 @@ tts:
   - platform: google
 
 tellstick:
+  #host: "192.168.1.87"
+ # port: [50800, 50801]
 
 group: !include groups.yaml
 automation: !include automations.yaml
@@ -114,7 +117,7 @@ cloud:
         - light.sovrum3_level
         - lock.entredorr
         
-alexa:
+#alexa:
 
 
 climate:

@@ -529,3 +529,12 @@ clarasiphone:
   picture:
   track: true
   vendor: Apple, Inc.
+
+rpi1:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:07:E7:D2
+  name: RPI1
+  picture:
+  track: true
+  vendor: Raspberry Pi Foundation

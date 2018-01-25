@@ -273,8 +273,9 @@ heatAutomation:
    - automation.sank_hallgolvets_varme
    - automation.sank_hallgolvets_varme
    - automation.hoj_hallgolvets_varme
-   - automation.wallplug3_pa_0745
-   - automation.wallplug3_av_0915
+   - automation.motorvarmaren_pa_0745
+   - automation.motorvarmaren_av_0915
+   - automation.stang_av_motorvarmaren_112_timme
   
 iosAutomation:
   name: iOSNotify

@@ -190,7 +190,7 @@
 - id: my_seventeen
   alias: Notify iOS app Johan soptunnan
   trigger:
-  - minutes: /30
+  - minutes: '/30'
     platform: time
     seconds: 0
   condition:
@@ -215,7 +215,7 @@
 - id: my_eightteen
   alias: Notify iOS app Sanna soptunnan
   trigger:
-  - minutes: /30
+  - minutes: '/30'
     platform: time
     seconds: 0
   condition:

@@ -20,3 +20,5 @@
         friendly_name: Flip Camera
         command_on: 'curl http://192.168.1.174/parameters?flip=1' 
         command_off: 'curl http://192.168.1.174/parameters?flip=0'
+- platform: tellstick
+  
