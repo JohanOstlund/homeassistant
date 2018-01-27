@@ -1,33 +1,122 @@
-filter:
-  include_entities:
-    - switch.wallplug3_switch
-    - switch.wallplug1_switch
-    - scene.morninglights
-    - scene.daylights
-    - scene.eveninglights
-    - scene.nightlights
-    - switch.ip44
-    #- media_player.spotify
-    - media_player.apple_tv
-    - light.kokspottar_level
-    - light.kokslampor_level
-    - light.korridorspottar_level
-    - light.uterumslampor_level
-    - light.matbordslampor_level
-    - light.vardagsrumstaklampor_level
-    - light.masterbedroomspottar_level
-    - light.masterbedroomsanglampor_level
-    - light.hallspottar_level
-  include_domains:
-        - switch
-    #    - light
-    #    - media_player
-     #   - scene
-    #    - lock  
-  exclude_domains:
-        - automation    
-        - group  
-        - light
-        - media_player
-        - scene
-        - lock          
+  filter:
+    include_entities:
+      - group.nighttime
+      - switch.wallplug3_switch
+      - switch.wallplug1_switch
+      - switch.wallplug2_switch
+      - scene.morninglights
+      - scene.daylights
+      - scene.eveninglights
+      - scene.nightlights
+      - switch.ip44
+      #- media_player.spotify
+      - media_player.apple_tv
+      - media_player.denon
+      - light.kokspottar_level
+      - light.kokslampor_level
+      - light.korridorspottar_level
+      - light.uterumslampor_level
+      - light.matbordslampor_level
+      - light.vardagsrumstaklampor_level
+      - light.masterbedroomspottar_level
+      - light.masterbedroomsanglampor_level
+      - light.hallspottar_level
+      - light.sovrum3_level
+      - lock.entredorr
+      - sensor.brandvarnare_master_bedroom_temperature
+      - sensor.brandvarnare_sovrum_2_temperature
+      - sensor.brandvarnare_sovrum_3_temperature
+      - sensor.brandvarnare_matsal_temperature
+      - sensor.allrum_temperature
+      
+  entity_config:
+    light.kokspottar_level:
+      name: "Kitchen downlights"
+      description: The downlights in the kitchen
+        
+    light.kokslampor_level:
+      name: "Kitchen lamps"
+      description: The ceiling lamps in the kitchen
+        
+    light.korridorspottar_level:
+      name: "Corridor"
+      description: The downlights in the corridor
+        
+    light.matbordslampor_level:
+      name: "Kitchen table"
+      description: The ceiling lamp over the kitchen table
+        
+    light.vardagsrumstaklampor_level:
+      name: "Ceiling lamp"
+      description: The ceiling lamp in the lounge
+        
+    light.masterbedroomspottar_level:
+      name: "Bedroom downlights"
+      description: The downlights in the master bedroom
+        
+    light.masterbedroomsanglampor_level:
+      name: "Bed lamps"
+      description: The bed lamps in the master bedroom
+        
+    light.hallspottar_level:
+      name: "Hallway downlights"
+      description: The Downlights in entrance
+        
+    light.uterumslampor_level:
+      name: "Outdoor lamps"
+      description: The lamps in the outroom
+        
+    light.sovrum3_level:
+      name: "Charlies lamps"
+      description: The ceiling lamp in the Charlies room
+        
+    media_player.apple_tv:
+      name: Apple TV
+        
+    media_player.denon:
+      name: Reciever
+      display_categories: SPEAKERS
+        
+    scene.morninglights:
+      name: "Morning lights"
+      display_categories: SCENE_TRIGGER
+        
+    scene.daylights:
+      name: "Daylights"
+      display_categories: SCENE_TRIGGER
+      
+    scene.eveninglights:
+      name: "Evening lights"
+      display_categories: SCENE_TRIGGER
+        
+    scene.nightlights:
+      name: "Nightlights"
+      display_categories: SCENE_TRIGGER
+        
+    switch.wallplug1_switch:
+      name: "Candlestick"
+      display_categories: 'LIGHT'
+      
+    switch.wallplug2_switch:
+      name: "Window lamps"
+      display_categories: 'LIGHT'
+          
+    switch.wallplug3_switch:
+      name: "Charlies window"
+      display_categories: 'LIGHT'
+        
+    sensor.brandvarnare_master_bedroom_temperature:
+      name: "Master Bedroom"
+      description: Temperature in Master Bedroom
+    sensor.brandvarnare_sovrum_2_temperature:
+      name: "Nelly"
+      description: Temperature in Minelles room
+    sensor.brandvarnare_sovrum_3_temperature:
+      name: "Charlie"
+      description: Temperature in Charlies room
+    sensor.brandvarnare_matsal_temperature:
+      name: "Dining room"
+      description: Temperature in Dining room
+    sensor.allrum_temperature:
+      name: "Kitchen temp"
+      description: Temperature in Kitchen

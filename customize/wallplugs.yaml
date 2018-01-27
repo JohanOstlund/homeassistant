@@ -2,8 +2,7 @@
   switch.wallplug3_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
-    # alexa_hidden: false
-    alexa_name: "Charlies window"
+
     
   sensor.wallplug3_energy:
     friendly_name: Fönsterlampa
@@ -14,23 +13,19 @@
   switch.ip44:
     friendly_name: Motorvärmaren
     icon: mdi:fan
-    alexa_name: 'Car heater'
-    
+
   switch.wallplug1_switch:
     friendly_name: Ljusstake
     # alexa_hidden: false
     icon: mdi:lightbulb
-    alexa_name: "Candlestick"
-    name: 'Name for Alexa'
-    alexa_display_categories: 'LIGHT'
+    
   sensor.wallplug1_power:
     friendly_name: Ljusstake
   
   switch.wallplug2_switch:
     friendly_name: Smålampor
     icon: mdi:lightbulb
-    alexa_name: "Window lamps"
-    alexa_display_categories: 'LIGHT'
+
   sensor.wallplug2_energy:
     friendly_name: Smålampor
 

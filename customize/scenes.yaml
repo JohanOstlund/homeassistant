@@ -1,25 +1,14 @@
 ### CUSTOMIZE ###
   scene.morninglights:
     friendly_name: Morgonljus
-    # alexa_hidden: false
-    alexa_name: "Morning lights"
-    alexa_display_categories: SCENE_TRIGGER
 
   scene.daylights:
     friendly_name: Dagsljus
-    # alexa_hidden: false
-    alexa_name: "Daylights"
-    alexa_display_categories: SCENE_TRIGGER
 
   scene.eveninglights:
     friendly_name: Kvällsljus
-    # alexa_hidden: false
-    alexa_name: "Evening lights"
-    alexa_display_categories: SCENE_TRIGGER
    
   scene.nightlights:
     friendly_name: Nattljus
-    # alexa_hidden: false
-    alexa_name: "Nightlights"
-    alexa_display_categories: SCENE_TRIGGER
+
  

@@ -1,7 +1,6 @@
 ##Lampor##
   light.kokspottar_level:
     friendly_name: Spottar
-    alexa_name: "Kitchen downlights"
 
   sensor.kokspottar_energy:
     friendly_name: Spottar kök
@@ -11,12 +10,10 @@
     
   light.kokslampor_level:
     friendly_name: Kökslampor
-    alexa_name: "Kitchen lamps"
 
     
   light.korridorspottar_level:
     friendly_name: Korridor
-    alexa_name: "Corridor"
 
   sensor.korridorspottar_energy:
     friendly_name: Spottar korridor
@@ -27,7 +24,6 @@
     
   light.uterumslampor_level:
     friendly_name: Uterummet
-    alexa_name: "Outdoor lamps"
    
   sensor.uterumslampor_energy:
     friendly_name: Vägglampor uterum
@@ -38,7 +34,6 @@
     
   light.matbordslampor_level:
     friendly_name: Köksbord
-    alexa_name: "Kitchen table"
    
   sensor.matbordslampor_energy:
     friendly_name: Taklampor matsal
@@ -49,7 +44,6 @@
  
   light.vardagsrumstaklampor_level:
     friendly_name: Taklampa
-    alexa_name: "Lounge lamps"
 
   sensor.vardagsrumstaklampor_energy:
     friendly_name: Taklampor vardagsrum
@@ -59,18 +53,14 @@
    
   light.sovrum3_level:
     friendly_name: Taklampa
-    alexa_name: "Charlies ceiling"
  
   light.masterbedroomspottar_level:
     friendly_name: Spottar
-    alexa_name: "Bedroom downlights"
    
   
   light.masterbedroomsanglampor_level:
     friendly_name: Sänglampor
-    alexa_name: "Bedroom lamps"
     
   light.hallspottar_level:
     friendly_name: Spottar
-    alexa_name: "Hallway downlights"
  

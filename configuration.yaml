@@ -90,33 +90,8 @@ apple_tv:
     start_off: True
 
 cloud:
-  alexa:
-    filter:
-      include_entities:
-        - group.nighttime
-        - switch.wallplug3_switch
-        - switch.wallplug1_switch
-        - switch.wallplug2_switch
-        - scene.morninglights
-        - scene.daylights
-        - scene.eveninglights
-        - scene.nightlights
-        - switch.ip44
-        #- media_player.spotify
-        - media_player.apple_tv
-        - media_player.denon
-        - light.kokspottar_level
-        - light.kokslampor_level
-        - light.korridorspottar_level
-        - light.uterumslampor_level
-        - light.matbordslampor_level
-        - light.vardagsrumstaklampor_level
-        - light.masterbedroomspottar_level
-        - light.masterbedroomsanglampor_level
-        - light.hallspottar_level
-        - light.sovrum3_level
-        - lock.entredorr
-        
+  alexa: !include alexa.yaml
+    
 #alexa:
 
 

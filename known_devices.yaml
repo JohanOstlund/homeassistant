@@ -538,3 +538,12 @@ rpi1:
   picture:
   track: true
   vendor: Raspberry Pi Foundation
+
+mimmisipad:
+  hide_if_away: false
+  icon:
+  mac: 34:AB:37:98:D3:39
+  name: Mimmis-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.
