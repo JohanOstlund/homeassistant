@@ -547,3 +547,30 @@ mimmisipad:
   picture:
   track: true
   vendor: Apple, Inc.
+
+0030881f65dc:
+  hide_if_away: false
+  icon:
+  mac: 00:30:88:1F:65:DC
+  name: 0030881f65dc
+  picture:
+  track: true
+  vendor: Ericsson
+
+001216fac607:
+  hide_if_away: false
+  icon:
+  mac: 00:12:16:FA:C6:07
+  name: 001216fac607
+  picture:
+  track: true
+  vendor: ICP Internet Communication Payment AG
+
+001216fad2b3:
+  hide_if_away: false
+  icon:
+  mac: 00:12:16:FA:D2:B3
+  name: 001216fad2b3
+  picture:
+  track: true
+  vendor: ICP Internet Communication Payment AG

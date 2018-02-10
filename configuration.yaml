@@ -56,7 +56,7 @@ map:
 sun:
 
 binary_sensor:
-  platform: flic
+  - platform: flic
 
 # Text to speech
 tts:

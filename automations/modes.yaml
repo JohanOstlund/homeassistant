@@ -1,0 +1,570 @@
+
+- id: my_one
+  alias: Toggle masterbedroom bedlights one click
+  trigger:
+    platform: event
+    event_type: flic_click
+    event_data:
+      button_name: flic_80e4da7255e2
+      click_type: single
+  action:
+    service: light.toggle
+    entity_id: light.masterbedroomsanglampor_level
+- id: my_two
+  alias: Toggle masterbedroom spots double-click
+  trigger:
+    platform: event
+    event_type: flic_click
+    event_data:
+      button_name: flic_80e4da7255e2
+      click_type: double
+  action:
+    service: light.toggle
+    entity_id: light.masterbedroomspottar_level
+- id: my_three
+  alias: Welcome Home message Johan
+  trigger:
+    platform: state
+    entity_id: device_tracker.johan
+    from: not_home
+    to: home
+  action:
+    service: tts.google_say
+    entity_id: media_player.mrmc
+    data:
+      message: Välkommen hem Johan.
+- id: my_four
+  alias: Welcome Home message Sanna
+  trigger:
+    platform: state
+    entity_id: device_tracker.sanna
+    from: not_home
+    to: home
+  action:
+    service: tts.google_say
+    entity_id: media_player.mrmc
+    data:
+      message: Välkommen hem Sanna.
+- id: my_seven
+  alias: Happens when alarmed away
+  trigger:
+  - entity_id: alarm_control_panel.sabbatsvagen_alarm
+    platform: state
+    to: armed_away
+  action:
+  - data: {}
+    entity_id: group.all_lights, input_boolean.koksflaktslampa
+    service: homeassistant.turn_off
+  - data:
+      entity_id: switch.synology_home_mode
+    service: switch.turn_off
+- id: my_nine
+  alias: Hide alarm when alarmed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: or
+    conditions:
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_away
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_home
+  action:
+    service: group.set_visibility
+    entity_id: group.arm_alarm
+    data:
+      visible: false
+- id: my_ten
+  alias: Hide disarm when disarmed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: disarmed
+  action:
+    service: group.set_visibility
+    entity_id: group.disarm_alarm
+    data:
+      visible: false
+- id: my_eleven
+  alias: Show disarm when alarm armed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: or
+    conditions:
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_away
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_home
+  action:
+    service: group.set_visibility
+    entity_id: group.disarm_alarm
+    data:
+      visible: true
+- id: my_twelve
+  alias: Show alarm when disarmed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: disarmed
+  action:
+    service: group.set_visibility
+    entity_id: group.arm_alarm
+    data:
+      visible: true
+- id: my_thirteen
+  alias: Startup Notification
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    service: notify.ios_johan
+    data:
+      message: Vad skönt, Home Assistant är uppe igen!
+- id: my_fourteen
+  alias: Notify iOS app Johan Ringer på dörren
+  trigger:
+  - entity_id: switch.ringklocka
+    from: 'off'
+    platform: state
+    to: 'on'
+  action:
+  - alias: IOS - ringer på dörren
+    data:
+      data:
+        action_data:
+        entity_id: camera.entre
+        push:
+          badge: 1
+          category: camera
+      message: Någon ringer på dörren!
+    service: notify.ios_johan
+- id: my_fifthteen
+  alias: Öppna ytterdörren
+  trigger:
+  - event_data:
+      actionName: ALLINONE_TRUE
+    event_type: ios.notification_action_fired
+    platform: event
+  - entity_id: input_boolean.unlockdoor
+    from: 'off'
+    platform: state
+    to: 'on'
+  action:
+  - data:
+      code: !secret mobil
+    entity_id: lock.entredorr
+    service: lock.unlock
+  - entity_id: input_boolean.unlockdoor
+    service: input_boolean.turn_off
+- id: my_sixteen
+  alias: Lås ytterdörren
+  trigger:
+  - event_data:
+      actionName: ALLINONE_FALSE
+    event_type: ios.notification_action_fired
+    platform: event
+  - entity_id: input_boolean.lockdoor
+    from: 'off'
+    platform: state
+    to: 'on'
+  action:
+  - data:
+      code: !secret mobil
+    entity_id: lock.entredorr
+    service: lock.lock
+  - entity_id: input_boolean.lockdoor
+    service: input_boolean.turn_off
+- id: my_seventeen
+  alias: Notify iOS app Johan soptunnan
+  trigger:
+  - minutes: '/30'
+    platform: time
+    seconds: 0
+  condition:
+  - condition: and
+    conditions:
+    - after: '17:15:00'
+      condition: time
+      weekday:
+      - wed
+    - condition: state
+      entity_id: input_boolean.soptunna
+      state: 'off'
+  action:
+  - data:
+      data:
+        action_data:
+        push:
+          badge: 2
+          category: soptunna
+      message: Är soptunnan fixad?
+    service: notify.ios_johan
+- id: my_eightteen
+  alias: Notify iOS app Sanna soptunnan
+  trigger:
+  - minutes: '/30'
+    platform: time
+    seconds: 0
+  condition:
+  - condition: and
+    conditions:
+    - after: '17:00:00'
+      condition: time
+      weekday:
+      - wed
+    - condition: state
+      entity_id: input_boolean.soptunna
+      state: 'off'
+  action:
+  - data:
+      data:
+        action_data:
+        push:
+          badge: 2
+          category: soptunna
+      message: Är soptunnan fixad?
+    service: notify.ios_sanna
+- id: my_nineteen
+  alias: Soptunnan uppe
+  trigger:
+    platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: SOPTUNNA_UPPE
+  action:
+    service: input_boolean.turn_off
+    data:
+      entity_id: input_boolean.soptunna
+- id: my_twenty
+  alias: Soptunnan nere
+  trigger:
+    platform: event
+    event_type: ios.notification_action_fired
+    event_data:
+      actionName: SOPTUNNA_NERE
+  action:
+    service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.soptunna
+- id: my_twentyone
+  alias: Sänk hallgolvets värme
+  trigger:
+    platform: time
+    at: '23:30:00'
+  action:
+    service: climate.set_temperature
+    entity_id: climate.varmegolv_heating
+    data:
+      temperature: 18
+- id: my_twentytwo
+  alias: Höj hallgolvets värme
+  trigger:
+  - at: 05:45:00
+    platform: time
+  action:
+  - data:
+      temperature: 26
+    entity_id: climate.varmegolv_heating
+    service: climate.set_temperature
+- id: my_twentythree
+  alias: Sätt soptunna variabel till off efter 00:00
+  trigger:
+    platform: time
+    at: 00:00:00
+  action:
+    service: input_boolean.turn_off
+- action:
+  - data:
+      code: !secret mobil
+    service: lock.lock
+  - data:
+      code: !secret mobil
+    service: alarm_control_panel.alarm_arm_home
+  - data: {}
+    service: light.turn_off
+  - data:
+      entity_id: input_boolean.nighttime
+    service: input_boolean.turn_off
+  alias: NightTime
+  id: '1496005690698'
+  trigger:
+  - entity_id: input_boolean.nighttime
+    from: 'off'
+    platform: state
+    to: 'on'
+  - platform: event
+    event_type: flic_click
+    event_data:
+      button_name: flic_80e4da7255e2
+      click_type: hold
+- action:
+  - data:
+      entity_id: scene.morninglights
+    service: scene.turn_on
+  alias: Skal larm off 06:00-10:00
+  condition:
+  - after: 06:00
+    before: '10:00'
+    condition: time
+  id: '1506343994094'
+  trigger:
+  - entity_id: alarm_control_panel.sabbatsvagen_alarm
+    from: armed_home
+    platform: state
+    to: disarmed
+- action:
+  - data:
+      entity_id: scene.daylights
+    service: scene.turn_on
+  - data:
+      entity_id: switch.synology_home_mode
+    service: switch.turn_on
+  alias: Alarm off 09:00-19:00
+  condition:
+  - after: 09:00
+    before: '19:00'
+    condition: time
+  id: '1506347308883'
+  trigger:
+  - entity_id: alarm_control_panel.sabbatsvagen_alarm
+    from: armed_away
+    platform: state
+    to: disarmed
+- action:
+  - data:
+      entity_id: scene.eveninglights
+    service: scene.turn_on
+  - data:
+      entity_id: switch.synology_home_mode
+    service: switch.turn_on
+  alias: Alarm off 19:00-22:30
+  condition:
+  - after: '19:00'
+    before: '22:30'
+    condition: time
+  id: '1506347621179'
+  trigger:
+  - entity_id: alarm_control_panel.sabbatsvagen_alarm
+    from: armed_away
+    platform: state
+    to: disarmed
+- action:
+  - data:
+      entity_id: scene.nightlights
+    service: scene.turn_on
+  - data:
+      entity_id: switch.synology_home_mode
+    service: switch.turn_on
+  alias: Alarm off 22:30-05:00
+  condition:
+  - after: '22:30'
+    before: 05:00
+    condition: time
+  id: '1506348120091'
+  trigger:
+  - entity_id: alarm_control_panel.sabbatsvagen_alarm
+    from: armed_away
+    platform: state
+    to: disarmed
+- action: []
+  alias: ''
+  condition: []
+  id: '1506354656232'
+  trigger: []
+- action:
+  - data:
+      data:
+        entity_id: camera.entre
+        push:
+          badge: 5
+          category: camera
+      message: Rörelse på framsidan!
+    service: notify.ios_johan
+  alias: Notifi iOS App Johan rörelse framsida
+  condition:
+  - condition: state
+    entity_id: device_tracker.johan
+    state: not_home
+  id: '1508243387589'
+  trigger:
+  - entity_id: binary_sensor.camera_entre
+    from: 'off'
+    platform: state
+    to: 'on'
+- action:
+  - data:
+      data:
+        entity_id: camera.baksidan
+        push:
+          badge: 5
+          category: camera
+      message: Rörelse på baksidan!
+    service: notify.ios_johan
+  alias: Notifi iOS App Johan rörelse baksidan
+  condition:
+  - condition: state
+    entity_id: device_tracker.johan
+    state: not_home
+  id: '1508243390397'
+  trigger:
+  - entity_id: binary_sensor.camera_baksidan
+    from: 'off'
+    platform: state
+    to: 'on'
+- action:
+  - data: {}
+    service: shell_command.renew_ssl
+  alias: Auto Renew SSL Cert
+  condition: []
+  id: '1508451614712'
+  trigger:
+  - below: '29'
+    entity_id: sensor.ssl_cert_expiry
+    platform: numeric_state
+- action:
+  - data:
+      entity_id: switch.ip44
+    service: switch.turn_on
+  alias: Motorvärmaren på 07:45
+  condition: []
+  id: '1510096072003'
+  trigger:
+  - at: 07:45
+    platform: time
+- action:
+  - data:
+      entity_id: switch.ip44
+    service: switch.turn_off
+  alias: Motorvärmaren av 09:15
+  condition: []
+  id: '1510096465828'
+  trigger:
+  - at: 09:15
+    platform: time
+- action:
+  - delay: '5'
+  - data:
+      entity_id: switch.ringklocka
+    service: homeassistant.turn_off
+  alias: Sätt Ringklocka till off
+  condition: []
+  id: '1510774663105'
+  trigger:
+  - entity_id: switch.ringklocka
+    platform: state
+    to: 'on'
+- id: my_candellight_on
+  alias: Sätt på ljusstaken i vardagsrummet
+  trigger:
+    platform: time
+    at: '14:00:00'
+  action:
+    service: switch.turn_on
+    entity_id: switch.wallplug1_switch
+- id: my_candellight_off
+  alias: Stäng av ljusstaken i vardagsrummet
+  trigger:
+  - platform: state
+    to: 'on'
+    entity_id: input_boolean.nighttime
+  - platform: event
+    event_type: flic_click
+    event_data:
+      button_name: flic_80e4da7255e2
+      click_type: hold
+  action:
+    service: switch.turn_off
+    entity_id: switch.wallplug1_switch
+- id: DoorBell_daytime
+  alias: Play doorbell on audio alert daytime
+  trigger:
+  - platform: state
+    entity_id: switch.ringklocka
+    to: 'on'
+  condition:
+    condition: time
+    after: 08:00
+    before: '19:15'
+  action:
+  - service: homeassistant.turn_on
+    entity_id: script.play_doorbell_on_alert_in_kitchen_daytime
+- id: DoorBell_evening
+  alias: Play doorbell on audio alert evening
+  trigger:
+  - platform: state
+    entity_id: switch.ringklocka
+    to: 'on'
+  condition:
+    condition: time
+    after: '19:15'
+    before: '23:00'
+  action:
+  - service: homeassistant.turn_on
+    entity_id: script.play_doorbell_on_alert_in_kitchen_evening
+
+- id: turn_off_wallplug3
+  alias: Stäng av motorvärmaren 1½ timme
+  trigger:
+    - platform: state
+      entity_id: switch.ip44
+      to: 'on'
+  action:
+    - delay: '01:30:00'
+    - service: switch.turn_off
+      entity_id: switch.ip44
+ 
+- id: People_greeting
+  alias: 'People Greeting'
+  trigger:
+    - platform: state
+      entity_id:
+        - device_tracker.amandasiphone
+        - device_tracker.ellasiphone
+        - device_tracker.iphonedeisaiah
+        - device_tracker.justinasiphone
+        - device_tracker.helenasiphone
+        - device_tracker.maggansiphone
+        - device_tracker.magnusiphone
+        - device_tracker.mattiastiphone7
+        - device_tracker.mimmisiphone
+        - device_tracker.stefansiphone
+        - device_tracker.petersiphone2_2
+        - device_tracker.mammasiphone
+      from: 'not_home'
+      to: 'home'
+      for: '00:02:00'
+  condition:
+    condition: time
+    after: '08:00'
+    before: '20:00'
+  action:
+    - service: script.arrive_greetings
+      data_template:
+        speech_message: >
+          {% set person = trigger.to_state.attributes.friendly_name %}
+          {%- macro greeting_sentence(person) -%}
+          {{ [
+          "Welcome back home " ~ person,
+          "Guess who is home?" ~ person +" is!",
+          person + " is now in the house.",
+          "Welcome Home " ~ person + ".  We have missed you. Or at least our kids did.",
+          "Our home is now complete, Rest your head and relax your feet! Welcome Back " ~ person,
+          "Life is like a song, you’re back where you belong. Welcome home " ~ person,
+          "Hey there " ~ person + " Welcome Home!",
+          person ~ "! You are home!"
+          ] | random }}
+          {%- endmacro -%}
+          "{{greeting_sentence(person)}}"
