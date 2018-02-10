@@ -1,4 +1,7 @@
 ##Lampor##
+  light.entrelampa_level:
+    friendly_name: Entré
+    
   light.kokspottar_level:
     friendly_name: Spottar
 

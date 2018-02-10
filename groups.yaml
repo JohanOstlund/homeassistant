@@ -24,6 +24,7 @@ entre:
   control: hidden
   entities:
    - light.hallspottar_level
+   - light.entrelampa_level
    - lock.entredorr
    - climate.varmegolv_heating
 

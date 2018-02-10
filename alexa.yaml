@@ -12,6 +12,7 @@
       #- media_player.spotify
       - media_player.apple_tv
       - media_player.denon
+      - light.entrelampa_level
       - light.kokspottar_level
       - light.kokslampor_level
       - light.korridorspottar_level
@@ -30,6 +31,10 @@
       - sensor.allrum_temperature
       
   entity_config:
+    light.entrelampa_level:
+      name: "Door lamp"
+      description: The entrance lamp outside
+    
     light.kokspottar_level:
       name: "Kitchen downlights"
       description: The downlights in the kitchen
