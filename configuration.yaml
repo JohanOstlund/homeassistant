@@ -57,6 +57,9 @@ sun:
 
 binary_sensor:
   - platform: flic
+  
+  - platform: workday
+    country: SE
 
 # Text to speech
 tts:
