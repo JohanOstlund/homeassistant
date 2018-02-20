@@ -574,3 +574,21 @@ mimmisipad:
   picture:
   track: true
   vendor: ICP Internet Communication Payment AG
+
+ecf4bb41ba32:
+  hide_if_away: false
+  icon:
+  mac: EC:F4:BB:41:BA:32
+  name: ecf4bb41ba32
+  picture:
+  track: true
+  vendor: Dell Inc.
+
+94659c78a36b:
+  hide_if_away: false
+  icon:
+  mac: 94:65:9C:78:A3:6B
+  name: 94659c78a36b
+  picture:
+  track: true
+  vendor: Intel Corporate
