@@ -4,8 +4,6 @@
     - temperature
     - symbol 
  
-- platform: workday
-  country: SE
 
 - platform: synologydsm
   host: 192.168.1.51
