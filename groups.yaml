@@ -61,7 +61,7 @@ vardagsrummet:
   view: no
   entities:
    - light.vardagsrumstaklampor_level
-   - switch.wallplug1_switch
+   #- switch.wallplug1_switch
 
 sovrum2:
   name: Minelles rum   
@@ -197,7 +197,9 @@ utomhus:
   view: no
   control: hidden
   entities:
-   - switch.ip44
+#   - switch.ip44
+   - switch.wallplug1_switch
+   
    
 energi:
   name: Energi
