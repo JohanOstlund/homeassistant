@@ -10,17 +10,17 @@
   sensor.wallplug3_power:
     friendly_name: Fönsterlampa
 
-  switch.ip44:
-    friendly_name: Motorvärmaren
-    icon: mdi:fan
+ # switch.ip44:
+  #  friendly_name: Motorvärmaren
+   # icon: mdi:fan
 
   switch.wallplug1_switch:
-    friendly_name: Ljusstake
+    friendly_name: Kupévärmare
     # alexa_hidden: false
-    icon: mdi:lightbulb
+    icon: mdi:fan
     
   sensor.wallplug1_power:
-    friendly_name: Ljusstake
+    friendly_name: Kupévärmare
   
   switch.wallplug2_switch:
     friendly_name: Smålampor
