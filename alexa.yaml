@@ -1,6 +1,8 @@
   filter:
     include_entities:
-      - group.nighttime
+      #- group.nighttime
+      - input_boolean.nighttime
+      - input_boolean.door
       - switch.wallplug3_switch
       - switch.wallplug1_switch
       - switch.wallplug2_switch
@@ -31,6 +33,16 @@
       - sensor.allrum_temperature
       
   entity_config:
+    input_boolean.nighttime:
+      name: "Nighttime"
+      description: "Triggers alarm and lights off"
+      display_categories: SWITCH
+      
+    input_boolean.door:
+      name: "Entrance"
+      description: "Opens and locks door"
+      display_categories: DOOR
+
     light.entrelampa_level:
       name: "Door lamp"
       description: The entrance lamp outside
