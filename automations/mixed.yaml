@@ -1,0 +1,109 @@
+- alias: 'Door open'
+  trigger:
+    platform: state
+    entity_id: input_boolean.door
+    to: 'on'
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: 'disarmed'
+  action: 
+    service: lock.unlock
+    entity_id: lock.entredorr
+    data:
+      code: !secret mobil
+      
+- alias: 'Door lock'
+  trigger:
+    platform: state
+    entity_id: input_boolean.door
+    to: 'off'
+  action: 
+    service: lock.lock
+    entity_id: lock.entredorr
+    data:
+      code: !secret mobil
+      
+- alias: 'boolean door on'
+  trigger:
+    platform: state
+    entity_id: lock.entredorr
+    to: 'unlocked'
+  condition:
+    condition: state
+    entity_id: input_boolean.door
+    state: 'off'
+  action: 
+    service: homeassistant.turn_on
+    entity_id: input_boolean.door
+
+- alias: 'boolean door off'
+  trigger:
+    platform: state
+    entity_id: lock.entredorr
+    to: 'locked'
+  condition:
+    condition: state
+    entity_id: input_boolean.door
+    state: 'on'
+  action: 
+    service: homeassistant.turn_off
+    entity_id: input_boolean.door
+    
+- alias: 'Sätt soptunna variabel till off efter 00:00'
+  trigger:
+    platform: time
+    at: 00:00:00
+  condition:
+    condition: and
+    conditions:
+      - condition: time
+        weekday:
+        - thu
+      - condition: state
+        entity_id: input_boolean.soptunna
+        state: 'on'
+  action:
+    service: input_boolean.turn_off
+  
+- alias: 'People Greeting'
+  trigger:
+    platform: state
+    entity_id:
+      - device_tracker.amandasiphone
+      - device_tracker.ellasiphone
+      - device_tracker.iphonedeisaiah
+      - device_tracker.justinasiphone
+      - device_tracker.helenasiphone
+      - device_tracker.maggansiphone
+      - device_tracker.magnusiphone
+      - device_tracker.mattiastiphone7
+      - device_tracker.mimmisiphone
+      - device_tracker.stefansiphone
+      - device_tracker.petersiphone2_2
+      - device_tracker.mammasiphone
+    from: 'not_home'
+    to: 'home'
+    for: '00:02:00'
+  condition:
+    condition: time
+    after: '08:00'
+    before: '20:00'
+  action:
+    - service: script.arrive_greetings
+      data_template:
+        speech_message: >
+          {% set person = trigger.to_state.attributes.friendly_name %}
+          {%- macro greeting_sentence(person) -%}
+          {{ [
+          "Welcome back home " ~ person,
+          "Guess who is home?" ~ person +" is!",
+          person + " is now in the house.",
+          "Welcome Home " ~ person + ".  We have missed you. Or at least our kids did.",
+          "Our home is now complete, Rest your head and relax your feet! Welcome Back " ~ person,
+          "Life is like a song, you’re back where you belong. Welcome home " ~ person,
+          "Hey there " ~ person + " Welcome Home!",
+          person ~ "! You are home!"
+          ] | random }}
+          {%- endmacro -%}
+          "{{greeting_sentence(person)}}"

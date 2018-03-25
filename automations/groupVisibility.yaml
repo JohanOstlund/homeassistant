@@ -1,0 +1,66 @@
+################# Group Visibility Automationer #####################
+- alias: Hide alarm when alarmed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: or
+    conditions:
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_away
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_home
+  action:
+    service: group.set_visibility
+    entity_id: group.arm_alarm
+    data:
+      visible: false
+
+- alias: Hide disarm when disarmed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: disarmed
+  action:
+    service: group.set_visibility
+    entity_id: group.disarm_alarm
+    data:
+      visible: false
+
+- alias: Show disarm when alarm armed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: or
+    conditions:
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_away
+    - condition: state
+      entity_id: alarm_control_panel.sabbatsvagen_alarm
+      state: armed_home
+  action:
+    service: group.set_visibility
+    entity_id: group.disarm_alarm
+    data:
+      visible: true
+
+- alias: Show alarm when disarmed
+  trigger:
+    platform: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: disarmed
+  action:
+    service: group.set_visibility
+    entity_id: group.arm_alarm
+    data:
+      visible: true
