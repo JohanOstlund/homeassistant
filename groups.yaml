@@ -1,5 +1,5 @@
 ### grupper ###
- 
+
 dörrar:
   name: Dörrar
   view: no
@@ -99,7 +99,23 @@ scener_lampor:
   - scene.nightlights
     
 ## Lamp groups ##
- 
+inomhuslampor:
+  name: Lampor i rum
+  view: no
+  entities:
+    - light.hallspottar_level
+    - light.kokslampor_level
+    - light.kokspottar_level
+    - light.korridorspottar_level
+    - light.masterbedroomsanglampor_level
+    - light.masterbedroomspottar_level
+    - light.matbordslampor_level
+    - light.sovrum3_level
+    - light.uterumslampor_level
+    - light.vardagsrumstaklampor_level
+    - switch.wallplug2_switch
+    - switch.wallplug3_switch
+     
 innelampor:
   name: Innelampor
   view: no
@@ -247,11 +263,7 @@ lightsAutomation:
   view: no
   entities:
    - automation.toggle_masterbedroom_bedlights_one_click
-   - automation.turn_off_all_lights_when_alarmed_away
    - automation.toggle_masterbedroom_spots_doubleclick
-   - automation.koksflaktslampa_onoff
-   - automation.stang_av_ljusstaken_i_vardagsrummet
-   - automation.satt_pa_ljusstaken_i_vardagsrummet
      
 otherAutomation:
   name: Övriga
@@ -260,24 +272,17 @@ otherAutomation:
    - automation.soptunnan_nere
    - automation.soptunnan_uppe
    - automation.satt_soptunna_variabel_till_off_efter_0000
-   - automation.welcome_home_message_johan
-   - automation.welcome_home_message_sanna
-   - automation.auto_renew_ssl_cert
    - automation.satt_ringklocka_till_off
    - automation.play_doorbell_on_audio_alert_daytime
    - automation.play_doorbell_on_audio_alert_evening
+   - automation.people_greeting
    
 heatAutomation:
   name: Värme
   view: no
   entities:
-   - automation.turn_on_minelles_heater
-   - automation.turn_off_minelles_heater
-   - automation.sank_hallgolvets_varme
    - automation.sank_hallgolvets_varme
    - automation.hoj_hallgolvets_varme
-   - automation.motorvarmaren_pa_0745
-   - automation.motorvarmaren_av_0915
    - automation.stang_av_motorvarmaren_112_timme
   
 iosAutomation:
@@ -287,32 +292,39 @@ iosAutomation:
    - automation.notify_ios_app_johan_ringer_pa_dorren
    - automation.notify_ios_app_johan_soptunnan
    - automation.notify_ios_app_sanna_soptunnan
-   - automation.notifi_ios_app_johan_rorelse_baksidan
-   - automation.notifi_ios_app_johan_rorelse_vid_entren
+   - automation.notify_ios_app_johan_rorelse_baksidan
+   - automation.notify_ios_app_johan_rorelse_framsidan
+   - automation.startup_notification
      
 ytterdorrAutomation:
   name: Ytterdörr
   view: no
   entities:
-   - automation.oppna_ytterdorren
-   - automation.las_ytterdorren
-    
+   #- automation.oppna_ytterdorren
+   #- automation.las_ytterdorren
+   - automation.boolean_door_on
+   - automation.boolean_door_off
+   - automation.door_open
+   - automation.door_lock   
 alarmAutomation:
   name: Larm
+  view: no
+  entities:
+   - automation.nighttime
+   - automation.happens_when_alarmed_away
+   - automation.skal_larm_off_06001000
+   - automation.alarm_off_09001900
+   - automation.alarm_off_19002230
+   - automation.alarm_off_22300500
+ 
+groupVisibilityAutomation:
+  name: Group Visibility
   view: no
   entities:
    - automation.hide_alarm_when_alarmed
    - automation.hide_disarm_when_disarmed
    - automation.show_alarm_when_disarmed
    - automation.show_disarm_when_alarm_armed
-   - automation.nighttime
-   - automation.trigger_alarm_home
-   - automation.happens_when_alarmed_away
-   - automation.skal_larm_off_06001000
-   - automation.alarm_off_09001900
-   - automation.alarm_off_19002230
-   - automation.alarm_off_22300500
-     
  
 ################################################################################################################################################## 
  #################################################VIEWS############################################################################################
@@ -410,6 +422,7 @@ automation_groups:
    - group.heatAutomation
    - group.iosAutomation
    - group.ytterdorrAutomation
+   - group.groupVisibilityAutomation
    
 nas:
   name: DiskStation
@@ -432,12 +445,4 @@ nas:
 #   - sensor.glances_ram_free
 #   - sensor.glances_disk_free
 
-
-#############Tillfälligt för ALEXA ###############
-
-nighttime:
-  name: Nighttime
-  view: no
-  entities:
-   - input_boolean.nighttime
   
