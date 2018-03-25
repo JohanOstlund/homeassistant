@@ -38,7 +38,7 @@ updater:
   # include_used_components: true
 
 # Discover some devices automatically
-#discovery:
+discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -70,7 +70,8 @@ tellstick:
  # port: [50800, 50801]
 
 group: !include groups.yaml
-automation: !include automations.yaml
+#automation: !include automations.yaml
+automation: !include_dir_merge_list automations/
 script: !include scripts/scripts.yaml
 scene: !include_dir_list scenes
 ios: !include ios.yaml
@@ -86,17 +87,19 @@ media_player: !include devices/media_players.yaml
 input_boolean: !include devices/input_booleans.yaml 
 shell_command: !include devices/shell_commands.yaml
 
-apple_tv:
-  - host: 192.168.1.144
-    login_id: 00000000-3c47-e6da-0347-19f996534e70
-    name: Apple TV
-    start_off: True
+#apple_tv:
+ # - host: 192.168.1.144
+  #  login_id: 00000000-3c47-e6da-0347-19f996534e70
+   # name: Apple TV
+   # start_off: True
 
-cloud:
-  alexa: !include alexa.yaml
+
+#cloud:
+ # alexa: !include alexa.yaml
+
+alexa:
+  smart_home: !include alexa.yaml
     
-#alexa:
-
 
 climate:
   platform: zwave
