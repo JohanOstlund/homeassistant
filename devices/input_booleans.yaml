@@ -27,6 +27,10 @@ lockdoor:
     name: Lås dörren
     initial: off
 
+door:
+    name: Dörr
+    initial: off
+    
 eveninglights:
     icon: mdi:lightbulb
     name: Kväll 
