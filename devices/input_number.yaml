@@ -1,0 +1,8 @@
+### Input Slider ###
+
+spotify_volume:
+  name: Volume
+  icon: mdi:volume-high
+  min: 0
+  max: 1
+  step: 0.05

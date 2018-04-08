@@ -41,7 +41,7 @@
     input_boolean.door:
       name: "Entrance"
       description: "Opens and locks door"
-      display_categories: DOOR
+      display_categories: SMARTLOCK
 
     light.entrelampa_level:
       name: "Door lamp"

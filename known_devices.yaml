@@ -592,3 +592,57 @@ ecf4bb41ba32:
   picture:
   track: true
   vendor: Intel Corporate
+
+csserver:
+  hide_if_away: false
+  icon:
+  mac: 08:00:27:A9:80:42
+  name: Cs-Server
+  picture:
+  track: true
+  vendor: PCS Systemtechnik GmbH
+
+ubuntu_2:
+  hide_if_away: false
+  icon:
+  mac: 00:90:F5:C9:77:BF
+  name: ubuntu
+  picture:
+  track: true
+  vendor: CLEVO CO.
+
+samsunggalaxys7:
+  hide_if_away: false
+  icon:
+  mac: 04:D6:AA:D2:BD:EB
+  name: Samsung-Galaxy-S7
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+laptopevvmnqb3:
+  hide_if_away: false
+  icon:
+  mac: 70:1C:E7:36:50:4C
+  name: LAPTOP-EVVMNQB3
+  picture:
+  track: true
+  vendor: Intel Corporate
+
+laptopevvmnqb3_2:
+  hide_if_away: false
+  icon:
+  mac: 30:E1:71:95:88:CD
+  name: LAPTOP-EVVMNQB3
+  picture:
+  track: true
+  vendor: Hewlett Packard
+
+fox355:
+  hide_if_away: false
+  icon:
+  mac: 20:47:47:D6:00:F5
+  name: fox355
+  picture:
+  track: true
+  vendor: Dell Inc.

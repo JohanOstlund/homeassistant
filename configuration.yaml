@@ -86,6 +86,8 @@ switch: !include devices/switches.yaml
 media_player: !include devices/media_players.yaml 
 input_boolean: !include devices/input_booleans.yaml 
 shell_command: !include devices/shell_commands.yaml
+input_number: !include devices/input_number.yaml
+input_select: !include devices/input_selects.yaml
 
 #apple_tv:
  # - host: 192.168.1.144
@@ -99,7 +101,8 @@ shell_command: !include devices/shell_commands.yaml
 
 alexa:
   smart_home: !include alexa.yaml
-    
+
+homekit: !include siri.yaml  
 
 climate:
   platform: zwave

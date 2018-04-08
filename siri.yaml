@@ -1,0 +1,37 @@
+  auto_start: false
+  
+  filter:
+    include_entities:
+      #- group.nighttime
+      - input_boolean.nighttime
+      - input_boolean.door
+      - switch.wallplug3_switch
+      - switch.wallplug1_switch
+      - switch.wallplug2_switch
+      - scene.morninglights
+      - scene.daylights
+      - scene.eveninglights
+      - scene.nightlights
+      #- switch.ip44
+      #- media_player.spotify
+      - media_player.apple_tv
+      - media_player.denon
+      - light.entrelampa_level
+      - light.kokspottar_level
+      - light.kokslampor_level
+      - light.korridorspottar_level
+      - light.uterumslampor_level
+      - light.matbordslampor_level
+      - light.vardagsrumstaklampor_level
+      - light.masterbedroomspottar_level
+      - light.masterbedroomsanglampor_level
+      - light.hallspottar_level
+      - light.sovrum3_level
+      - lock.entredorr
+      - sensor.brandvarnare_master_bedroom_temperature
+      - sensor.brandvarnare_sovrum_2_temperature
+      - sensor.brandvarnare_sovrum_3_temperature
+      - sensor.brandvarnare_matsal_temperature
+      - sensor.allrum_temperature
+      
+  

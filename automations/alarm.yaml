@@ -13,6 +13,8 @@
     - service: alarm_control_panel.alarm_arm_home
       data:
         code: !secret mobil
+    - service: homeassistant.turn_off
+      entity_id: input_boolean.nighttime
         
 - alias: 'Skal larm off 06:00-10:00'
   trigger:

@@ -51,3 +51,7 @@
   input_boolean.lockdoor:
     # alexa_hidden: false
     alexa_name: "Close door"
+    
+  script.spotify_music:
+    friendly_name: 'Play'
+    icon: mdi:play

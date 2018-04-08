@@ -1,0 +1,82 @@
+#################### IOS Automationer ##########################
+
+- alias: 'Notify iOS app Johan rörelse baksidan larmat'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.camera_baksidan
+    from: 'off'   
+    to: 'on'
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: alarm_control_panel.sabbatsvagen_alarm
+        state: 'armed_home'
+      - condition: state
+        entity_id: alarm_control_panel.sabbatsvagen_alarm
+        state: 'armed_away'
+  action:
+  - alias: IOS - rörelse på baksidan
+    data:
+      data:
+        action_data:
+        entity_id: camera.baksidan
+        push:
+          badge: 5
+          category: camera
+      message: Rörelse på baksidan!
+    service: notify.ios_johan
+    
+- alias: 'Notify iOS app Johan rörelse framsidan larmat'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.camera_entre
+    from: 'off'   
+    to: 'on'
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: alarm_control_panel.sabbatsvagen_alarm
+        state: 'armed_home'
+      - condition: state
+        entity_id: alarm_control_panel.sabbatsvagen_alarm
+        state: 'armed_away'
+  action:
+  - alias: IOS - rörelse på framsidan
+    data:
+      data:
+        action_data:
+        entity_id: camera.entre
+        push:
+          badge: 5
+          category: camera
+      message: Rörelse på framsidan!
+    service: notify.ios_johan
+
+- alias: 'Notify iOS app Johan rörelse uterummet'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.sensor
+    from: 'off'   
+    to: 'on'
+  condition:
+    condition: or
+    conditions:
+      - condition: state
+        entity_id: alarm_control_panel.sabbatsvagen_alarm
+        state: 'armed_home'
+      - condition: state
+        entity_id: alarm_control_panel.sabbatsvagen_alarm
+        state: 'armed_away'
+  action:
+  - alias: IOS - rörelse uterummet
+    data:
+      data:
+        action_data:
+        entity_id: camera.baksidan
+        push:
+          badge: 4
+          category: camera
+      message: Rörelse uterummet!
+    service: notify.ios_johan

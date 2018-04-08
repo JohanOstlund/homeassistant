@@ -21,3 +21,22 @@ thermostat_fan_control:
     - "quiet"
   initial: auto
   icon: mdi:fan
+
+spotify_playlist:
+  name: "Playlist:"
+  options:
+    - Minelles Party
+    - Lullaby
+    - Sannas sköna låtar
+    - Your Favorite Coffehouse
+    - Midsommar
+  icon: mdi:spotify
+  
+spotify_source:
+  name: "Source:"
+  options:
+    - Master Bedroom
+    - Köket
+    - Echo TV
+  initial: Köket
+  icon: mdi:speaker-wireless

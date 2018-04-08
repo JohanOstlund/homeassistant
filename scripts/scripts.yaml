@@ -84,3 +84,36 @@
      - service: media_player.sonos_restore
        data_template:
          entity_id: "{{ sonos_entity }}"
+
+         
+  spotify_music:
+    alias: Play selected spotify playlist
+    sequence:
+     - service: media_player.volume_set
+       data:
+         entity_id: media_player.spotify
+     #    volume_level: '0.40'
+         volume_level: '{{ states.input_number.spotify_volume.state }}'
+     - service: media_player.shuffle_set
+       data:
+         entity_id: media_player.spotify
+         shuffle: ‘true’
+     -  service: media_player.select_source
+        data_template: 
+          entity_id: media_player.spotify
+          source: >
+           {% if is_state("input_select.spotify_source", "Master Bedroom") %} Master Bedroom
+           {% elif is_state("input_select.spotify_source", "Köket") %} Kitchen
+           {% elif is_state("input_select.spotify_source", "Echo TV") %} Lounge
+           {% endif %}
+     -  service: media_player.play_media
+        data_template:
+          entity_id: media_player.spotify
+          media_content_type: playlist
+          media_content_id: >
+           {% if is_state("input_select.spotify_playlist", "Minelles Party") %} spotify:user:sannafors:playlist:3SwUXmDzTukEnn6OU0edqU
+           {% elif is_state("input_select.spotify_playlist", "Lullaby") %} spotify:user:spotify:playlist:72NPCf4dLWf33fWLsldVXT
+           {% elif is_state("input_select.spotify_playlist", "Sannas sköna låtar") %} spotify:user:sannafors:playlist:1FZhjQwa5ilcvZdI3fiOXS
+           {% elif is_state("input_select.spotify_playlist", "Your Favorite Coffehouse") %} spotify:user:spotify:playlist:37i9dQZF1DX6ziVCJnEm59
+           {% elif is_state("input_select.spotify_playlist", "Midsommar") %} spotify:user:sannafors:playlist:5Aa3xCbc6BxHj1s4hPO2VN
+           {% endif %}

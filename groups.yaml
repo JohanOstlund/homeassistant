@@ -17,6 +17,17 @@ fönster:
    - binary_sensor.fonster_kontor
    - binary_sensor.fonster_sovrum
    
+music_spotify:
+  name: Music 
+  view: no
+  entities:
+  - input_select.spotify_playlist
+  - input_select.spotify_source
+  - script.spotify_music
+  - input_number.spotify_volume
+   
+
+   
  #### RUM ####  
 entre:
   name: Entré
@@ -126,6 +137,10 @@ innelampor:
    - group.hallampor
    - group.korridorlampor
    - group.matsalslampor
+   - light.sovrum3_level
+   - switch.wallplug3_switch
+   - switch.wallplug2_switch
+   
    
 morgonlampor:
   name: Innelampor
@@ -294,6 +309,9 @@ iosAutomation:
    - automation.notify_ios_app_sanna_soptunnan
    - automation.notify_ios_app_johan_rorelse_baksidan
    - automation.notify_ios_app_johan_rorelse_framsidan
+   - automation.notify_ios_app_johan_rorelse_baksidan_larmat
+   - automation.notify_ios_app_johan_rorelse_framsidan_larmat
+   - automation.notify_ios_app_johan_rorelse_uterummet
    - automation.startup_notification
      
 ytterdorrAutomation:
@@ -341,7 +359,8 @@ default_view:
   # - alarm_control_panel.sabbatsvagen_alarm
    - sensor.allrum_temperature
    - sensor.yr_temperature
-   - sensor.ssl_cert_expiry
+  # - sensor.ssl_cert_expiry
+   - binary_sensor.sensor
    - updater.updater
    - device_tracker.johan
    - device_tracker.sanna
@@ -374,11 +393,14 @@ rum:
    - group.sovrum2
    - group.sovrum3
    - group.uterummet
-     
+
+
+  
 media:
   name: Media
   view: yes
   entities:
+    - group.music_spotify
     - media_player.spotify
     - media_player.apple_tv
     - media_player.denon
