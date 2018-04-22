@@ -31,3 +31,21 @@
   action:
     service: switch.turn_off
     entity_id: switch.wallplug1_switch
+    
+- alias: Stäng av wallplug 1 om uterummet över 19C
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.aeotec_zw100_multisensor_6_temperature
+    above: 19
+  action:
+    service: switch.turn_off
+    entity_id: switch.wallplug1_switch
+    
+- alias: Sätt på wallplug 1 om uterummet under 17C
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.aeotec_zw100_multisensor_6_temperature
+    below: 17
+  action:
+    service: switch.turn_on
+    entity_id: switch.wallplug1_switch

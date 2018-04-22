@@ -887,7 +887,7 @@ binary_sensor.sensor:
   platform: zwave
   unique_id: 22-72057594412007424
 sensor.aeotec_zw100_multisensor_6_temperature:
-  name:
+  name: Uterummet
   platform: zwave
   unique_id: 22-72057594412023826
 sensor.aeotec_zw100_multisensor_6_luminance:

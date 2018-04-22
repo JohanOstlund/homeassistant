@@ -96,6 +96,7 @@ uterummet:
   view: no
   entities:
    - light.uterumslampor_level
+   - sensor.aeotec_zw100_multisensor_6_temperature
    
 
    ## Scenes groups ##
@@ -299,6 +300,8 @@ heatAutomation:
    - automation.sank_hallgolvets_varme
    - automation.hoj_hallgolvets_varme
    - automation.stang_av_motorvarmaren_112_timme
+   - automation.satt_pa_wallplug_1_om_uterummet_under_17c
+   - automation.stang_av_wallplug_1_om_uterummet_over_19c
   
 iosAutomation:
   name: iOSNotify
@@ -359,7 +362,8 @@ default_view:
   # - alarm_control_panel.sabbatsvagen_alarm
    - sensor.allrum_temperature
    - sensor.yr_temperature
-  # - sensor.ssl_cert_expiry
+   - sensor.aeotec_zw100_multisensor_6_temperature
+   - sensor.ssl_cert_expiry
    - binary_sensor.sensor
    - updater.updater
    - device_tracker.johan

@@ -1,0 +1,3 @@
+sensor.aeotec_zw100_multisensor_6_temperature:
+  ignored: false
+  polling_intensity: 180
