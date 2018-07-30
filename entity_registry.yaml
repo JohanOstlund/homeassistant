@@ -703,7 +703,7 @@ sensor.brandvarnare_matsal_heat_2:
   platform: zwave
   unique_id: 14-72057594279559233
 switch.wallplug1_switch:
-  name:
+  name: Poolpump
   platform: zwave
   unique_id: 15-72057594294386688
 sensor.wallplug1_power:
@@ -895,7 +895,7 @@ sensor.aeotec_zw100_multisensor_6_luminance:
   platform: zwave
   unique_id: 22-72057594412023858
 sensor.aeotec_zw100_multisensor_6_relative_humidity:
-  name:
+  name: Uterummet Luftfuktighet
   platform: zwave
   unique_id: 22-72057594412023890
 sensor.aeotec_zw100_multisensor_6_ultraviolet:
@@ -910,3 +910,11 @@ sensor.aeotec_zw100_multisensor_6_burglar:
   name:
   platform: zwave
   unique_id: 22-72057594413072545
+media_player.apple_tv_2:
+  name:
+  platform: apple_tv
+  unique_id: f1bb6c47e0195f4207afba37b68243d2d2476af133f190871bcb0a7adb62b899
+remote.apple_tv_2:
+  name:
+  platform: apple_tv
+  unique_id: f1bb6c47e0195f4207afba37b68243d2d2476af133f190871bcb0a7adb62b899

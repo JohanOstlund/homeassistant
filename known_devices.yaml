@@ -646,3 +646,27 @@ fox355:
   picture:
   track: true
   vendor: Dell Inc.
+
+lakka:
+  hide_if_away: false
+  icon:
+  mac: 00:90:4C:1A:A0:01
+  name: Lakka
+  picture:
+  track: true
+
+iphonedeisaiah_2:
+  hide_if_away: false
+  icon:
+  mac: 88:E9:FE:BB:07:97
+  name: iPhonedeIsaiah
+  picture:
+  track: true
+
+001e8f581382:
+  hide_if_away: false
+  icon:
+  mac: 00:1E:8F:58:13:82
+  name: 001e8f581382
+  picture:
+  track: true

@@ -57,6 +57,7 @@ sun:
 
 binary_sensor:
   - platform: flic
+    host: 192.168.1.122
   
   - platform: workday
     country: SE

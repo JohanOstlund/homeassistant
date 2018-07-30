@@ -280,7 +280,8 @@ lightsAutomation:
   entities:
    - automation.toggle_masterbedroom_bedlights_one_click
    - automation.toggle_masterbedroom_spots_doubleclick
-     
+   - automation.toggle_masterbedroom_evening_lights_hold
+      
 otherAutomation:
   name: Övriga
   view: no
@@ -363,6 +364,7 @@ default_view:
    - sensor.allrum_temperature
    - sensor.yr_temperature
    - sensor.aeotec_zw100_multisensor_6_temperature
+   - sensor.aeotec_zw100_multisensor_6_relative_humidity
    - sensor.ssl_cert_expiry
    - binary_sensor.sensor
    - updater.updater

@@ -20,3 +20,20 @@
   action:
     service: light.toggle
     entity_id: light.masterbedroomspottar_level
+
+- alias: 'Toggle masterbedroom evening lights hold'
+  trigger:
+    platform: event
+    event_type: flic_click
+    event_data:
+      button_name: flic_80e4da7255e2
+      click_type: hold
+  action:
+    - service: light.turn_on
+      data:
+        brightness: 46
+        entity_id:
+          - light.masterbedroomsanglampor_level
+    - service: light.turn_off
+      entity_id: light.masterbedroomspottar_level
+
