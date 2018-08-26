@@ -75,22 +75,22 @@ vardagsrummet:
    #- switch.wallplug1_switch
 
 sovrum2:
-  name: Minelles rum   
+  name: Barnens lekrum   
   view: no
   entities:
     - sensor.brandvarnare_sovrum_2_temperature 
-    - switch.wallplug2_switch
     - binary_sensor.brandvarnare_sovrum_2_sensor
 
 sovrum3:
-  name: Charlies rum   
+  name: Barnens sovrum   
   view: no
   entities:
     - light.sovrum3_level
     - switch.wallplug3_switch
     - sensor.brandvarnare_sovrum_3_temperature
     - binary_sensor.brandvarnare_sovrum_3_sensor
-    
+    - switch.wallplug2_switch
+
 uterummet:
   name: Uterummet
   view: no
