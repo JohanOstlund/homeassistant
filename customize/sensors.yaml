@@ -35,10 +35,10 @@
     friendly_name: Master Bedroom brandvarnare
   binary_sensor.brandvarnare_sovrum_2_sensor:
     device_class: smoke
-    friendly_name: Minelles brandvarnare
+    friendly_name: Lekrum brandvarnare
   binary_sensor.brandvarnare_sovrum_3_sensor:
     device_class: smoke
-    friendly_name: Charlies brandvarnare 
+    friendly_name: Sovrum brandvarnare 
   binary_sensor.brandvarnare_matsal_sensor:
     device_class: smoke
     friendly_name: Matsal brandvarnare

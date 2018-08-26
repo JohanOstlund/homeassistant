@@ -23,14 +23,14 @@
     friendly_name: Kupévärmare
   
   switch.wallplug2_switch:
-    friendly_name: Smålampor
+    friendly_name: Minelles sänglampa
     icon: mdi:lightbulb
 
   sensor.wallplug2_energy:
-    friendly_name: Smålampor
+    friendly_name: Minelles sänglampa
 
   sensor.wallplug2_power:
-    friendly_name: Smålampor
+    friendly_name: Minelles sänglampa
  
   switch.ringklocka:
     assumed_state: false
