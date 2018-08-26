@@ -68,7 +68,7 @@
       description: The ceiling lamp in the lounge
         
     light.masterbedroomspottar_level:
-      name: "Bedroom downlights"
+      name: "Downlights"
       description: The downlights in the master bedroom
         
     light.masterbedroomsanglampor_level:
@@ -84,7 +84,7 @@
       description: The lamps in the outroom
         
     light.sovrum3_level:
-      name: "Charlies lamps"
+      name: "Ceiling lamp"
       description: The ceiling lamp in the Charlies room
         
     media_player.apple_tv:
@@ -115,21 +115,21 @@
       #display_categories: 'LIGHT'
       
     switch.wallplug2_switch:
-      name: "Window lamps"
+      name: "Nelly bed"
       display_categories: 'LIGHT'
           
     switch.wallplug3_switch:
-      name: "Charlies window"
+      name: "Window lamp"
       display_categories: 'LIGHT'
         
     sensor.brandvarnare_master_bedroom_temperature:
-      name: "Master Bedroom"
+      name: "Temp 1"
       description: Temperature in Master Bedroom
     sensor.brandvarnare_sovrum_2_temperature:
-      name: "Nelly"
+      name: "Temp 2"
       description: Temperature in Minelles room
     sensor.brandvarnare_sovrum_3_temperature:
-      name: "Charlie"
+      name: "Temp 3"
       description: Temperature in Charlies room
     sensor.brandvarnare_matsal_temperature:
       name: "Dining room"
