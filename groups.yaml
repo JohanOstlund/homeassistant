@@ -24,8 +24,7 @@ music_spotify:
   - input_select.spotify_playlist
   - input_select.spotify_source
   - script.spotify_music
-  - input_number.spotify_volume
-   
+  - input_number.spotify_volume   
 
    
  #### RUM ####  
@@ -72,21 +71,25 @@ vardagsrummet:
   view: no
   entities:
    - light.vardagsrumstaklampor_level
-   #- switch.wallplug1_switch
+   - switch.wallplug1_switch
+   - light.wallplug_dim_1
 
 sovrum2:
-  name: Barnens lekrum   
+  name: Minelles rum   
   view: no
   entities:
+    - switch.wallplug6
+    - switch.wallplug7
     - sensor.brandvarnare_sovrum_2_temperature 
     - binary_sensor.brandvarnare_sovrum_2_sensor
 
 sovrum3:
-  name: Barnens sovrum   
+  name: Charlies rum   
   view: no
   entities:
     - light.sovrum3_level
-    - switch.wallplug3_switch
+    - switch.wallplug5
+    - switch.wallplug4
     - sensor.brandvarnare_sovrum_3_temperature
     - binary_sensor.brandvarnare_sovrum_3_sensor
     - switch.wallplug2_switch
@@ -96,6 +99,7 @@ uterummet:
   view: no
   entities:
    - light.uterumslampor_level
+   - switch.wallplug9
    - sensor.aeotec_zw100_multisensor_6_temperature
    
 
@@ -125,9 +129,39 @@ inomhuslampor:
     - light.sovrum3_level
     - light.uterumslampor_level
     - light.vardagsrumstaklampor_level
+    - light.wallplug_dim_1
+    - switch.wallplug1_switch
     - switch.wallplug2_switch
-    - switch.wallplug3_switch
-     
+    - switch.wallplug5
+    - switch.wallplug4
+    - switch.wallplug6
+    - switch.wallplug7
+    - switch.wallplug9
+
+
+inomhuslampor_larm:
+  name: Lampor för larmet
+  view: no
+  entities:
+    - light.hallspottar_level
+    - light.kokslampor_level
+    - light.kokspottar_level
+    - light.korridorspottar_level
+    - light.masterbedroomsanglampor_level
+    - light.masterbedroomspottar_level
+    - light.matbordslampor_level
+    - light.sovrum3_level
+    - light.uterumslampor_level
+    - light.vardagsrumstaklampor_level
+    - light.wallplug_dim_1
+   # - switch.wallplug1_switch
+    - switch.wallplug2_switch
+   # - switch.wallplug5
+    - switch.wallplug4
+    - switch.wallplug6
+    - switch.wallplug7
+    - switch.wallplug9 
+
 innelampor:
   name: Innelampor
   view: no
@@ -138,11 +172,10 @@ innelampor:
    - group.hallampor
    - group.korridorlampor
    - group.matsalslampor
-   - light.sovrum3_level
-   - switch.wallplug3_switch
-   - switch.wallplug2_switch
+   - group.sovrum3
+   - group.sovrum2   
    
-   
+
 morgonlampor:
   name: Innelampor
   view: no
@@ -164,7 +197,8 @@ vardagsrumslampor:
   view: no
   entities:
    - light.vardagsrumstaklampor_level
-   
+   - switch.wallplug1_switch
+
 hallampor:
   name: Hallampor
   view: no
@@ -199,9 +233,9 @@ masterbedroomslampor:
   entities:
    - camera.entre
    - camera.baksidan
-   - camera.iphone5
-   - switch.synology_home_mode
-   - switch.camera_torch
+#   - camera.iphone5
+#   - switch.synology_home_mode
+#   - switch.camera_torch
  
 disarm_alarm:
   name: Verisure
@@ -229,8 +263,7 @@ utomhus:
   view: no
   control: hidden
   entities:
-#   - switch.ip44
-   - switch.wallplug1_switch
+   - switch.wallplug3_switch
    
    
 energi:
@@ -279,7 +312,7 @@ lightsAutomation:
   view: no
   entities:
    - automation.toggle_masterbedroom_bedlights_one_click
-   - automation.toggle_masterbedroom_spots_doubleclick
+   - automation.toggle_masterbedroom_spots_double_click
    - automation.toggle_masterbedroom_evening_lights_hold
       
 otherAutomation:
@@ -288,7 +321,7 @@ otherAutomation:
   entities:
    - automation.soptunnan_nere
    - automation.soptunnan_uppe
-   - automation.satt_soptunna_variabel_till_off_efter_0000
+   - automation.satt_soptunna_variabel_till_off_efter_00_00
    - automation.satt_ringklocka_till_off
    - automation.play_doorbell_on_audio_alert_daytime
    - automation.play_doorbell_on_audio_alert_evening
@@ -298,11 +331,11 @@ heatAutomation:
   name: Värme
   view: no
   entities:
-   - automation.sank_hallgolvets_varme
-   - automation.hoj_hallgolvets_varme
-   - automation.stang_av_motorvarmaren_112_timme
-   - automation.satt_pa_wallplug_1_om_uterummet_under_17c
-   - automation.stang_av_wallplug_1_om_uterummet_over_19c
+#   - automation.sank_hallgolvets_varme
+#   - automation.hoj_hallgolvets_varme
+   - automation.stang_av_motorvarmaren_1_1_2_timme
+#   - automation.satt_pa_wallplug_1_om_uterummet_under_17c
+#   - automation.stang_av_wallplug_1_om_uterummet_over_19c
   
 iosAutomation:
   name: iOSNotify
@@ -328,16 +361,17 @@ ytterdorrAutomation:
    - automation.boolean_door_off
    - automation.door_open
    - automation.door_lock   
+
 alarmAutomation:
   name: Larm
   view: no
   entities:
    - automation.nighttime
    - automation.happens_when_alarmed_away
-   - automation.skal_larm_off_06001000
-   - automation.alarm_off_09001900
-   - automation.alarm_off_19002230
-   - automation.alarm_off_22300500
+   - automation.skal_larm_off_06_00_10_00
+   - automation.alarm_off_09_00_19_00
+   - automation.alarm_off_19_00_22_30
+   - automation.alarm_off_22_30_05_00
  
 groupVisibilityAutomation:
   name: Group Visibility
@@ -399,7 +433,7 @@ rum:
    - group.sovrum2
    - group.sovrum3
    - group.uterummet
-
+   - group.utomhus
 
   
 media:
@@ -429,13 +463,18 @@ verisure:
    - group.disarm_alarm
    - group.arm_alarm 
    
-ström:
-  name: Strömförbrukning
+calibrate_lamps:
+  name: Lampkalibrering
   view: yes
   entities:
   #lampor#
-   - group.energi
-   - group.effekt
+   - script.calibrate_bedlamps
+   - script.calibrate_entrance
+   - script.calibrate_kidsceiling
+   - script.calibrate_kitchenlamps
+   - script.calibrate_kitchentable
+   - script.calibrate_lounge
+   - script.calibrate_uterum
   
 ## Automation groups ##
   
@@ -463,6 +502,14 @@ nas:
    - sensor.total_size_volume_1
    - sensor.used_space_volume_1
    - sensor.volume_used_volume_1
+
+ström:
+  name: Strömförbrukning
+  view: yes
+  entities:
+  #lampor#
+   - group.energi
+   - group.effekt
    
 #glances:
 #  name: HomeAssistant hårdvara

@@ -1,1 +1,65 @@
- renew_ssl: touch ~/certbot/certbot-auto renew --quiet --no-self-upgrade --standalone --preferred-challenges http-01
+## CsGo server #1
+stop_gather: ssh 'csgoserver@192.168.1.148' ./csgoserver stop
+
+start_gather: ssh 'csgoserver@192.168.1.148' ./csgoserver start
+
+restart_gather: ssh 'csgoserver@192.168.1.148' ./csgoserver restart
+
+details_gather: ssh 'csgoserver@192.168.1.148' ./csgoserver details
+
+update_gather: ssh 'csgoserver@192.168.1.148' ./csgoserver update
+
+## CsGo server #2
+stop_thorax: ssh 'csgoserver2@192.168.1.148' ./csgoserver stop
+
+start_thorax: ssh 'csgoserver2@192.168.1.148' ./csgoserver start
+
+restart_thorax: ssh 'csgoserver2@192.168.1.148' ./csgoserver restart
+
+details_thorax: ssh 'csgoserver2@192.168.1.148' ./csgoserver details
+
+update_thorax: ssh 'csgoserver2@192.168.1.148' ./csgoserver update
+
+## CsGo server #3
+stop_retake: ssh 'csgoserver3@192.168.1.148' ./csgoserver stop
+
+start_retake: ssh 'csgoserver3@192.168.1.148' ./csgoserver start
+
+restart_retake: ssh 'csgoserver3@192.168.1.148' ./csgoserver restart
+
+details_retake: ssh 'csgoserver3@192.168.1.148' ./csgoserver details
+
+update_retake: ssh 'csgoserver3@192.168.1.148' ./csgoserver update
+
+## CsGo server #4
+stop_am: ssh 'csgoserver4@192.168.1.148' ./csgoserver stop  
+
+start_am: ssh 'csgoserver4@192.168.1.148' ./csgoserver start
+
+restart_am: ssh 'csgoserver4@192.168.1.148' ./csgoserver restart
+
+details_am: ssh 'csgoserver4@192.168.1.148' ./csgoserver details
+
+update_am: ssh 'csgoserver4@192.168.1.148' ./csgoserver update
+
+## CsGo server #5
+stop_aim: ssh 'csgoserver5@192.168.1.148' ./csgoserver stop
+
+start_aim: ssh 'csgoserver5@192.168.1.148' ./csgoserver start
+
+restart_aim: ssh 'csgoserver5@192.168.1.148' ./csgoserver restart
+
+details_aim: ssh 'csgoserver5@192.168.1.148' ./csgoserver details
+
+update_aim: ssh 'csgoserver5@192.168.1.148' ./csgoserver update
+
+## CsGo server #6
+stop_turtle: ssh 'csgoserver6@192.168.1.148' ./csgoserver stop
+
+start_turtle: ssh 'csgoserver6@192.168.1.148' ./csgoserver start
+
+restart_turtle: ssh 'csgoserver6@192.168.1.148' ./csgoserver restart
+
+details_turtle: ssh 'csgoserver6@192.168.1.148' ./csgoserver details
+
+update_turtle: ssh 'csgoserver6@192.168.1.148' ./csgoserver update

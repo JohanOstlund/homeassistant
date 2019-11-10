@@ -1,0 +1,160 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "network_key": "0x23, 0xDD, 0xB9, 0xD0, 0xB7, 0xEF, 0x08, 0x8D, 0x43, 0xC0, 0x27, 0xB1, 0xCC, 0x07, 0x99, 0x93",
+                    "usb_path": "/dev/serial/by-id/usb-0658_0200-if00"
+                },
+                "domain": "zwave",
+                "entry_id": "fd4eb2951654402c98de6763fa404359",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Z-Wave (import from configuration.yaml)",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "sonos",
+                "entry_id": "6ba575ca47f54bb39f069cacf44ca52f",
+                "options": {},
+                "source": "discovery",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Sonos",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "user_id": "4d176a26bf754a7fb600fc3a54e04910"
+                },
+                "domain": "cast",
+                "entry_id": "9f60210b098f4062a1aa8cbf02b60c2a",
+                "options": {},
+                "source": "discovery",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "udn": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30"
+                },
+                "domain": "upnp",
+                "entry_id": "30690122c7a849318342319dc796a7b3",
+                "options": {},
+                "source": "discovery",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "UPnP/IGD",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "ck2VErbOQDo:APA91bENzO2qm-6BxMF28-q3PM-QKo-W_x3JiExrS4PdRIqnMIRGHGZt5jy7HLpSe5CH6gt4mPGjXckfdQk-329MH5sa5F3AIvOi-gfjE_wjvpRmJA0bm9Cs7Pcin3ziZueeT0Ot8J4j",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant.beta",
+                    "app_name": "Home Assistant \u03b2",
+                    "app_version": "2.0.0 (68)",
+                    "device_id": "1c5d95d5ec0a42459ea6744a063af853",
+                    "device_name": "Johan",
+                    "manufacturer": "Apple",
+                    "model": "iPhone 6s",
+                    "os_name": "iOS",
+                    "os_version": "12.2",
+                    "secret": "81599e90fb717dc2b72e788d05200f2b70288131a4e24ab251925ed699d1bf0b",
+                    "supports_encryption": true,
+                    "user_id": "7687204bb68f46cfb13a4201a190c67f",
+                    "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+                },
+                "domain": "mobile_app",
+                "entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Johan",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "fVnFSIQM1aQ:APA91bE6HL7XOFDQVQCDlb17u3yTlY4aD85L66srITVNVDY0rFTCj4DGUj30Cv1zBHNl6HI5c3c4T2-v0NO8K__L_PLGAcAhem5MQTAVpUFZ_YxyiiGJxlINV6xBZGasb99ZqfjAwRoy",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant.beta",
+                    "app_name": "Home Assistant \u03b2",
+                    "app_version": "2.0.0 (68)",
+                    "device_id": "ebc642a7d4134ce4a1b41b6a59440a79",
+                    "device_name": "Sanna",
+                    "manufacturer": "Apple",
+                    "model": "iPhone SE",
+                    "os_name": "iOS",
+                    "os_version": "13.1.2",
+                    "secret": "cace662837d0a1104bdf162fbce72807ad645eaa222d882c06fa1e902ae0319d",
+                    "supports_encryption": true,
+                    "user_id": "da4acb7693de43589980d7bf863ad8fc",
+                    "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+                },
+                "domain": "mobile_app",
+                "entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Sannas iPhone",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "ehhqZxAyvhg:APA91bGJDYmEQN38bqx2niu2FVa79dGA2Ecr0j3vdVPbFLl4ZqOJ78SwgCdmzcinM2lDR02n9CNPuuXs_rXNTM2QbFnHKleMHheIhMjK8BMqft1BUx7PRZNOjlWhAypqVS8FbOTe8Y-a",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant.beta",
+                    "app_name": "Home Assistant \u03b2",
+                    "app_version": "2.0.0 (63)",
+                    "device_id": "118f52edbd5b4f398d88a71242ca993b",
+                    "device_name": "Sannas iPad",
+                    "manufacturer": "Apple",
+                    "model": "iPad Air 2",
+                    "os_name": "iOS",
+                    "os_version": "13.1.1",
+                    "secret": "6c81358ccfb45495bd78841925020d702836b1ce54f384c9c8528d4ca1e003e8",
+                    "supports_encryption": true,
+                    "user_id": "7687204bb68f46cfb13a4201a190c67f",
+                    "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+                },
+                "domain": "mobile_app",
+                "entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Sannas iPad",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

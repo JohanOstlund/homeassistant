@@ -1,0 +1,929 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31_battery_level": {
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-50",
+                "name": "Battery Level",
+                "state": 55,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31"
+            },
+            "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31_pedometer_avg_active_pace": {
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31"
+            },
+            "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31_pedometer_distance": {
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 252,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31"
+            },
+            "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31_pedometer_floors_ascended": {
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31"
+            },
+            "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31_pedometer_floors_descended": {
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31"
+            },
+            "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31_pedometer_steps": {
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 358,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "0b6f7066410352a1afa04712fdd075ba3c433943d30bee63dcdf33c9f3211c31"
+            },
+            "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0_battery_level": {
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 60,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0"
+            },
+            "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0_pedometer_avg_active_pace": {
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0"
+            },
+            "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0_pedometer_distance": {
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 250,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0"
+            },
+            "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0_pedometer_floors_ascended": {
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0"
+            },
+            "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0_pedometer_floors_descended": {
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0"
+            },
+            "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0_pedometer_steps": {
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 355,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "10f7c77cba97420195b6cdecafbe2da3b2428fbe19f8b7ff227cd118209beca0"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Stationary"
+                    ]
+                },
+                "icon": "mdi:human-male",
+                "name": "Activity",
+                "state": "Stationary",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-30",
+                "name": "Battery Level",
+                "state": 31,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 31
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-30",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "18:31:bf:36:9a:34",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Tele2",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "se",
+                    "Mobile Country Code": "240",
+                    "Mobile Network Code": "07"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "Tele2",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "MinutParty_5G",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "Stockholm",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Sverige",
+                    "ISO Country Code": "SE",
+                    "Inland Water": "N/A",
+                    "Locality": "J\u00e4rf\u00e4lla",
+                    "Location": [
+                        59.427459716796875,
+                        17.809076997226736
+                    ],
+                    "Name": "Sabbatsv\u00e4gen 19",
+                    "Ocean": "N/A",
+                    "Postal Code": "177 60",
+                    "Sub Administrative Area": "J\u00e4rf\u00e4lla",
+                    "Sub Locality": "J\u00e4rf\u00e4lla",
+                    "Sub Thoroughfare": "19",
+                    "Thoroughfare": "Sabbatsv\u00e4gen",
+                    "Time Zone": "Europe/Stockholm"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Sabbatsv\u00e4gen 19\n177 60 J\u00e4rf\u00e4lla\nSverige",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Background Fetch",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 1445,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_floors_ascended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_floors_descended": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 2089,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+            },
+            "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08_battery_level": {
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 61,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08"
+            },
+            "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08_pedometer_avg_active_pace": {
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08"
+            },
+            "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08_pedometer_distance": {
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 250,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08"
+            },
+            "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08_pedometer_floors_ascended": {
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08"
+            },
+            "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08_pedometer_floors_descended": {
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08"
+            },
+            "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08_pedometer_steps": {
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 355,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "62f3b8d3889c5e24dad34d6833d7ca1ab0e1743476ca8e21c3a443db51b7ad08"
+            },
+            "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1_battery_level": {
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-50",
+                "name": "Battery Level",
+                "state": 50,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1"
+            },
+            "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1_pedometer_avg_active_pace": {
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1"
+            },
+            "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1_pedometer_distance": {
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 334,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1"
+            },
+            "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1_pedometer_floors_ascended": {
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1"
+            },
+            "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1_pedometer_floors_descended": {
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1"
+            },
+            "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1_pedometer_steps": {
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 484,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "8f833cbbdcf0846af9824b5a6759e7d6c79be8c7d6c7b646c55e13632b003bb1"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Unknown"
+                    ]
+                },
+                "icon": "mdi:help-circle",
+                "name": "Activity",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-20",
+                "name": "Battery Level",
+                "state": 28,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 28
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-20",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "BSSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_cellular_provider": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "N/A",
+                    "Carrier Name": "TELIA",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "se",
+                    "Mobile Country Code": "240",
+                    "Mobile Network Code": "01"
+                },
+                "icon": "mdi:sim",
+                "name": "Cellular Provider",
+                "state": "TELIA",
+                "type": "sensor",
+                "unique_id": "connectivity_cellular_provider",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_connection_type": {
+                "added": true,
+                "attributes": {
+                    "Cellular Technology": "4G"
+                },
+                "icon": "mdi:signal",
+                "name": "Connection Type",
+                "state": "Cellular",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "TELIA",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "se",
+                    "Mobile Country Code": "240",
+                    "Mobile Network Code": "01"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "TELIA",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "SSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "Stockholm",
+                    "Areas Of Interest": "N/A",
+                    "Country": "Sverige",
+                    "ISO Country Code": "SE",
+                    "Inland Water": "N/A",
+                    "Locality": "J\u00e4rf\u00e4lla",
+                    "Location": [
+                        59.427689119846306,
+                        17.809694716591984
+                    ],
+                    "Name": "Feriev\u00e4gen 5",
+                    "Ocean": "N/A",
+                    "Postal Code": "177 60",
+                    "Sub Administrative Area": "J\u00e4rf\u00e4lla",
+                    "Sub Locality": "J\u00e4rf\u00e4lla",
+                    "Sub Thoroughfare": "5",
+                    "Thoroughfare": "Feriev\u00e4gen",
+                    "Time Zone": "Europe/Stockholm"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Feriev\u00e4gen 5\n177 60 J\u00e4rf\u00e4lla\nSverige",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Significant Location Change",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_pedometer_avg_active_pace": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_pedometer_distance": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 807,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_pedometer_steps": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 1159,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-20",
+                "name": "Battery Level",
+                "state": 27,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 27
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-20",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "00:00:00:00:00:00",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_geocoded_location": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Background Fetch",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_activity": {
+                "added": true,
+                "attributes": {
+                    "Confidence": "High",
+                    "Types": [
+                        "Automotive"
+                    ]
+                },
+                "icon": "mdi:car",
+                "name": "Activity",
+                "state": "Automotive",
+                "type": "sensor",
+                "unique_id": "activity",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_battery_level": {
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery Level",
+                "state": 42,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 42
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "BSSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_connectivity_connection_type": {
+                "added": true,
+                "attributes": {
+                    "Cellular Technology": "4G"
+                },
+                "icon": "mdi:signal",
+                "name": "Connection Type",
+                "state": "Cellular",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Tele2",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "se",
+                    "Mobile Country Code": "240",
+                    "Mobile Network Code": "07"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "Tele2",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-off",
+                "name": "SSID",
+                "state": "Not Connected",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_geocoded_location": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Significant Location Change",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_pedometer_avg_active_pace": {
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_pedometer_distance": {
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 334,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_pedometer_floors_ascended": {
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_pedometer_floors_descended": {
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3_pedometer_steps": {
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 484,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "e252948efdf5b50f3461be16eee7aafce0dba1e2bdde611f5479b06140256bf3"
+            },
+            "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68_battery_level": {
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 62,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68"
+            },
+            "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68_pedometer_avg_active_pace": {
+                "attributes": {},
+                "icon": "mdi:speedometer",
+                "name": "Average Active Pace",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_avg_active_pace",
+                "unit_of_measurement": "m/s",
+                "webhook_id": "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68"
+            },
+            "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68_pedometer_distance": {
+                "attributes": {},
+                "icon": "mdi:hiking",
+                "name": "Distance",
+                "state": 246,
+                "type": "sensor",
+                "unique_id": "pedometer_distance",
+                "unit_of_measurement": "m",
+                "webhook_id": "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68"
+            },
+            "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68_pedometer_floors_ascended": {
+                "attributes": {},
+                "icon": "mdi:slope-uphill",
+                "name": "Floors Ascended",
+                "state": 1,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_ascended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68"
+            },
+            "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68_pedometer_floors_descended": {
+                "attributes": {},
+                "icon": "mdi:slope-downhill",
+                "name": "Floors Descended",
+                "state": 0,
+                "type": "sensor",
+                "unique_id": "pedometer_floors_descended",
+                "unit_of_measurement": "floors",
+                "webhook_id": "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68"
+            },
+            "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68_pedometer_steps": {
+                "attributes": {},
+                "icon": "mdi:walk",
+                "name": "Steps",
+                "state": 350,
+                "type": "sensor",
+                "unique_id": "pedometer_steps",
+                "unit_of_measurement": "steps",
+                "webhook_id": "eaccc68d06f6debea0a617267932cf4e6abd9c71aedcb29abecd8403274bee68"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

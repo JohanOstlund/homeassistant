@@ -7,12 +7,25 @@ homeassistant:
   time_zone: Europe/Stockholm
 
    ## CUSTOMIZE### Enables configuration UI
-  customize: !include_dir_merge_named customize/
+#  customize: !include_dir_merge_named customize/
+  customize: !include customize.yaml
+  auth_providers:
+    - type: homeassistant
+    - type: trusted_networks
+      trusted_networks:
+        - 192.168.1.51
+        - 192.168.1.64
+        - 192.168.1.239
+        - 192.168.1.172
+        - 192.168.1.2
+system_health:
 
 config:
 
 # Enables the frontend 
 frontend:
+
+mobile_app:
 
 recorder:
   db_url: !secret db_url
@@ -20,12 +33,15 @@ recorder:
 panel_iframe: !include panel_iframe.yaml
 
 http:
-  api_password: !secret http_password
+#  api_password: !secret http_password
   ip_ban_enabled: True
-  login_attempts_threshold: 5
+  login_attempts_threshold: 3
   #ssl_certificate: !secret ssl_cert
   #ssl_key: !secret ssl_key
   use_x_forwarded_for: true
+  trusted_proxies:
+    - 127.0.0.1
+    - 192.168.1.122
   base_url: !secret base_url
 
 # Checks for available updates
@@ -38,7 +54,7 @@ updater:
   # include_used_components: true
 
 # Discover some devices automatically
-discovery:
+#discovery:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -55,58 +71,70 @@ map:
 # Track the sun
 sun:
 
-binary_sensor:
-  - platform: flic
-    host: 192.168.1.122
-  
-  - platform: workday
-    country: SE
-
 # Text to speech
 tts:
-  - platform: google
+  - platform: google_translate
+    service_name: google_say
 
-tellstick:
+#tellstick:
   #host: "192.168.1.87"
  # port: [50800, 50801]
 
 group: !include groups.yaml
-#automation: !include automations.yaml
-automation: !include_dir_merge_list automations/
-script: !include scripts/scripts.yaml
+automation: !include automations.yaml
+automation old: !include_dir_merge_list automations/
+script old: !include scripts/scripts.yaml
+script: !include scripts.yaml
 scene: !include_dir_list scenes
-ios: !include ios.yaml
+#ios: !include ios.yaml
+
+
 
 # Devices #
+apple_tv: !include devices/apple_tv.yaml
 camera: !include devices/cameras.yaml
-device_tracker: !include devices/device_tracker.yaml 
+#device_tracker: !include devices/device_tracker.yaml 
 zwave: !include devices/zwave.yaml 
 sensor: !include devices/sensors.yaml 
 verisure: !include devices/verisure.yaml 
 switch: !include devices/switches.yaml 
 media_player: !include devices/media_players.yaml 
 input_boolean: !include devices/input_booleans.yaml 
-shell_command: !include devices/shell_commands.yaml
 input_number: !include devices/input_number.yaml
 input_select: !include devices/input_selects.yaml
+binary_sensor: !include devices/binary_sensors.yaml
+calendar: !include devices/calendars.yaml
+shell_command: !include devices/shell_commands.yaml
+stream:
 
-#apple_tv:
- # - host: 192.168.1.144
-  #  login_id: 00000000-3c47-e6da-0347-19f996534e70
-   # name: Apple TV
-   # start_off: True
+## SmartIR
+smartir:
 
+climate:
+  - platform: smartir
+    name: Luftvärmepump
+    unique_id: varmepump
+    device_code: 9999
+    controller_data: 192.168.1.163
+    temperature_sensor: sensor.brandvarnare_matsal_temperature
 
-#cloud:
- # alexa: !include alexa.yaml
+#  - platform: zwave
+
+##
+
+python_script:
+
+asuswrt:
+  host: 192.168.1.1
+  username: !secret router_user
+  password: !secret router_password
 
 alexa:
   smart_home: !include alexa.yaml
 
-homekit: !include siri.yaml  
+#google_assistant: !include google_assistant.yaml 
 
-climate:
-  platform: zwave
+#homekit: !include siri.yaml  
 
 #### ZONES ####
 zone:

@@ -1,54 +1,63 @@
 - alias: 'Door open'
   trigger:
     platform: state
-    entity_id: input_boolean.door
+    entity_id: input_boolean.unlockdoor
     to: 'on'
   condition:
     condition: state
     entity_id: alarm_control_panel.sabbatsvagen_alarm
     state: 'disarmed'
   action: 
-    service: lock.unlock
-    entity_id: lock.entredorr
-    data:
-      code: !secret mobil
-      
+    - service: lock.unlock
+      entity_id: lock.entredorr
+      data:
+        code: !secret mobil
+    - service: homeassistant.turn_off
+      entity_id: input_boolean.unlockdoor  
+
 - alias: 'Door lock'
   trigger:
     platform: state
-    entity_id: input_boolean.door
-    to: 'off'
+    entity_id: input_boolean.lockdoor
+    to: 'on'
   action: 
-    service: lock.lock
-    entity_id: lock.entredorr
-    data:
-      code: !secret mobil
-      
-- alias: 'boolean door on'
-  trigger:
-    platform: state
-    entity_id: lock.entredorr
-    to: 'unlocked'
-  condition:
-    condition: state
-    entity_id: input_boolean.door
-    state: 'off'
-  action: 
-    service: homeassistant.turn_on
-    entity_id: input_boolean.door
+    - service: lock.lock
+      entity_id: lock.entredorr
+      data:
+        code: !secret mobil
+    - service: homeassistant.turn_off
+      entity_id: input_boolean.lockdoor
 
-- alias: 'boolean door off'
-  trigger:
-    platform: state
-    entity_id: lock.entredorr
-    to: 'locked'
-  condition:
-    condition: state
-    entity_id: input_boolean.door
-    state: 'on'
-  action: 
-    service: homeassistant.turn_off
-    entity_id: input_boolean.door
+      
+#- alias: 'boolean door on'
+#  trigger:
+#    platform: state
+#    entity_id: lock.entredorr
+#    to: 'unlocked'
+#  condition:
+#    condition: state
+#    entity_id: input_boolean.door
+#    state: 'off'
+#    for:
+#      minutes: 4
+#  action: 
+#    service: homeassistant.turn_on
+#    entity_id: input_boolean.door
+
+#- alias: 'boolean door off'
+#  trigger:
+#    platform: state
+#    entity_id: lock.entredorr
+#    to: 'locked'
+#  condition:
+#    condition: state
+#    entity_id: input_boolean.door
+#    state: 'on'
+#    for:
+#      minutes: 4   
+#  action: 
+#    service: homeassistant.turn_off
+#    entity_id: input_boolean.door
     
 - alias: 'Sätt soptunna variabel till off efter 00:00'
   trigger:

@@ -11,6 +11,9 @@
   binary_sensor.entredorr:
     device_class: opening
     friendly_name: Entrédörr
+  binary_sensor.frontdoor_unlocked:
+    device_class: lock
+    friendly_name: Ytterdörr
   binary_sensor.fonster_barnrum:
     device_class: opening
     friendly_name: Fönster Minelle

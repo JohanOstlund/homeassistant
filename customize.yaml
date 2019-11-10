@@ -1,0 +1,53 @@
+device_tracker.johan_8:
+  entity_picture: '"/local/images/Johan.jpg"'
+device_tracker.sannas_iphone:
+  entity_id: device_tracker.sannas_iphone_router
+  entity_picture: '"/local/images/Sanna.jpg"'
+  friendly_name: Sanna
+switch.wallplug4:
+  friendly_name: Infravärme bord
+  icon: mdi:radiator
+switch.wallplug8:
+  friendly_name: Infravärme myshörna
+  icon: mdi:radiator
+switch.wallplug3_switch:
+  friendly_name: Kupévärmare
+switch.wallplug2_switch:
+  friendly_name: Sänglampa
+  icon: mdi:lightbulb
+switch.wallplug5:
+  friendly_name: Fönsterlampa
+  icon: mdi:lamp
+light.sovrum3_level:
+  friendly_name: Taklampa
+  icon: mdi:ceiling-light
+switch.wallplug1_switch:
+  friendly_name: Golvlampa
+  icon: mdi:floor-lamp
+light.korridorspottar_level:
+  friendly_name: Korridor downlights
+light.kokslampor_level:
+  friendly_name: Lampor
+  icon: mdi:ceiling-light
+light.kokspottar_level:
+  friendly_name: Downlights
+light.matbordslampor_level_2:
+  friendly_name: Matbordslampor
+  icon: mdi:ceiling-light
+light.masterbedroomspottar_level_2:
+  friendly_name: Downlights
+light.masterbedroomsanglampor_level:
+  friendly_name: Sänglampor
+  icon: mdi:ceiling-light
+light.matbordslampor_level_3:
+  friendly_name: Matbordslampor
+  icon: mdi:ceiling-light
+light.vardagsrumstaklampor_level:
+  friendly_name: Taklampa
+  icon: mdi:ceiling-light
+binary_sensor.camera_baksidan:
+  icon: mdi:motion-sensor
+binary_sensor.camera_entre:
+  icon: mdi:motion-sensor
+light.wallplug_dim_1:
+  icon: mdi:floor-lamp

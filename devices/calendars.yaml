@@ -1,0 +1,6 @@
+- platform: caldav
+  url: !secret icloud_cal_url
+  username: !secret icloud_login
+  password: !secret icloud_pass
+#  calendars:
+ #   - "Delad"

@@ -20,10 +20,10 @@
         entity_id: alarm_control_panel.sabbatsvagen_alarm
         code: !secret mobil
       
-  play_doorbell_on_alert_in_kitchen_evening:
+  play_doorbell_in_kitchen_softly:
     alias: "Play doorbell alert daytime"
     sequence:
-     - service: media_player.sonos_snapshot
+     - service: sonos.snapshot
        data:
          entity_id: media_player.kitchen
      - service: media_player.volume_set
@@ -33,17 +33,19 @@
      - service: media_player.play_media
        data:
          entity_id: media_player.kitchen
-         media_content_id: https://homeassistant.loginto.me/local/doorbell.mp3
+         #media_content_id: http://192.168.1.250:8123/local/doorbell.mp3
+         #media_content_id: http://192.168.1.250:8123/local/doorbell2.mp3
+         media_content_id: http://192.168.1.250:8123/local/doorbell3.wav
          media_content_type: music
      - delay: 2
-     - service: media_player.sonos_restore
+     - service: sonos.restore
        data:
          entity_id: media_player.kitchen
   
-  play_doorbell_on_alert_in_kitchen_daytime:
+  play_doorbell_in_kitchen_loud:
     alias: "Play doorbell alert daytime"
     sequence:
-     - service: media_player.sonos_snapshot
+     - service: sonos.snapshot
        data:
          entity_id: media_player.kitchen
      - service: media_player.volume_set
@@ -53,10 +55,12 @@
      - service: media_player.play_media
        data:
          entity_id: media_player.kitchen
-         media_content_id: https://homeassistant.loginto.me/local/doorbell.mp3
+         #media_content_id: http://192.168.1.250:8123/local/doorbell.mp3
+         #media_content_id: http://192.168.1.250:8123/local/doorbell2.mp3
+         media_content_id: http://192.168.1.250:8123/local/doorbell3.wav
          media_content_type: music
      - delay: 2
-     - service: media_player.sonos_restore
+     - service: sonos.restore
        data:
          entity_id: media_player.kitchen
          
@@ -73,7 +77,7 @@
   sonos_say:
     alias: "Sonos TTS script"
     sequence:
-     - service: media_player.sonos_snapshot
+     - service: sonos.snapshot
        data_template:
          entity_id: "{{ sonos_entity }}"
      - service: tts.google_say
@@ -81,7 +85,7 @@
          entity_id: "{{ sonos_entity }}"
          message: "{{ message }}"
      - delay: "{{ delay }}"
-     - service: media_player.sonos_restore
+     - service: sonos.restore
        data_template:
          entity_id: "{{ sonos_entity }}"
 
@@ -117,3 +121,68 @@
            {% elif is_state("input_select.spotify_playlist", "Your Favorite Coffehouse") %} spotify:user:spotify:playlist:37i9dQZF1DX6ziVCJnEm59
            {% elif is_state("input_select.spotify_playlist", "Midsommar") %} spotify:user:sannafors:playlist:5Aa3xCbc6BxHj1s4hPO2VN
            {% endif %}
+
+  calibrate_kitchentable:
+    alias: Autocalibrate_KitchenTable
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 6
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+
+
+  calibrate_kitchenlamps:
+    alias: Autocalibrate_Kitchenlamps
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 4
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+
+  calibrate_lounge:
+    alias: Autocalibrate_Lounge
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 7
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+
+  calibrate_entrance:
+    alias: Autocalibrate_Entrance
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 20
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+
+  calibrate_bedlamps:
+    alias: Autocalibrate_MasterBedroom_lamps
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 10
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+
+  calibrate_kidsceiling:
+    alias: Autocalibrate_Kidsceiling
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 19
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+
+  calibrate_uterum:
+    alias: Autocalibrate_uterum
+    sequence:
+      service: zwave.set_config_parameter
+      data:
+        node_id: 8
+        parameter: 13
+        value: "Start auto-calibration of the load without Fibaro Bypass"
+

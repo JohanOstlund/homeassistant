@@ -33,7 +33,34 @@
     friendly_name: Larma av
  # sensor.allrum_temperature:
 
-   
+  script.calibrate_bedlamps:
+    icon: mdi:lightbulb
+    friendly_name: Nattbordslampor
+
+  script.calibrate_entrance:
+    icon: mdi:lightbulb
+    friendly_name: Entrélampa
+
+  script.calibrate_kitchenlamps:
+    icon: mdi:lightbulb
+    friendly_name: Kökslampor
+
+  script.calibrate_kitchentable:
+    icon: mdi:lightbulb
+    friendly_name: Köksbord
+
+  script.calibrate_lounge:
+    icon: mdi:lightbulb
+    friendly_name: Vardagsrumslampa
+
+  script.calibrate_kidsceiling:
+    icon: mdi:lightbulb
+    friendly_name: Taklampa sovrum
+
+  script.calibrate_uterum:
+    icon: mdi:lightbulb
+    friendly_name: Uterumslampor
+ 
   input_boolean.nighttime:
     # alexa_hidden: false
     alexa_name: "Night-time"

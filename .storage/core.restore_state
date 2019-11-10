@@ -1,0 +1,1339 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Volume",
+                    "icon": "mdi:volume-high",
+                    "initial": null,
+                    "max": 1.0,
+                    "min": 0.0,
+                    "mode": "slider",
+                    "step": 0.05
+                },
+                "context": {
+                    "id": "99eb29fb2bab4d91be0e0b85737f7541",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_number.spotify_volume",
+                "last_changed": "2019-11-05T21:27:22.822406+00:00",
+                "last_updated": "2019-11-05T21:27:22.822406+00:00",
+                "state": "0.3"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Master Control",
+                    "icon": "mdi:radiator",
+                    "options": [
+                        "auto",
+                        "cool",
+                        "dry",
+                        "fan",
+                        "heat"
+                    ]
+                },
+                "context": {
+                    "id": "fba34c9746484532a1fef96296c37f09",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_select.thermostat_mode",
+                "last_changed": "2019-11-05T21:27:22.822547+00:00",
+                "last_updated": "2019-11-05T21:27:22.822547+00:00",
+                "state": "heat"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Source:",
+                    "icon": "mdi:speaker-wireless",
+                    "options": [
+                        "Master Bedroom",
+                        "K\u00f6ket",
+                        "Echo TV"
+                    ]
+                },
+                "context": {
+                    "id": "3652edcbfb064a2c8b955088a08eaeae",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_select.spotify_source",
+                "last_changed": "2019-11-05T21:27:22.822673+00:00",
+                "last_updated": "2019-11-05T21:27:22.822673+00:00",
+                "state": "K\u00f6ket"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Playlist:",
+                    "icon": "mdi:spotify",
+                    "options": [
+                        "Minelles Party",
+                        "Lullaby",
+                        "Sannas sk\u00f6na l\u00e5tar",
+                        "Your Favorite Coffehouse",
+                        "Midsommar"
+                    ]
+                },
+                "context": {
+                    "id": "f35884eb0e604d3bafe4e0a9d0b5b1a3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_select.spotify_playlist",
+                "last_changed": "2019-11-05T21:27:22.822810+00:00",
+                "last_updated": "2019-11-05T21:27:22.822810+00:00",
+                "state": "Your Favorite Coffehouse"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Fan Control",
+                    "icon": "mdi:fan",
+                    "options": [
+                        "auto",
+                        "high",
+                        "medium",
+                        "low",
+                        "quiet"
+                    ]
+                },
+                "context": {
+                    "id": "2c1b9073707043e6a28f3427da79ec47",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_select.thermostat_fan_control",
+                "last_changed": "2019-11-05T21:27:22.822929+00:00",
+                "last_updated": "2019-11-05T21:27:22.822929+00:00",
+                "state": "auto"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Night Time"
+                },
+                "context": {
+                    "id": "571482fbecb84f5284408a36c9d48574",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.nighttime",
+                "last_changed": "2019-11-09T23:21:27.496711+00:00",
+                "last_updated": "2019-11-09T23:21:27.496711+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Thorax",
+                    "icon": "mdi:coin"
+                },
+                "context": {
+                    "id": "f2bf6a58b033402d83a141155bae7402",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.csgo2betald",
+                "last_changed": "2019-11-05T21:27:22.823182+00:00",
+                "last_updated": "2019-11-05T21:27:22.823182+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "L\u00e5s d\u00f6rren"
+                },
+                "context": {
+                    "id": "dc4abae9b2fe454686f6635ea594d4b7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.lockdoor",
+                "last_changed": "2019-11-05T21:27:22.823300+00:00",
+                "last_updated": "2019-11-05T21:27:22.823300+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Team Turtle",
+                    "icon": "mdi:coin"
+                },
+                "context": {
+                    "id": "3dbd1337b6a54327920a18554b2f3ee4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.csgo6betald",
+                "last_changed": "2019-11-05T21:27:22.823420+00:00",
+                "last_updated": "2019-11-05T21:27:22.823420+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Sopk\u00e4rlet",
+                    "icon": "mdi:delete"
+                },
+                "context": {
+                    "id": "9d07ff5896f4405fbdf70887eb4387f4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.soptunna",
+                "last_changed": "2019-11-06T23:00:00.011208+00:00",
+                "last_updated": "2019-11-06T23:00:00.011208+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kv\u00e4ll",
+                    "icon": "mdi:lightbulb"
+                },
+                "context": {
+                    "id": "4e30bb28e50d451a9fe82ecac3a86ddc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.eveninglights",
+                "last_changed": "2019-11-05T21:27:22.823660+00:00",
+                "last_updated": "2019-11-05T21:27:22.823660+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Larma av"
+                },
+                "context": {
+                    "id": "b7285504ae13403e9b8874f6d57e08e7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.larmav",
+                "last_changed": "2019-11-05T21:27:22.823775+00:00",
+                "last_updated": "2019-11-05T21:27:22.823775+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Morgon",
+                    "icon": "mdi:lightbulb"
+                },
+                "context": {
+                    "id": "cdb34f49ddd04ac1b6490b9ad766d442",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.morninglights",
+                "last_changed": "2019-11-05T21:27:22.823893+00:00",
+                "last_updated": "2019-11-05T21:27:22.823893+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Skal larm"
+                },
+                "context": {
+                    "id": "6b8d1473620245b7ab40057eab7d5f12",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.skallarm",
+                "last_changed": "2019-11-05T21:27:22.824008+00:00",
+                "last_updated": "2019-11-05T21:27:22.824008+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Dag",
+                    "icon": "mdi:lightbulb"
+                },
+                "context": {
+                    "id": "e48b4b024d014253bccea3485912b8f5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.daylights",
+                "last_changed": "2019-11-05T21:27:22.824124+00:00",
+                "last_updated": "2019-11-05T21:27:22.824124+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Larma p\u00e5"
+                },
+                "context": {
+                    "id": "ebfdc834832640c0a65e2ae4563a434e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.larmapa",
+                "last_changed": "2019-11-05T21:27:22.824236+00:00",
+                "last_updated": "2019-11-05T21:27:22.824236+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Natt",
+                    "icon": "mdi:lightbulb"
+                },
+                "context": {
+                    "id": "a5a945d8045f4cc8a5407d15d794b38d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.nightlights",
+                "last_changed": "2019-11-05T21:27:22.824353+00:00",
+                "last_updated": "2019-11-05T21:27:22.824353+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u00d6ppna d\u00f6rren"
+                },
+                "context": {
+                    "id": "594105b4e0b840afa38281554da614d3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_boolean.unlockdoor",
+                "last_changed": "2019-11-05T21:27:22.824466+00:00",
+                "last_updated": "2019-11-05T21:27:22.824466+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "commands_encoding": "Base64",
+                    "current_temperature": 23.9,
+                    "device_code": 9999,
+                    "fan_mode": "auto",
+                    "fan_modes": [
+                        "auto",
+                        "high",
+                        "med",
+                        "low",
+                        "quiet"
+                    ],
+                    "friendly_name": "Luftv\u00e4rmepump",
+                    "hvac_modes": [
+                        "off",
+                        "auto",
+                        "cool",
+                        "dry",
+                        "fan_only",
+                        "heat"
+                    ],
+                    "last_on_operation": "heat",
+                    "manufacturer": "Fujitsu",
+                    "max_temp": 30.0,
+                    "min_temp": 18.0,
+                    "supported_controller": "Broadlink",
+                    "supported_features": 9,
+                    "supported_models": [
+                        "Unknown"
+                    ],
+                    "target_temp_step": 1.0,
+                    "temperature": 24
+                },
+                "context": {
+                    "id": "c8d5e3db966b4b35aa5d5c63bc3cc5d5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "climate.luftvarmepump",
+                "last_changed": "2019-11-05T21:27:22.824740+00:00",
+                "last_updated": "2019-11-10T20:01:48.892576+00:00",
+                "state": "heat"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan Ringer p\u00e5 d\u00f6rren",
+                    "last_triggered": "2019-11-03T12:35:55.342720+00:00"
+                },
+                "context": {
+                    "id": "f4eb3ca67d5d4accb2dcbd4be44599d5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_ringer_pa_dorren",
+                "last_changed": "2019-11-05T21:27:22.949645+00:00",
+                "last_updated": "2019-11-05T21:27:22.949645+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Alarm off 09:00-19:00",
+                    "id": "1506347308883",
+                    "last_triggered": "2019-11-10T15:48:58.151659+00:00"
+                },
+                "context": {
+                    "id": "7b163a3f41f34ba7a9030d1c197251ae",
+                    "parent_id": "18d5f465185d43a796ae425f7a55a2bf",
+                    "user_id": null
+                },
+                "entity_id": "automation.alarm_off_09_00_19_00",
+                "last_changed": "2019-11-05T21:27:22.950070+00:00",
+                "last_updated": "2019-11-10T15:48:58.151798+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse baksidan",
+                    "last_triggered": "2019-04-06T13:06:23.328173+00:00"
+                },
+                "context": {
+                    "id": "dfd5d5f1f199447fbae9799ac210068a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_baksidan",
+                "last_changed": "2019-11-05T21:27:22.950492+00:00",
+                "last_updated": "2019-11-05T21:27:22.950492+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Alarm off 19:00-22:30",
+                    "id": "1506347621179",
+                    "last_triggered": "2019-10-27T18:09:15.364056+00:00"
+                },
+                "context": {
+                    "id": "f214058c72044faf83d5a87090a7fa37",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.alarm_off_19_00_22_30",
+                "last_changed": "2019-11-05T21:27:22.950898+00:00",
+                "last_updated": "2019-11-05T21:27:22.950898+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse framsidan",
+                    "last_triggered": "2019-07-11T18:47:17.131783+00:00"
+                },
+                "context": {
+                    "id": "e01f8f48c3d040dbbe4d5c5686f9c88d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_framsidan",
+                "last_changed": "2019-11-05T21:27:22.951288+00:00",
+                "last_updated": "2019-11-05T21:27:22.951288+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Alarm off 22:30-05:00",
+                    "id": "005857b82b7c40359a54cfe34bfa0751",
+                    "last_triggered": "2019-08-24T21:13:53.339564+00:00"
+                },
+                "context": {
+                    "id": "6f730015b5ae487e821710f837249029",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.alarm_off_22_30_05_00",
+                "last_changed": "2019-11-05T21:27:22.951662+00:00",
+                "last_updated": "2019-11-05T21:27:22.951662+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse baksidan skallarm",
+                    "last_triggered": "2019-04-07T03:18:46.988046+00:00"
+                },
+                "context": {
+                    "id": "5119204b0236476f87d0e529de70341c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_baksidan_skallarm",
+                "last_changed": "2019-11-05T21:27:22.952052+00:00",
+                "last_updated": "2019-11-05T21:27:22.952052+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "St\u00e4ng av motorv\u00e4rmaren 1\u00bd timme",
+                    "id": "turn_off_wallplug3",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "7e26ee5832ba4341a2cd517a90eaa125",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.stang_av_motorvarmaren_11_2_timme",
+                "last_changed": "2019-11-05T21:27:22.952406+00:00",
+                "last_updated": "2019-11-05T21:27:22.952406+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse framsidan skallarm",
+                    "last_triggered": "2019-04-07T05:54:32.002492+00:00"
+                },
+                "context": {
+                    "id": "4a2f1cd91eb94df39172291c246e6dee",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_framsidan_skallarm",
+                "last_changed": "2019-11-05T21:27:22.952781+00:00",
+                "last_updated": "2019-11-05T21:27:22.952781+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kupev\u00e4rmare P\u00e5",
+                    "id": "1569275044308",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "c64e9082f8f54927bcf98ba94c7a6b2b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.kupevarmare_pa",
+                "last_changed": "2019-11-05T21:27:22.953131+00:00",
+                "last_updated": "2019-11-05T21:27:22.953131+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u00d6ppna ytterd\u00f6rren",
+                    "last_triggered": "2019-08-16T15:39:11.321971+00:00"
+                },
+                "context": {
+                    "id": "600ed6fe65eb46c5a730f7430d2d7e19",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.oppna_ytterdorren",
+                "last_changed": "2019-11-05T21:27:22.953550+00:00",
+                "last_updated": "2019-11-05T21:27:22.953550+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "NightTime",
+                    "last_triggered": "2019-11-09T23:21:27.503050+00:00"
+                },
+                "context": {
+                    "id": "0a89eac32a2c4958926641a1a4afd6de",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.nighttime",
+                "last_changed": "2019-11-05T21:27:22.953929+00:00",
+                "last_updated": "2019-11-09T23:21:27.503344+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "L\u00e5s ytterd\u00f6rren",
+                    "last_triggered": "2019-09-14T13:37:36.748912+00:00"
+                },
+                "context": {
+                    "id": "11c4555b7ec94f5a9bfe5e2089eccf64",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.las_ytterdorren",
+                "last_changed": "2019-11-05T21:27:22.954311+00:00",
+                "last_updated": "2019-11-05T21:27:22.954311+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Skal larm off 06:00-10:00",
+                    "last_triggered": "2019-06-29T05:02:23.262925+00:00"
+                },
+                "context": {
+                    "id": "81f67ee26a574a7cabf15b43aeec63e1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.skal_larm_off_06_00_10_00",
+                "last_changed": "2019-11-05T21:27:22.954692+00:00",
+                "last_updated": "2019-11-05T21:27:22.954692+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan soptunnan",
+                    "last_triggered": "2019-11-06T17:30:00.825011+00:00"
+                },
+                "context": {
+                    "id": "1eba49873dd04e89b4b3461b4217cc56",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_soptunnan",
+                "last_changed": "2019-11-05T21:27:22.955067+00:00",
+                "last_updated": "2019-11-06T17:30:00.825325+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Happens when alarmed away",
+                    "last_triggered": "2019-11-10T12:58:02.672263+00:00"
+                },
+                "context": {
+                    "id": "6ce600d00bd64217a9911fa3fe76756d",
+                    "parent_id": "45386b8dc3e84b03bf5f3e99099bae63",
+                    "user_id": null
+                },
+                "entity_id": "automation.happens_when_alarmed_away",
+                "last_changed": "2019-11-05T21:27:22.955594+00:00",
+                "last_updated": "2019-11-10T12:58:02.672550+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Sanna soptunnan",
+                    "last_triggered": "2019-11-06T17:30:00.751510+00:00"
+                },
+                "context": {
+                    "id": "37c4675b727c4a76abe164f0d982c2d5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_sanna_soptunnan",
+                "last_changed": "2019-11-05T21:27:22.955984+00:00",
+                "last_updated": "2019-11-06T17:30:00.751917+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Play doorbell on audio alert morning",
+                    "last_triggered": "2019-09-05T06:04:41.222017+00:00"
+                },
+                "context": {
+                    "id": "806fe2eeb3c84790afacdba1023ede67",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.play_doorbell_on_audio_alert_morning",
+                "last_changed": "2019-11-05T21:27:22.956375+00:00",
+                "last_updated": "2019-11-05T21:27:22.956375+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Soptunnan uppe",
+                    "last_triggered": "2019-08-21T15:33:09.029718+00:00"
+                },
+                "context": {
+                    "id": "41617c5914a44931b659711422589e6e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.soptunnan_uppe",
+                "last_changed": "2019-11-05T21:27:22.956757+00:00",
+                "last_updated": "2019-11-05T21:27:22.956757+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Play doorbell on audio alert daytime",
+                    "last_triggered": "2019-11-03T12:35:54.426845+00:00"
+                },
+                "context": {
+                    "id": "2fd65e924d654ed1a69e00bdbe3a566f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.play_doorbell_on_audio_alert_daytime",
+                "last_changed": "2019-11-05T21:27:22.957146+00:00",
+                "last_updated": "2019-11-05T21:27:22.957146+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Soptunnan nere",
+                    "last_triggered": "2019-11-06T17:58:15.966986+00:00"
+                },
+                "context": {
+                    "id": "b1fefd9b9271441eafb21079258d3090",
+                    "parent_id": "268829e50c11404a8b55405628aa18ba",
+                    "user_id": null
+                },
+                "entity_id": "automation.soptunnan_nere",
+                "last_changed": "2019-11-05T21:27:22.957540+00:00",
+                "last_updated": "2019-11-06T17:58:15.967218+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Play doorbell on audio alert evening",
+                    "last_triggered": "2019-10-31T18:22:28.432289+00:00"
+                },
+                "context": {
+                    "id": "57bad370c8ba4a3192750f051dcf13d7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.play_doorbell_on_audio_alert_evening",
+                "last_changed": "2019-11-05T21:27:22.957929+00:00",
+                "last_updated": "2019-11-05T21:27:22.957929+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse baksidan larmat",
+                    "last_triggered": "2019-08-31T00:10:50.038115+00:00"
+                },
+                "context": {
+                    "id": "9a5a3f0248c04c238547f6edcc934e90",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_baksidan_larmat",
+                "last_changed": "2019-11-05T21:27:22.958316+00:00",
+                "last_updated": "2019-11-05T21:27:22.958316+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Toggle masterbedroom bedlights one click",
+                    "last_triggered": "2019-04-04T22:19:24.726662+00:00"
+                },
+                "context": {
+                    "id": "e79f1f083ebd40a08f9a0457c82c74bc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.toggle_masterbedroom_bedlights_one_click",
+                "last_changed": "2019-11-05T21:27:22.958700+00:00",
+                "last_updated": "2019-11-05T21:27:22.958700+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse framsidan larmat",
+                    "last_triggered": "2019-08-31T13:03:35.942946+00:00"
+                },
+                "context": {
+                    "id": "913b9be5dc3645fb931ecb14b1d5c9ac",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_framsidan_larmat",
+                "last_changed": "2019-11-05T21:27:22.959129+00:00",
+                "last_updated": "2019-11-05T21:27:22.959129+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Toggle masterbedroom spots double-click",
+                    "last_triggered": "2019-03-28T12:26:42.549241+00:00"
+                },
+                "context": {
+                    "id": "35d52664db19444daa1d623c62da9c8b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.toggle_masterbedroom_spots_double_click",
+                "last_changed": "2019-11-05T21:27:22.959528+00:00",
+                "last_updated": "2019-11-05T21:27:22.959528+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Notify iOS app Johan r\u00f6relse uterummet",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "4e35b735ab9543d2b116062c063998a8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.notify_ios_app_johan_rorelse_uterummet",
+                "last_changed": "2019-11-05T21:27:22.959920+00:00",
+                "last_updated": "2019-11-05T21:27:22.959920+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Toggle masterbedroom evening lights hold",
+                    "last_triggered": "2019-04-06T15:30:14.151133+00:00"
+                },
+                "context": {
+                    "id": "ff4c99daafd9480999ca8e8e9a58855f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.toggle_masterbedroom_evening_lights_hold",
+                "last_changed": "2019-11-05T21:27:22.960320+00:00",
+                "last_updated": "2019-11-05T21:27:22.960320+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Door open",
+                    "last_triggered": "2019-06-29T09:27:59.852942+00:00"
+                },
+                "context": {
+                    "id": "8ecbaa6bc8c246afae6f63c852657bb8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.door_open",
+                "last_changed": "2019-11-05T21:27:22.960709+00:00",
+                "last_updated": "2019-11-05T21:27:22.960709+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Hide alarm when alarmed",
+                    "last_triggered": "2019-11-10T12:57:59.079336+00:00"
+                },
+                "context": {
+                    "id": "8491cfdc953a4b9a851727b13880ca8b",
+                    "parent_id": "45386b8dc3e84b03bf5f3e99099bae63",
+                    "user_id": null
+                },
+                "entity_id": "automation.hide_alarm_when_alarmed",
+                "last_changed": "2019-11-05T21:27:22.961205+00:00",
+                "last_updated": "2019-11-10T12:57:59.079545+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Door lock",
+                    "last_triggered": "2019-09-14T13:37:36.754023+00:00"
+                },
+                "context": {
+                    "id": "ff3b430d6565416d9e5fea489bfcf5f5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.door_lock",
+                "last_changed": "2019-11-05T21:27:22.961627+00:00",
+                "last_updated": "2019-11-05T21:27:22.961627+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Hide disarm when disarmed",
+                    "last_triggered": "2019-11-10T15:48:58.127076+00:00"
+                },
+                "context": {
+                    "id": "a819709faf4b41f29d15712c0d7d7eb8",
+                    "parent_id": "18d5f465185d43a796ae425f7a55a2bf",
+                    "user_id": null
+                },
+                "entity_id": "automation.hide_disarm_when_disarmed",
+                "last_changed": "2019-11-05T21:27:22.962020+00:00",
+                "last_updated": "2019-11-10T15:48:58.127293+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "S\u00e4tt soptunna variabel till off efter 00:00",
+                    "last_triggered": "2019-11-06T23:00:00.017106+00:00"
+                },
+                "context": {
+                    "id": "9d07ff5896f4405fbdf70887eb4387f4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.satt_soptunna_variabel_till_off_efter_00_00",
+                "last_changed": "2019-11-05T21:27:22.962418+00:00",
+                "last_updated": "2019-11-06T23:00:00.017445+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Show disarm when alarm armed",
+                    "last_triggered": "2019-11-10T12:57:59.080581+00:00"
+                },
+                "context": {
+                    "id": "d5a6f543be8f4bddaf4a73e4c1afb5b2",
+                    "parent_id": "45386b8dc3e84b03bf5f3e99099bae63",
+                    "user_id": null
+                },
+                "entity_id": "automation.show_disarm_when_alarm_armed",
+                "last_changed": "2019-11-05T21:27:22.962809+00:00",
+                "last_updated": "2019-11-10T12:57:59.080724+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "People Greeting",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "8f74d70fe8e14e2cbc6250afa38726e4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.people_greeting",
+                "last_changed": "2019-11-05T21:27:22.963172+00:00",
+                "last_updated": "2019-11-05T21:27:22.963172+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Show alarm when disarmed",
+                    "last_triggered": "2019-11-10T15:48:58.128329+00:00"
+                },
+                "context": {
+                    "id": "35c76b21c9c34e73b99b3479593c7b3f",
+                    "parent_id": "18d5f465185d43a796ae425f7a55a2bf",
+                    "user_id": null
+                },
+                "entity_id": "automation.show_alarm_when_disarmed",
+                "last_changed": "2019-11-05T21:27:22.963547+00:00",
+                "last_updated": "2019-11-10T15:48:58.128468+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Start HomeKit",
+                    "last_triggered": "2019-06-16T23:00:48.945546+00:00"
+                },
+                "context": {
+                    "id": "2ae68c302bae4c548e3ebd00fd18144b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.start_homekit",
+                "last_changed": "2019-11-05T21:27:22.963939+00:00",
+                "last_updated": "2019-11-05T21:27:22.963939+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "S\u00e4nk hallgolvets v\u00e4rme",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "019135d5199749a6a39095aeb07e8dad",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.sank_hallgolvets_varme",
+                "last_changed": "2019-11-05T21:27:22.964294+00:00",
+                "last_updated": "2019-11-05T21:27:22.964294+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "H\u00f6j hallgolvets v\u00e4rme",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "7f9d4a736cdf49bc94e30b8fef25a7a4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.hoj_hallgolvets_varme",
+                "last_changed": "2019-11-05T21:27:22.964651+00:00",
+                "last_updated": "2019-11-05T21:27:22.964651+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "St\u00e4ng av motorv\u00e4rmaren 1\u00bd timme",
+                    "last_triggered": "2019-11-10T14:03:34.008055+00:00"
+                },
+                "context": {
+                    "id": "6bdcfd5a58604555b4a42c6437d08a30",
+                    "parent_id": "7577607000044ab6b6698b18fc58d89a",
+                    "user_id": null
+                },
+                "entity_id": "automation.stang_av_motorvarmaren_11_2_timme_2",
+                "last_changed": "2019-11-05T21:27:22.965035+00:00",
+                "last_updated": "2019-11-10T14:03:34.008413+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Startup Notification",
+                    "last_triggered": "2019-11-05T21:27:46.840759+00:00"
+                },
+                "context": {
+                    "id": "7777380b36d6481a946185a972b11605",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.startup_notification",
+                "last_changed": "2019-11-05T21:27:22.965458+00:00",
+                "last_updated": "2019-11-05T21:27:46.841018+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 42,
+                    "battery_level": 31,
+                    "entity_picture": "\"/local/images/Johan.jpg\"",
+                    "friendly_name": "Johan",
+                    "gps_accuracy": 65,
+                    "latitude": 59.427459716796875,
+                    "longitude": 17.809076997226736,
+                    "source_type": "gps",
+                    "vertical_accuracy": 10
+                },
+                "context": {
+                    "id": "ef9127d725aa4d7c82330af5be831916",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.johan_8",
+                "last_changed": "2019-11-10T15:48:49.589599+00:00",
+                "last_updated": "2019-11-10T20:02:34.021030+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "battery_level": 28,
+                    "entity_id": "device_tracker.sannas_iphone_router",
+                    "entity_picture": "\"/local/images/Sanna.jpg\"",
+                    "friendly_name": "Sanna",
+                    "gps_accuracy": 50,
+                    "latitude": 59.427489,
+                    "longitude": 17.809095,
+                    "source_type": "gps"
+                },
+                "context": {
+                    "id": "ddc0fe9f20cb4601889adb1531cb21c1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sannas_iphone",
+                "last_changed": "2019-11-10T15:46:16.550246+00:00",
+                "last_updated": "2019-11-10T15:46:16.612159+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Sannas iPad",
+                    "source_type": "gps"
+                },
+                "context": {
+                    "id": "1bd91f3f4b4f479f8e85c7286a85a478",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sannas_ipad_2",
+                "last_changed": "2019-11-05T21:27:39.666548+00:00",
+                "last_updated": "2019-11-05T21:27:39.666548+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "current_power_w": 0.01,
+                    "friendly_name": "Infrav\u00e4rme mysh\u00f6rna",
+                    "icon": "mdi:radiator"
+                },
+                "context": {
+                    "id": "9d75974f96da4990a4e8bd1b92521072",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.wallplug8",
+                "last_changed": "2019-11-05T21:28:16.255856+00:00",
+                "last_updated": "2019-11-05T21:28:16.255856+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "current_power_w": 0.01,
+                    "friendly_name": "wallplug6"
+                },
+                "context": {
+                    "id": "9f2694a602e64d7b9ecbcd5de5540543",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.wallplug6",
+                "last_changed": "2019-11-10T15:55:10.185289+00:00",
+                "last_updated": "2019-11-10T15:55:10.185289+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "current_power_w": 0.01,
+                    "friendly_name": "F\u00f6nsterlampa",
+                    "icon": "mdi:lamp"
+                },
+                "context": {
+                    "id": "464804f7b215443f896d3f0255ef902d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.wallplug5",
+                "last_changed": "2019-11-10T19:37:58.675632+00:00",
+                "last_updated": "2019-11-10T19:37:58.675632+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "current_power_w": 0.01,
+                    "friendly_name": "wallplug7"
+                },
+                "context": {
+                    "id": "341b58403ccb419580c7c5a6ca86a352",
+                    "parent_id": null,
+                    "user_id": "7687204bb68f46cfb13a4201a190c67f"
+                },
+                "entity_id": "switch.wallplug7",
+                "last_changed": "2019-11-10T19:08:31.588102+00:00",
+                "last_updated": "2019-11-10T19:08:31.588102+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "wallplug9"
+                },
+                "context": {
+                    "id": "9a22f3c630394ae098e2867408eda779",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.wallplug9",
+                "last_changed": "2019-11-10T10:11:38.369157+00:00",
+                "last_updated": "2019-11-10T10:11:38.369157+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Infrav\u00e4rme bord",
+                    "icon": "mdi:radiator"
+                },
+                "context": {
+                    "id": "04d8c384cbf242ca87cfb76974677208",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.wallplug4",
+                "last_changed": "2019-11-08T13:22:20.142920+00:00",
+                "last_updated": "2019-11-08T13:22:20.142920+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-11-10T20:05:33.004619+00:00",
+            "state": {
+                "attributes": {
+                    "assumed_state": true,
+                    "friendly_name": "V\u00e4rmepump"
+                },
+                "context": {
+                    "id": "05ddd0f31c8340f2a55dd5ba4a1e424d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.ac",
+                "last_changed": "2019-11-05T21:27:45.248804+00:00",
+                "last_updated": "2019-11-05T21:27:45.248804+00:00",
+                "state": "on"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

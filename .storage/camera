@@ -1,0 +1,27 @@
+{
+    "data": {
+        "camera.baksidan": {
+            "preload_stream": true
+        },
+        "camera.baksidan_2": {
+            "preload_stream": true
+        },
+        "camera.entre": {
+            "preload_stream": true
+        },
+        "camera.entre_2": {
+            "preload_stream": true
+        },
+        "camera.entren": {
+            "preload_stream": true
+        },
+        "camera.syno1": {
+            "preload_stream": false
+        },
+        "camera.tradgarden": {
+            "preload_stream": true
+        }
+    },
+    "key": "camera",
+    "version": 1
+}

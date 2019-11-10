@@ -1,0 +1,24 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "9b2e21a761554434b6aea4c0aa816129",
+                "name": "K\u00f6k"
+            },
+            {
+                "id": "badc374d21df485989daf97e03c834f7",
+                "name": "utomhus"
+            },
+            {
+                "id": "d29e011e5cfc4a13bf0113ec4d45f27f",
+                "name": "Master bedroom"
+            },
+            {
+                "id": "00b9ecec328d40738562dfdb4eea06ed",
+                "name": "Hall"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}

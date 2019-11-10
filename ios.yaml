@@ -1,20 +1,5 @@
   push:
     categories:
-      - name: Door
-        identifier: 'DOOR'
-        actions:
-          - identifier: 'UNLOCK_DOOR'
-            title: 'Lås upp ytterdörr'
-            activationMode: 'background'
-            authenticationRequired: true
-            destructive: yes
-            behavior: 'default'
-          - identifier: 'LOCK_DOOR'
-            title: 'Lås ytterdörr'
-            activationMode: 'background'
-            authenticationRequired: true
-            destructive: no
-            behavior: 'default'
       - name: soptunna
         identifier: 'soptunna'
         actions:
@@ -30,6 +15,22 @@
             authenticationRequired: false
             destructive: yes
             behavior: 'default'
+      - name: camera_actions
+        identifier: 'CAMERA_ONE'
+        actions:
+          - identifier: 'UNLOCK_DOOR'
+            title: 'Lås Upp Dörr'
+            authenticationRequired: yes
+            destructive: yes
+            behavior: 'default'
+          - identifier: 'LOCK_DOOR'
+            title: 'Lås Dörr'
+            authenticationRequired: no
+            behavior: 'default'
+          - identifier: 'IGNORE'
+            title: 'Ignorera'
+            authenticationRequired: no
+            behavior: 'default'
       - name: camera
         identifier: 'camera'
         actions:
@@ -38,4 +39,4 @@
             authenticationRequired: yes
           - identifier: 'ALLINONE_FALSE'
             title: 'Off/False/Close/Lock'
-            authenticationRequired: no
+            authenticationRequired: no 

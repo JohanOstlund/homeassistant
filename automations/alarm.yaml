@@ -32,54 +32,6 @@
     - service: switch.turn_on
       entity_id: switch.synology_home_mode
         
-- alias: 'Alarm off 09:00-19:00'
-  trigger:
-    platform: state
-    entity_id: alarm_control_panel.sabbatsvagen_alarm
-    from: 'armed_away'
-    to: 'disarmed'
-  condition:
-    condition: time
-    after: '09:00'
-    before: '19:00'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.daylights
-    - service: switch.turn_on
-      entity_id: switch.synology_home_mode
-      
-- alias: 'Alarm off 19:00-22:30'
-  trigger:
-    platform: state
-    entity_id: alarm_control_panel.sabbatsvagen_alarm
-    from: 'armed_away'
-    to: 'disarmed'
-  condition:
-    condition: time
-    after: '19:00'
-    before: '22:30'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.eveninglights
-    - service: switch.turn_on
-      entity_id: switch.synology_home_mode
-      
-- alias: 'Alarm off 22:30-05:00'
-  trigger:
-    platform: state
-    entity_id: alarm_control_panel.sabbatsvagen_alarm
-    from: 'armed_away'
-    to: 'disarmed'
-  condition:
-    condition: time
-    after: '22:30'
-    before: '05:00'
-  action:
-    - service: scene.turn_on
-      entity_id: scene.nightlights
-    - service: switch.turn_on
-      entity_id: switch.synology_home_mode
-      
 - alias: Happens when alarmed away
   trigger:
     platform: state
@@ -87,6 +39,8 @@
     to: armed_away
   action:
     - service: homeassistant.turn_off
-      entity_id: group.inomhuslampor
+      entity_id: group.inomhuslampor_larm
+    - service: homeassistant.turn_on
+      entity_id: switch.wallplug5
     - service: switch.turn_off
       entity_id: switch.synology_home_mode

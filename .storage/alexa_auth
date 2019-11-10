@@ -1,0 +1,9 @@
+{
+    "data": {
+        "access_token": "Atza|IwEBIFDpNeQ1JcXkM0WWBTQSNZfAf8pYQhxApk-yW8rxVtarF5Bj6Jwcncc-IScp4r0i-omiybvBk90F59nQ8u48BXCU4VhFtJS6u18eM9dTyJV5haTg07j_7IGwjA7OeUrXyeipJBdX6trkFs5w7WtobJHDU_e5mEDbPsclBFHmpDd5rIklltw3oM2W5-zBbRHiU4_dg-2aLQEw-Fo4uyJ8mOOfkbs7RuRduU8PGFfMqbJ5talaeRXto9-dl7SYjtvIjWoWT7EYmb9GHjD3vr_DoddPbZ3xl4AMdO1DwBBGrkNoEIYkBGdP_V_ytCXYNIYM6Ldm6B0pPmZ5JUk43FDKLQ0kLeQh_2P1HoyhMgWmis5DWw",
+        "expire_time": "2019-11-10T20:29:39.197291+00:00",
+        "refresh_token": "Atzr|IwEBICgqEgmfVMb0rCmn6Hm3ZMjwlGHbh-hrlWNJTmDvVQol7XYD2Bl7oVFXWdLYVNc0wiBv41WMTavCb94bcat56naHm4HNK2pW6teSM0UN4ONATDcxY5gXpZIU1NwHJjAoqcA6yoTgXJNQGwlwNTdbau_8FYIofCsdbDsuUj5og_ZsI4QGBTUJe4QVR-z9WeInxpQeHdiEpxq5uUvCdFhvsSryrygh9RXTX2maz6gHadhsuNwY8crO_nh6cGxAFN8XJI0546BKlh1wLpXsD0nh1JHOpWmsRaHNDCx30vmcuu9ZjJd4LoKZMUmcX6rrftHvizRvM0XPGpSLYJKSwOHpYm9w"
+    },
+    "key": "alexa_auth",
+    "version": 1
+}

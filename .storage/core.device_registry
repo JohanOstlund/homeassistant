@@ -1,0 +1,1250 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "50cb26874f77441d8020839088552d4a",
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "HallSpottar",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "K\u00f6kSpottar",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "07bba184e978455aaad65cf2f4455c23",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "K\u00f6kslampor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        5
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "KorridorSpottar",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Matbordslampor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "identifiers": [
+                    [
+                        "zwave",
+                        7
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "VardagsrumsTaklampor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "identifiers": [
+                    [
+                        "zwave",
+                        8
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Uterumslampor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": "d29e011e5cfc4a13bf0113ec4d45f27f",
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "identifiers": [
+                    [
+                        "zwave",
+                        9
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "MasterbedroomSpottar",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": "d29e011e5cfc4a13bf0113ec4d45f27f",
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "1c5f5900f9df47969b700279da20c411",
+                "identifiers": [
+                    [
+                        "zwave",
+                        10
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "MasterbedroomSanglampor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": "d29e011e5cfc4a13bf0113ec4d45f27f",
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "96e7bbc9778c4026a3911c461717551a",
+                "identifiers": [
+                    [
+                        "zwave",
+                        11
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGSD002 Smoke Sensor",
+                "name": "Brandvarnare Master Bedroom",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "57738fc2b99443098c5ae8ea2827ff73",
+                "identifiers": [
+                    [
+                        "zwave",
+                        12
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGSD002 Smoke Sensor",
+                "name": "Brandvarnare Sovrum 2",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        13
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGSD002 Smoke Sensor",
+                "name": "Brandvarnare Sovrum 3",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "45417577428b48c18b3b446719b1275b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        14
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGSD002 Smoke Sensor",
+                "name": "Brandvarnare Matsal",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "b0d940c300eb4d449530f7762d83d1f1",
+                "identifiers": [
+                    [
+                        "zwave",
+                        15
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGWPE/F Wall Plug",
+                "name": "Wallplug1",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "b9e57890321643dd92327fecdb727590",
+                "identifiers": [
+                    [
+                        "zwave",
+                        16
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGWPE/F Wall Plug",
+                "name": "Wallplug2",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": "badc374d21df485989daf97e03c834f7",
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "b2047c82af9d4b069ab9848f8f508204",
+                "identifiers": [
+                    [
+                        "zwave",
+                        17
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGWPE/F Wall Plug",
+                "name": "Wallplug3",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "identifiers": [
+                    [
+                        "zwave",
+                        19
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Sovrum3",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "6aead25b07ca4861903ea86e22b82095",
+                "identifiers": [
+                    [
+                        "zwave",
+                        20
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "EntreLampa",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "3f98d333717347968035ffd8b937a1e9",
+                "identifiers": [
+                    [
+                        "zwave",
+                        22
+                    ]
+                ],
+                "manufacturer": "Aeotec",
+                "model": "ZW100 MultiSensor 6",
+                "name": "Aeotec Multisensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "6ba575ca47f54bb39f069cacf44ca52f"
+                ],
+                "connections": [],
+                "id": "115b9cd8a1984ed18b474fab54c89f4c",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_7828CA02D80A01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "One",
+                "name": "Sonos One",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "9f60210b098f4062a1aa8cbf02b60c2a"
+                ],
+                "connections": [],
+                "id": "f7a77f86a4904be897d1c1ce93066d46",
+                "identifiers": [
+                    [
+                        "cast",
+                        "83eec2404c720d47f73f33c98c256a17"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "MIBOX3",
+                "name": "Kontoret-MiBox",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30"
+                    ]
+                ],
+                "id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_bytes_received"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets/sec_received"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets/sec_sent"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_bytes_sent"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets_sent"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_kbyte/sec_received"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets_received"
+                    ],
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_kbyte/sec_sent"
+                    ]
+                ],
+                "manufacturer": "ASUSTek",
+                "model": null,
+                "name": "RT-AC2900 packets/sec sent",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "628354357f064a0f8f15d2975189e630",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_bytes_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 bytes received",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "50b58906e8ac4143a415acc84eb0b50a",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_kbyte/sec_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 kbyte/sec received",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "eaab90c8aab348ac8893aa348e11139d",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_bytes_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 bytes sent",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "b41f767367eb48dbaa97e53770e92fc5",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 packets received",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "704ca746c1494ee69b6e7f84e290030e",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets/sec_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 packets/sec sent",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "9dc03f67cbc9419590380b7fb6afa897",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets/sec_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 packets/sec received",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "0f3ef4ac9e7545019c6a2959c60811f0",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_kbyte/sec_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 kbyte/sec sent",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "30690122c7a849318342319dc796a7b3"
+                ],
+                "connections": [],
+                "id": "e33ba4ee2cd748c2bc7b69b83ac90034",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC2900 packets sent",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "e4ad355459ce450e8774d14b659e2918"
+                ],
+                "connections": [],
+                "id": "ed372069f0824d7b97730be4bc15d12d",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74"
+                    ],
+                    [
+                        "device_id",
+                        "1c5d95d5ec0a42459ea6744a063af853"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 6s",
+                "name": "Johan",
+                "name_by_user": null,
+                "sw_version": "12.2",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "e4ad355459ce450e8774d14b659e2918"
+                ],
+                "connections": [],
+                "id": "717ed4600b92432798c9d774cefaa2cf",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "1c5d95d5ec0a42459ea6744a063af853"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 6s",
+                "name": null,
+                "name_by_user": null,
+                "sw_version": "12.2",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "e24658f79d5f4621990643fc34add1f8"
+                ],
+                "connections": [],
+                "id": "1d22051e69564c5cb83d639dc4528280",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334"
+                    ],
+                    [
+                        "device_id",
+                        "ebc642a7d4134ce4a1b41b6a59440a79"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone SE",
+                "name": "Sanna",
+                "name_by_user": "Sanna",
+                "sw_version": "13.1.2",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "e24658f79d5f4621990643fc34add1f8"
+                ],
+                "connections": [],
+                "id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "ebc642a7d4134ce4a1b41b6a59440a79"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone SE",
+                "name": null,
+                "name_by_user": null,
+                "sw_version": "13.1.2",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "ca231c07e28440a18ef9fe517ac01b93",
+                "identifiers": [
+                    [
+                        "zwave",
+                        23
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "c099d9743be0458090a4957791331be6",
+                "identifiers": [
+                    [
+                        "zwave",
+                        24
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "8e06e28db50c4b0da5d8d3ab2d36bb91"
+                ],
+                "connections": [],
+                "id": "582721e45b5142afa3eee40e9ffd4dc4",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab"
+                    ],
+                    [
+                        "device_id",
+                        "118f52edbd5b4f398d88a71242ca993b"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad Air 2",
+                "name": "Sannas iPad",
+                "name_by_user": null,
+                "sw_version": "13.1.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "8e06e28db50c4b0da5d8d3ab2d36bb91"
+                ],
+                "connections": [],
+                "id": "05bd8f12ab78496099dcc94d706223d5",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "118f52edbd5b4f398d88a71242ca993b"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad Air 2",
+                "name": null,
+                "name_by_user": null,
+                "sw_version": "13.1.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "acfa5738d0ef4ba8bfc6ca46f2083aa4",
+                "identifiers": [
+                    [
+                        "zwave",
+                        25
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "a800c791afa8445a853855c99c303089",
+                "identifiers": [
+                    [
+                        "zwave",
+                        26
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "identifiers": [
+                    [
+                        "zwave",
+                        27
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "653d98ab956a4502a439fab9ffc4dc17",
+                "identifiers": [
+                    [
+                        "zwave",
+                        28
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "6051ad4bb2bb44f49227b985f340af32",
+                "identifiers": [
+                    [
+                        "zwave",
+                        29
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "531de2b70c2b448983d5e88af1f6ce4d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        1
+                    ]
+                ],
+                "manufacturer": "Aeotec",
+                "model": "ZW090 Z-Stick Gen5 EU",
+                "name": "Aeotec ZW090 Z-Stick Gen5 EU",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": "00b9ecec328d40738562dfdb4eea06ed",
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "58e97645a1fc42fb9aa6f3fb0988942d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        2,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "HallSpottar (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "50cb26874f77441d8020839088552d4a"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "81f4d60af9e44fd08718203c7b90ab6f",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "K\u00f6kSpottar (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "ec1626bf4a8c4dc8a684298c4e0421f9"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "bb4ae1fbc2d64c258c9debbe6e28383d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "K\u00f6kslampor (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "07bba184e978455aaad65cf2f4455c23"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "fe74d59e8d4c44a095be359a0684090b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        5,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "KorridorSpottar (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "9e21420dabf0488ca3c6e398ca317a0b"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "894c7412b5464e32a2eb9f3f5f784569",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Matbordslampor (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "dbaa5cb08e7248dc8a7438b593594d3d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "fab206719eb64a99b3bb33b9f5811994",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6,
+                        3
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Matbordslampor (3)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "dbaa5cb08e7248dc8a7438b593594d3d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "1226b79d6bec4a1d9ff8e1634a37e826",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6,
+                        4
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Matbordslampor (4)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "dbaa5cb08e7248dc8a7438b593594d3d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "0ae437e1b5ae446b944136f205ec393e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        7,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "VardagsrumsTaklampor (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "fcbbde53d6db4e1e9824b5f02ae8b350"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "ce5cb9890c0242ffb3eff96be0b53c0d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        8,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Uterumslampor (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "7aea6ead4014489581d54eb0ef71b6f5"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "18e3020a0b444e509c24df3f75bc2fc7",
+                "identifiers": [
+                    [
+                        "zwave",
+                        9,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "MasterbedroomSpottar (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "5d068a129b3b46c6a7a0645bf4fa6906"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "19649658d3bb424bab9260f6cc341d3f",
+                "identifiers": [
+                    [
+                        "zwave",
+                        10,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "MasterbedroomSanglampor (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "1c5f5900f9df47969b700279da20c411"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "763adfb1e5584909a95bbc98d49ca95b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        19,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "Sovrum3 (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "cf3e0b236dbb4ff9b628980d2797c569",
+                "identifiers": [
+                    [
+                        "zwave",
+                        20,
+                        2
+                    ]
+                ],
+                "manufacturer": "FIBARO System",
+                "model": "FGD212 Dimmer 2",
+                "name": "EntreLampa (2)",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "6aead25b07ca4861903ea86e22b82095"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "identifiers": [
+                    [
+                        "zwave",
+                        30
+                    ]
+                ],
+                "manufacturer": "Popp & Co",
+                "model": "Unknown: type=0004, id=0007",
+                "name": "Popp & Co Unknown: type=0004, id=0007",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "fd4eb2951654402c98de6763fa404359"
+                ],
+                "connections": [],
+                "id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        31
+                    ]
+                ],
+                "manufacturer": "Everspring",
+                "model": "AD147 Plug-in Dimmer Module",
+                "name": "Everspring AD147 Plug-in Dimmer Module",
+                "name_by_user": "TV-Lampa",
+                "sw_version": null,
+                "via_device_id": "531de2b70c2b448983d5e88af1f6ce4d"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}
