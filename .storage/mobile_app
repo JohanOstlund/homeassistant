@@ -152,7 +152,7 @@
                 "device_class": "battery",
                 "icon": "mdi:battery-30",
                 "name": "Battery Level",
-                "state": 31,
+                "state": 30,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -161,7 +161,7 @@
             "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 31
+                    "Battery Level": 30
                 },
                 "device_class": "battery",
                 "icon": "mdi:battery-30",
@@ -229,8 +229,8 @@
                     "Inland Water": "N/A",
                     "Locality": "J\u00e4rf\u00e4lla",
                     "Location": [
-                        59.427459716796875,
-                        17.809076997226736
+                        59.42748419038718,
+                        17.809100997591944
                     ],
                     "Name": "Sabbatsv\u00e4gen 19",
                     "Ocean": "N/A",
