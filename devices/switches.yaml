@@ -1,24 +1,69 @@
-- platform: command_line
-  switches:
-    synology_home_mode:
-       command_on: 'python3 home/homeassistant/synology_home_mode.py home'
-       command_off: 'python3 home/homeassistant/synology_home_mode.py away'
-       command_state: 'python3 home/homeassistant/synology_home_mode.py status'
-       friendly_name: Surveillance Station Home Mode
-       value_template: >
-         {% if value_json is defined %}
-           {{ value_json.data.on}}
-         {% else %}
-           {{ states.switch.synology_home_mode.state == 'on' }}
-         {% endif %}
+#- platform: command_line
+#  switches:
+#    synology_home_mode:
+#       command_on: 'python3 home/homeassistant/synology_home_mode.py home'
+#       command_off: 'python3 home/homeassistant/synology_home_mode.py away'
+#       command_state: 'python3 home/homeassistant/synology_home_mode.py status'
+#       friendly_name: Surveillance Station Home Mode
+#       value_template: >
+#         {% if value_json is defined %}
+#           {{ value_json.data.on}}
+#         {% else %}
+#           {{ states.switch.synology_home_mode.state == 'on' }}
+#         {% endif %}
 
-    camera_torch:
-        friendly_name: Torch
-        command_on: 'curl http://192.168.1.174/parameters?torch=1' 
-        command_off: 'curl http://192.168.1.174/parameters?torch=0'
-    camera_flip:
-        friendly_name: Flip Camera
-        command_on: 'curl http://192.168.1.174/parameters?flip=1' 
-        command_off: 'curl http://192.168.1.174/parameters?flip=0'
-- platform: tellstick
-  
+#    camera_torch:
+#        friendly_name: Torch
+#        command_on: 'curl http://192.168.1.174/parameters?torch=1' 
+#        command_off: 'curl http://192.168.1.174/parameters?torch=0'
+#    camera_flip:
+#        friendly_name: Flip Camera
+#        command_on: 'curl http://192.168.1.174/parameters?flip=1' 
+#        command_off: 'curl http://192.168.1.174/parameters?flip=0'
+#- platform: tellstick
+- platform: broadlink
+  host: 192.168.1.15
+  mac: '78:0F:77:8E:64:1A'
+  type:  sp3
+  friendly_name: 'wallplug5'
+
+- platform: broadlink
+  host: 192.168.1.14
+  mac: '78:0F:77:8E:5A:6D'
+  type:  sp3
+  friendly_name: 'wallplug4'
+
+- platform: broadlink
+  host: 192.168.1.16
+  mac: '78:0F:77:8E:5E:35'
+  type:  sp3
+  friendly_name: 'wallplug6'
+
+- platform: broadlink
+  host: 192.168.1.17
+  mac: '78:0F:77:8E:5D:97'
+  type:  sp3
+  friendly_name: 'wallplug7'
+
+- platform: broadlink
+  host: 192.168.1.18
+  mac: '78:0F:77:8E:5A:B9'
+  type:  sp3
+  friendly_name: 'wallplug8'
+
+- platform: broadlink
+  host: 192.168.1.19
+  mac: '78:0F:77:8E:5B:4A'
+  type:  sp3
+  friendly_name: 'wallplug9'
+
+- platform: broadlink
+  host: 192.168.1.163
+  mac: 'C8:F7:42:83:74:28'
+#  timeout: 20
+  type:  rm_mini
+  switches:
+    ac:
+      friendly_name: "Värmepump"
+      command_on: 'JgD2AGkzDwsQCxAmDwwPJhALDwwPDBMiDyYQCxALDwwPJhAmEAoQCxALDwwPDA8LEAsPDA8LEAsQCw8MDwwPJg8MDwsQDA8LEAsPCxAMDyYPCxALEAsQCw8MDyYQJRAmECUQJhAlEAsQCxALDyYQCxALDwsQDA8LEAsPDA8LECYPJhALEAsPJhALEAsPDA8mECYPJhALDwwPDA8mDwwPCxALEAsPDA8MDwsQCxALDwwPCxALEAsPDA8LEAsQCw8MDwsQCxALDwwPDA8LEAsPDA8MDwsQCw8MDwwPCxALDwwPDA8LEAsPJhAmDwwPJhAmDwwPJg8MDwANBQAA'
+      command_off: 'JgBmAGo1Dg0PDA0pDQ0NKQ0ODQ0NDg0oECYNDg8MDQ0OKBAlDg0NDg0ODQ0QCw0ODQ4PCw4NDQ4QCw0NDg0NKA4NDg0NDg0ODQ0ODQ0ODSgODQ0ODQ4NDRAmDQ4NDQ4NEAsNDg8LDgANBQAA'

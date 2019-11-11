@@ -1,32 +1,33 @@
 #################### IOS Automationer ##########################
-
+  
 - alias: 'Startup Notification'
   trigger:
     platform: homeassistant
     event: start
   action:
-    service: notify.ios_johan
+    service: notify.mobile_app_johan
     data:
       message: Vad skönt, Home Assistant är uppe igen!
 
 - alias: 'Notify iOS app Johan Ringer på dörren'
   trigger:
-  - entity_id: switch.ringklocka
-    from: 'off'
-    platform: state
-    to: 'on'
+  - platform: state
+    entity_id: sensor.popp_access_control_7
+    to: '22'
+#  condition:
+#    condition: template
+#    value_template: '{{ (as_timestamp(now()) - as_timestamp(states.sensor.popp_access_control_7.last_changed)) > 120 }}'
   action:
   - alias: IOS - ringer på dörren
+    service: notify.mobile_app_johan
     data:
+      message: Någon ringer på dörren!
       data:
-        action_data:
-        entity_id: camera.entre
         push:
           badge: 1
           category: camera
-      message: Någon ringer på dörren!
-    service: notify.ios_johan
-    
+        entity_id: camera.entre
+   
 - alias: 'Notify iOS app Johan rörelse baksidan'
   trigger:
     platform: state
@@ -35,7 +36,7 @@
     to: 'on'
   condition:
     condition: state
-    entity_id: device_tracker.johan
+    entity_id: device_tracker.johan_8
     state: 'not_home'
   action:
   - alias: IOS - rörelse på baksidan
@@ -47,7 +48,7 @@
           badge: 5
           category: camera
       message: Rörelse på baksidan!
-    service: notify.ios_johan
+    service: notify.mobile_app_johan
     
 - alias: 'Notify iOS app Johan rörelse framsidan'
   trigger:
@@ -57,7 +58,7 @@
     to: 'on'
   condition:
     condition: state
-    entity_id: device_tracker.johan
+    entity_id: device_tracker.johan_8
     state: 'not_home'
   action:
   - alias: IOS - rörelse på framsidan
@@ -69,25 +70,72 @@
           badge: 5
           category: camera
       message: Rörelse på framsidan!
-    service: notify.ios_johan
+    service: notify.mobile_app_johan
+
+- alias: 'Notify iOS app Johan rörelse baksidan skallarm'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.camera_baksidan
+    from: 'off'
+    to: 'on'
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: 'armed_home'
+  action:
+  - alias: IOS - rörelse på baksidan
+    data:
+      data:
+        action_data:
+        entity_id: camera.baksidan
+        push:
+          badge: 5
+          category: camera
+      message: Rörelse på baksidan!
+    service: notify.mobile_app_johan
+
+- alias: 'Notify iOS app Johan rörelse framsidan skallarm'
+  trigger:
+    platform: state
+    entity_id: binary_sensor.camera_entre
+    from: 'off'
+    to: 'on'
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: 'armed_home'
+  action:
+  - alias: IOS - rörelse på framsidan
+    data:
+      data:
+        action_data:
+        entity_id: camera.entre
+        push:
+          badge: 5
+          category: camera
+      message: Rörelse på framsidan!
+    service: notify.mobile_app_johan
 
 - alias: 'Öppna ytterdörren'
   trigger:
-  - event_data:
-      actionName: ALLINONE_TRUE
-    event_type: ios.notification_action_fired
-    platform: event
-  - entity_id: input_boolean.unlockdoor
-    from: 'off'
-    platform: state
-    to: 'on'
+    - platform: event
+      event_type: ios.notification_action_fired
+      event_data:
+        actionName: ALLINONE_TRUE
+    - platform: state 
+      entity_id: input_boolean.unlockdoor
+      to: 'on'
+  condition:
+    condition: state
+    entity_id: alarm_control_panel.sabbatsvagen_alarm
+    state: 'disarmed'
   action:
-  - data:
-      code: !secret mobil
-    entity_id: lock.entredorr
-    service: lock.unlock
-  - entity_id: input_boolean.unlockdoor
-    service: input_boolean.turn_off
+    - service: lock.unlock
+      entity_id: lock.entredorr
+      data:
+        code: !secret mobil
+    - service: homeassistant.turn_off 
+      entity_id: input_boolean.lockdoor 
 
 - alias: 'Lås ytterdörren'
   trigger:
@@ -104,13 +152,13 @@
       code: !secret mobil
     entity_id: lock.entredorr
     service: lock.lock
-  - entity_id: input_boolean.lockdoor
-    service: input_boolean.turn_off
+  - service: homeassistant.turn_off
+    entity_id: input_boolean.lockdoor
 
 - alias: 'Notify iOS app Johan soptunnan'
   trigger:
-  - minutes: '/30'
-    platform: time
+    platform: time_pattern
+    minutes: '/30'
     seconds: 0
   condition:
   - condition: and
@@ -130,12 +178,12 @@
           badge: 2
           category: soptunna
       message: Är soptunnan fixad?
-    service: notify.ios_johan
+    service: notify.mobile_app_johan
 
 - alias: 'Notify iOS app Sanna soptunnan'
   trigger:
-  - minutes: '/30'
-    platform: time
+    platform: time_pattern
+    minutes: '/30'
     seconds: 0
   condition:
   - condition: and
@@ -155,7 +203,7 @@
           badge: 2
           category: soptunna
       message: Är soptunnan fixad?
-    service: notify.ios_sanna
+    service: notify.mobile_app_sanna
     
 - alias: 'Soptunnan uppe'
   trigger:
@@ -178,3 +226,4 @@
     service: input_boolean.turn_on
     data:
       entity_id: input_boolean.soptunna
+

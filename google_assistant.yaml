@@ -1,0 +1,147 @@
+project_id: hass-251817
+api_key: AIzaSyA1R0DnyE8G_9cevsHpEYdMwJgQ1pAwlxY
+#expose_by_default: false
+
+entity_config:
+  binary_sensor.frontdoor_unlocked:
+    name: "Ytterdörr"
+#    room:
+
+  input_boolean.nighttime:
+    name: "nattlarm"
+#    room:
+
+  input_boolean.unlockdoor:
+    name: "Ytterdörr öppna"
+    room: Entré
+
+  input_boolean.lockdoor:
+    name: "Ytterdörr lås"
+    room: Entré
+
+  light.entrelampa_level:
+    name: "Ytterlampa"
+    room: Entré
+    aliases: 
+      - Ytterdörrlampa
+      - Dörrlampa
+
+  light.kokspottar_level:
+    name: "Köksspottar"
+    room: Kök
+
+  light.kokslampor_level:
+    name: "Kökslampor"
+    room: Kök
+
+  light.korridorspottar_level:
+    name: "Korridor"
+    room: Korridor
+
+  light.matbordslampor_level:
+    name: "Köksbordslampor"
+    room: Kök
+    aliases: 
+      - Köksbord
+      - Matbord
+      - Matbordslampor
+
+  light.vardagsrumstaklampor_level:
+    name: "Taklampa vardagsrum"
+    room: Vardagsrum
+
+  light.masterbedroomspottar_level:
+    name: "Sovrumsspottar"
+    room: Huvudsovrum
+
+  light.masterbedroomsanglampor_level:
+    name: "Sänglampor"
+    room: Huvudsovrum
+
+  light.hallspottar_level:
+    name: "Hallspottar"
+    room: Entré
+    aliases: 
+      - Hall lampor
+      - Hallbelysning
+
+  light.uterumslampor_level:
+    name: "Vägglampor uterum"
+    room: Uterum
+
+  light.sovrum3_level:
+    name: "Charlie Taklampa"
+    room: Charlies rum
+
+  media_player.apple_tv:
+    name: Apple TV
+
+  media_player.denon:
+    name: Förstärkare
+    room: Vardagsrum
+
+  scene.morninglights:
+    name: "Morgonbelysning"
+
+  scene.daylights:
+    name: "Dagsljus"
+
+  scene.eveninglights:
+    name: "Kvällsbelysning"
+
+  scene.nightlights:
+    name: "Nattbelysning"
+
+  switch.wallplug1_switch:
+    name: "Golvlampa vardagsrum"
+    room: Vardagsrum
+    aliases:
+      - Golvlampa
+
+  switch.wallplug2_switch:
+    name: "Charlie sänglampa"
+    room: Charlies rum
+  
+  switch.wallplug3_switch:
+    name: "Kupévärmare"
+    aliases:
+      - Bil
+
+  switch.wallplug4:
+    name: "Värme bord"
+    room: Uterum
+
+  switch.wallplug5:
+    name: "Charlie fönsterlampa"
+    room: Charlies rum
+  switch.wallplug6:
+    name: "Minelle fönsterlampa"
+    room: Minelles rum
+
+  switch.wallplug7:
+    name: "Minelle sänglampa"
+    room: Minelles rum
+
+  switch.wallplug8:
+    name: "Värme myshörna"
+    room: Uterum
+
+  switch.wallplug9:
+    name: "Uterum golvlampor"
+    room: Uterum
+
+  sensor.brandvarnare_master_bedroom_temperature:
+    name: "Temp Huvudsovrum"
+    room: Huvudsovrum
+  sensor.brandvarnare_sovrum_2_temperature:
+    name: "Temp Minelle"
+    room: Minelles rum
+  sensor.brandvarnare_sovrum_3_temperature:
+    name: "Temp Charlie"
+    room: Charlies rum
+  sensor.brandvarnare_matsal_temperature:
+    name: "Temp köksbord"
+    room: Kök
+  sensor.allrum_temperature:
+    name: "Temp kök"
+    room: Kök

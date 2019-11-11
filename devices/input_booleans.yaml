@@ -27,9 +27,9 @@ lockdoor:
     name: Lås dörren
     initial: off
 
-door:
-    name: Dörr
-    initial: off
+#door:
+#    name: Dörr
+#    initial: off
     
 eveninglights:
     icon: mdi:lightbulb
@@ -46,3 +46,12 @@ daylights:
 nightlights:
     icon: mdi:lightbulb
     name: Natt
+
+csgo2betald:
+    icon: mdi:coin
+    name: Thorax
+
+csgo6betald:
+    icon: mdi:coin
+    name: Team Turtle
+

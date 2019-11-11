@@ -1,0 +1,3302 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.apple_tv",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "2aa1693e357a3c25f0858772628394d0994a33bc57d47c1d94577ac7307a2ebd"
+            },
+            {
+                "config_entry_id": "6ba575ca47f54bb39f069cacf44ca52f",
+                "device_id": "115b9cd8a1984ed18b474fab54c89f4c",
+                "disabled_by": null,
+                "entity_id": "media_player.kitchen",
+                "name": "Kitchen",
+                "platform": "sonos",
+                "unique_id": "RINCON_7828CA02D80A01400"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apple_tv",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "2aa1693e357a3c25f0858772628394d0994a33bc57d47c1d94577ac7307a2ebd"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "light.hallspottar_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076299265"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "58e97645a1fc42fb9aa6f3fb0988942d",
+                "disabled_by": null,
+                "entity_id": "light.hallspottar_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-144115188114227201"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076479554"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076495874"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076496002"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076496384"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594077528065"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594077528081"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594077528097"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594077528177"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594077528241"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "sensor.hallspottar_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594077528257"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "light.kokspottar_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093076481"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "81f4d60af9e44fd08718203c7b90ab6f",
+                "disabled_by": null,
+                "entity_id": "light.kokspottar_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-144115188131004417"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093256770"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093273090"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093273218"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093273600"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305281"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305297"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305313"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305393"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305457"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "sensor.kokspottar_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594094305473"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "light.kokslampor_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594109853697"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "bb4ae1fbc2d64c258c9debbe6e28383d",
+                "disabled_by": null,
+                "entity_id": "light.kokslampor_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-144115188147781633"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594110033986"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594110050306"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594110050434"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594110050816"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594111082497"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594111082513"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594111082529"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594111082609"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594111082673"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "sensor.kokslampor_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594111082689"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "light.korridorspottar_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126630913"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fe74d59e8d4c44a095be359a0684090b",
+                "disabled_by": null,
+                "entity_id": "light.korridorspottar_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-144115188164558849"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126811202"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126827522"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126827650"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126828032"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859713"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859729"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859745"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859825"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859889"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "sensor.korridorspottar_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594127859905"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "light.matbordslampor_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143408129"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "894c7412b5464e32a2eb9f3f5f784569",
+                "disabled_by": null,
+                "entity_id": "light.matbordslampor_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-144115188181336065"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fab206719eb64a99b3bb33b9f5811994",
+                "disabled_by": null,
+                "entity_id": "light.matbordslampor_level_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-216172782219264001"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1226b79d6bec4a1d9ff8e1634a37e826",
+                "disabled_by": null,
+                "entity_id": "light.matbordslampor_level_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-288230376257191937"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143588418"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143604738"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_unknown",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-144115188181532674"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143604866"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143605248"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594144636929"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594144636945"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "894c7412b5464e32a2eb9f3f5f784569",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_alarm_type_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-144115188182564865"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "894c7412b5464e32a2eb9f3f5f784569",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_alarm_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-144115188182564881"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594144636961"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594144637041"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594144637105"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594144637121"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "light.vardagsrumstaklampor_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594160185345"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ae437e1b5ae446b944136f205ec393e",
+                "disabled_by": null,
+                "entity_id": "light.vardagsrumstaklampor_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-144115188198113281"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594160365634"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594160381954"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594160382082"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594160382464"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594161414145"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594161414161"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594161414177"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594161414257"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594161414321"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "sensor.vardagsrumstaklampor_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594161414337"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "light.uterumslampor_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594176962561"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ce5cb9890c0242ffb3eff96be0b53c0d",
+                "disabled_by": null,
+                "entity_id": "light.uterumslampor_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-144115188214890497"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594177142850"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594177159170"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594177159298"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594177159680"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594178191361"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594178191377"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594178191393"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594178191473"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594178191537"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "sensor.uterumslampor_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594178191553"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "light.masterbedroomspottar_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594193739777"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "18e3020a0b444e509c24df3f75bc2fc7",
+                "disabled_by": null,
+                "entity_id": "light.masterbedroomspottar_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-144115188231667713"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594193920066"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594193936386"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594193936514"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594193936896"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968577"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968593"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968609"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968689"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968753"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomspottar_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594194968769"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "light.masterbedroomsanglampor_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594210516993"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "19649658d3bb424bab9260f6cc341d3f",
+                "disabled_by": null,
+                "entity_id": "light.masterbedroomsanglampor_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-144115188248444929"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594210697282"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594210713602"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594210713730"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594210714112"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594211745793"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594211745809"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594211745825"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594211745905"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594211745969"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "sensor.masterbedroomsanglampor_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "10-72057594211745985"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.brandvarnare_master_bedroom_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594227458048"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594227474450"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523009"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523025"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523041"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_smoke",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523073"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523121"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523169"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523185"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228523201"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_general",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594229227521"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_smoke_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594229227537"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_heat_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594229227585"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.brandvarnare_sovrum_2_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594244235264"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594244251666"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300225"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300241"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300257"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_smoke",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300289"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300337"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300385"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300401"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245300417"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_general",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594246004737"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_smoke_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594246004753"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_heat_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594246004801"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.brandvarnare_sovrum_3_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261012480"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594261028882"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077441"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077457"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077473"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_smoke",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077505"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077553"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077601"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077617"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262077633"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_general",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262781953"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_smoke_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262781969"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_heat_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262782017"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.brandvarnare_matsal_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594277789696"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594277806098"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854657"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854673"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854689"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_smoke",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854721"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854769"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854817"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854833"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594278854849"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_general",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594279559169"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_smoke_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594279559185"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_heat_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594279559233"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b0d940c300eb4d449530f7762d83d1f1",
+                "disabled_by": null,
+                "entity_id": "switch.wallplug1_switch",
+                "name": "Poolpump",
+                "platform": "zwave",
+                "unique_id": "15-72057594294386688"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b0d940c300eb4d449530f7762d83d1f1",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug1_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294583362"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b0d940c300eb4d449530f7762d83d1f1",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug1_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294599682"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b0d940c300eb4d449530f7762d83d1f1",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug1_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294599810"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b0d940c300eb4d449530f7762d83d1f1",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug1_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "15-72057594294600192"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b9e57890321643dd92327fecdb727590",
+                "disabled_by": null,
+                "entity_id": "switch.wallplug2_switch",
+                "name": "",
+                "platform": "zwave",
+                "unique_id": "16-72057594311163904"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b9e57890321643dd92327fecdb727590",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug2_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "16-72057594311360578"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b9e57890321643dd92327fecdb727590",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug2_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "16-72057594311376898"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b9e57890321643dd92327fecdb727590",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug2_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "16-72057594311377026"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b9e57890321643dd92327fecdb727590",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug2_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "16-72057594311377408"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "switch.wallplug3_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594327941120"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug3_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594328137794"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug3_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594328154114"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug3_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594328154242"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug3_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594328154624"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "light.sovrum3_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361511937"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "763adfb1e5584909a95bbc98d49ca95b",
+                "disabled_by": null,
+                "entity_id": "light.sovrum3_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-144115188399439873"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361692226"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361708546"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361708674"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361709056"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594362740737"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594362740753"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594362740769"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594362740849"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594362740913"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594362740929"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "light.entrelampa_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378289153"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "cf3e0b236dbb4ff9b628980d2797c569",
+                "disabled_by": null,
+                "entity_id": "light.entrelampa_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-144115188416217089"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_power",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378469442"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_energy",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378485762"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_power_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378485890"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_exporting",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378486272"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594379517953"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594379517969"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594379517985"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_heat",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594379518065"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_power_management",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594379518129"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_system",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594379518145"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug3_previous_reading",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594328154130"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "sensor.wallplug3_interval",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "17-72057594328154147"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_previous_reading",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361708562"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "sensor.sovrum3_interval",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "19-72057594361708579"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594413072385"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594413072401"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.sensor",
+                "name": "Uterummet",
+                "platform": "zwave",
+                "unique_id": "22-72057594412007424"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_temperature",
+                "name": "Uterummet",
+                "platform": "zwave",
+                "unique_id": "22-72057594412023826"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_luminance",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412023858"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_relative_humidity",
+                "name": "Uterummet Luftfuktighet",
+                "platform": "zwave",
+                "unique_id": "22-72057594412023890"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_ultraviolet",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412024242"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594413072417"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_zw100_multisensor_6_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594413072545"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.apple_tv_2",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "f1bb6c47e0195f4207afba37b68243d2d2476af133f190871bcb0a7adb62b899"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.apple_tv_2",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "f1bb6c47e0195f4207afba37b68243d2d2476af133f190871bcb0a7adb62b899"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_multisensor_tide_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412024018"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_multisensor_tank_capacity",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412024114"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_dew_point",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143588530"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "531de2b70c2b448983d5e88af1f6ce4d",
+                "disabled_by": null,
+                "entity_id": "zwave.aeotec_zw090_zstick_gen5_eu",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-1"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "50cb26874f77441d8020839088552d4a",
+                "disabled_by": null,
+                "entity_id": "zwave.hallspottar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-2"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ec1626bf4a8c4dc8a684298c4e0421f9",
+                "disabled_by": null,
+                "entity_id": "zwave.kokspottar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-3"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "07bba184e978455aaad65cf2f4455c23",
+                "disabled_by": null,
+                "entity_id": "zwave.kokslampor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-4"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9e21420dabf0488ca3c6e398ca317a0b",
+                "disabled_by": null,
+                "entity_id": "zwave.korridorspottar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-5"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "zwave.matbordslampor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-6"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "fcbbde53d6db4e1e9824b5f02ae8b350",
+                "disabled_by": null,
+                "entity_id": "zwave.vardagsrumstaklampor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-7"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "7aea6ead4014489581d54eb0ef71b6f5",
+                "disabled_by": null,
+                "entity_id": "zwave.uterumslampor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-8"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "5d068a129b3b46c6a7a0645bf4fa6906",
+                "disabled_by": null,
+                "entity_id": "zwave.masterbedroomspottar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-9"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "1c5f5900f9df47969b700279da20c411",
+                "disabled_by": null,
+                "entity_id": "zwave.masterbedroomsanglampor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-10"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "zwave.brandvarnare_master_bedroom",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-11"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "zwave.brandvarnare_sovrum_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-12"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "zwave.brandvarnare_sovrum_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-13"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "zwave.brandvarnare_matsal",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-14"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b0d940c300eb4d449530f7762d83d1f1",
+                "disabled_by": null,
+                "entity_id": "zwave.wallplug1",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-15"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b9e57890321643dd92327fecdb727590",
+                "disabled_by": null,
+                "entity_id": "zwave.wallplug2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-16"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "b2047c82af9d4b069ab9848f8f508204",
+                "disabled_by": null,
+                "entity_id": "zwave.wallplug3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-17"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a074ebb6756d4c7aa52ecb933a4aa4fb",
+                "disabled_by": null,
+                "entity_id": "zwave.sovrum3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-19"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "zwave.entrelampa",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-20"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "zwave.aeotec_multisensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-22"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.vardagsrum",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "e363480cf6d129751d74fbe95794ef8afae9b0f50ca887a35097173a6d6d4381"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.vardagsrum",
+                "name": null,
+                "platform": "apple_tv",
+                "unique_id": "e363480cf6d129751d74fbe95794ef8afae9b0f50ca887a35097173a6d6d4381"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_ultraviolet",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378469810"
+            },
+            {
+                "config_entry_id": "9f60210b098f4062a1aa8cbf02b60c2a",
+                "device_id": "f7a77f86a4904be897d1c1ce93066d46",
+                "disabled_by": null,
+                "entity_id": "media_player.mibox3",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "83eec240-4c72-0d47-f73f-33c98c256a17"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_bytes_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_bytes_received"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_kbyte_sec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_kbyte/sec_received"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_bytes_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_bytes_sent"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_packets_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets_received"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_packets_sec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets/sec_sent"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_packets_sec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets/sec_received"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_kbyte_sec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_kbyte/sec_sent"
+            },
+            {
+                "config_entry_id": "30690122c7a849318342319dc796a7b3",
+                "device_id": "4a8a3c80a5464e6fb2b4b6e7ac009ee5",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac2900_packets_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:3ddcd1d3-2380-45f5-b069-1831bf369a30_packets_sent"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_multisensor_seismic_intensity",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412024210"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6aead25b07ca4861903ea86e22b82095",
+                "disabled_by": null,
+                "entity_id": "sensor.entrelampa_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "20-72057594378469394"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_multisensor_barometric_pressure",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412023954"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "dbaa5cb08e7248dc8a7438b593594d3d",
+                "disabled_by": null,
+                "entity_id": "sensor.matbordslampor_temperature",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143588370"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_multisensor_time",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594412024338"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "device_tracker.johan_8",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "1c5d95d5ec0a42459ea6744a063af853"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_state_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_battery_state"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.activity_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_activity"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_level_7",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_battery_level"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.average_active_pace_7",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_avg_active_pace"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.distance_7",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_distance"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.floors_ascended_7",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_floors_ascended"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.floors_descended_7",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_floors_descended"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.steps_7",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_pedometer_steps"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.bssid_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_bssid"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.connection_type_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_connection_type"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.ssid_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_ssid"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.sim_1_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_connectivity_sim_1"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.last_update_trigger_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_last_update_trigger"
+            },
+            {
+                "config_entry_id": "e4ad355459ce450e8774d14b659e2918",
+                "device_id": "717ed4600b92432798c9d774cefaa2cf",
+                "disabled_by": null,
+                "entity_id": "sensor.geocoded_location_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "43ddfb794b8dfb24a7a51122ff1a9b0d69417859846befe7f6eb78f105dbee74_geocoded_location"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "device_tracker.sannas_iphone",
+                "name": "Sanna",
+                "platform": "mobile_app",
+                "unique_id": "ebc642a7d4134ce4a1b41b6a59440a79"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_state_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_battery_state"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_level_8",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_battery_level"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.activity_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_activity"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.average_active_pace_8",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_pedometer_avg_active_pace"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.distance_8",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_pedometer_distance"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.steps_8",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_pedometer_steps"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.bssid_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_bssid"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.connection_type_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_connection_type"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.ssid_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_ssid"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.cellular_provider",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_cellular_provider"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.last_update_trigger_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_last_update_trigger"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.geocoded_location_3",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_geocoded_location"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ca231c07e28440a18ef9fe517ac01b93",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.popp_co_unknown_type_0004_id_0007_sensor",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594428784640"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ca231c07e28440a18ef9fe517ac01b93",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849633"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ca231c07e28440a18ef9fe517ac01b93",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_access_control",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849745"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ca231c07e28440a18ef9fe517ac01b93",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849761"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-23"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ca231c07e28440a18ef9fe517ac01b93",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849601"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "ca231c07e28440a18ef9fe517ac01b93",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "23-72057594429849617"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "c099d9743be0458090a4957791331be6",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626849"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "c099d9743be0458090a4957791331be6",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_access_control_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626961"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "c099d9743be0458090a4957791331be6",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626977"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-24"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "c099d9743be0458090a4957791331be6",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626817"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "c099d9743be0458090a4957791331be6",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "24-72057594446626833"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "device_tracker.sannas_ipad_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "118f52edbd5b4f398d88a71242ca993b"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_level",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_battery_level"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_state",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_battery_state"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.bssid",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_connectivity_bssid"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.connection_type",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_connectivity_connection_type"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.ssid",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_connectivity_ssid"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.last_update_trigger",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_last_update_trigger"
+            },
+            {
+                "config_entry_id": "8e06e28db50c4b0da5d8d3ab2d36bb91",
+                "device_id": "05bd8f12ab78496099dcc94d706223d5",
+                "disabled_by": null,
+                "entity_id": "sensor.geocoded_location",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "c5585a067364cda06b2e2543c2c7bee4f3a51f48e8d3753c1d2f6fb16be2deab_geocoded_location"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "acfa5738d0ef4ba8bfc6ca46f2083aa4",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404065"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "acfa5738d0ef4ba8bfc6ca46f2083aa4",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404193"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-25"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "acfa5738d0ef4ba8bfc6ca46f2083aa4",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404033"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "acfa5738d0ef4ba8bfc6ca46f2083aa4",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "25-72057594463404049"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "acfa5738d0ef4ba8bfc6ca46f2083aa4",
+                "disabled_by": null,
+                "entity_id": "sensor.ringklocka_access_control",
+                "name": "Ringklocka",
+                "platform": "zwave",
+                "unique_id": "25-72057594463404177"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_luminance",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594227474482"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a800c791afa8445a853855c99c303089",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.popp_co_unknown_type_0004_id_0007_sensor_2",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "26-72057594479116288"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-26"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a800c791afa8445a853855c99c303089",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "26-72057594480181281"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a800c791afa8445a853855c99c303089",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_access_control_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "26-72057594480181393"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a800c791afa8445a853855c99c303089",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "26-72057594480181409"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a800c791afa8445a853855c99c303089",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "26-72057594480181249"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "a800c791afa8445a853855c99c303089",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "26-72057594480181265"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.popp_co_unknown_type_0004_id_0007_sensor_3",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "27-72057594495893504"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-27"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "27-72057594496958497"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_access_control_4",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "27-72057594496958609"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "27-72057594496958625"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "27-72057594496958465"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0ff68c9bbc0447e8be7b80bfbd149abd",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "27-72057594496958481"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "653d98ab956a4502a439fab9ffc4dc17",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "28-72057594513735713"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "653d98ab956a4502a439fab9ffc4dc17",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_access_control_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "28-72057594513735825"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "653d98ab956a4502a439fab9ffc4dc17",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "28-72057594513735841"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-28"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "653d98ab956a4502a439fab9ffc4dc17",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "28-72057594513735681"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "653d98ab956a4502a439fab9ffc4dc17",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "28-72057594513735697"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6051ad4bb2bb44f49227b985f340af32",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_7",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "29-72057594530512929"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6051ad4bb2bb44f49227b985f340af32",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_access_control_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "29-72057594530513041"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6051ad4bb2bb44f49227b985f340af32",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_7",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "29-72057594530513057"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6051ad4bb2bb44f49227b985f340af32",
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_7",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-29"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6051ad4bb2bb44f49227b985f340af32",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_7",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "29-72057594530512897"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "6051ad4bb2bb44f49227b985f340af32",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_7",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "29-72057594530512913"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_sourcenodeid_8",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594547290145"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_burglar_8",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594547290273"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "zwave.popp_co_unknown_type_0004_id_0007_8",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-30"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_type_8",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594547290113"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_alarm_level_8",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594547290129"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_access_control_7",
+                "name": "Ringklocka",
+                "platform": "zwave",
+                "unique_id": "30-72057594547290257"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.popp_co_unknown_type_0004_id_0007_sensor_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594546225152"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "climate.luftvarmepump",
+                "name": null,
+                "platform": "smartir",
+                "unique_id": "varmepump"
+            },
+            {
+                "config_entry_id": "e24658f79d5f4621990643fc34add1f8",
+                "device_id": "43bbda6ec3e94e1d84c5982461a1643d",
+                "disabled_by": null,
+                "entity_id": "sensor.sim_1",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "b13491c74fd613b5c0a6f086c577844aa32225e0141b1c48faa9dd5aa37ad334_connectivity_sim_1"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "96e7bbc9778c4026a3911c461717551a",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_master_bedroom_battery_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "11-72057594228768769"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "57738fc2b99443098c5ae8ea2827ff73",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_2_battery_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "12-72057594245545985"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "0e4053eb224f45a99fbd38c7186fc34e",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_sovrum_3_battery_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "13-72057594262323201"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "45417577428b48c18b3b446719b1275b",
+                "disabled_by": null,
+                "entity_id": "sensor.brandvarnare_matsal_battery_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "14-72057594279100417"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "3f98d333717347968035ffd8b937a1e9",
+                "disabled_by": null,
+                "entity_id": "sensor.aeotec_multisensor_battery_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "22-72057594413318145"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "caecb4a7fac7445799dd2e89a5ce3a78",
+                "disabled_by": null,
+                "entity_id": "sensor.popp_co_unknown_type_0004_id_0007_battery_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "30-72057594547535873"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "disabled_by": null,
+                "entity_id": "sensor.everspring_ad147_plug_in_dimmer_module_sourcenodeid",
+                "name": "TV-Lampa SourceNodeId",
+                "platform": "zwave",
+                "unique_id": "31-72057594564067361"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "disabled_by": null,
+                "entity_id": "sensor.everspring_ad147_plug_in_dimmer_module_power_management",
+                "name": "TV-Lampa Power Management",
+                "platform": "zwave",
+                "unique_id": "31-72057594564067505"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "disabled_by": null,
+                "entity_id": "zwave.everspring_ad147_plug_in_dimmer_module",
+                "name": "TV-Lampa",
+                "platform": "zwave",
+                "unique_id": "node-31"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "disabled_by": null,
+                "entity_id": "sensor.everspring_ad147_plug_in_dimmer_module_alarm_type",
+                "name": "TV-Lampa Alarm Type",
+                "platform": "zwave",
+                "unique_id": "31-72057594564067329"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "disabled_by": null,
+                "entity_id": "sensor.everspring_ad147_plug_in_dimmer_module_alarm_level",
+                "name": "TV-Lampa Alarm Level",
+                "platform": "zwave",
+                "unique_id": "31-72057594564067345"
+            },
+            {
+                "config_entry_id": "fd4eb2951654402c98de6763fa404359",
+                "device_id": "9a9ccc9f513b450995070d37c6a0ab7e",
+                "disabled_by": null,
+                "entity_id": "light.wallplug_dim_1",
+                "name": "TV-Lampa",
+                "platform": "zwave",
+                "unique_id": "31-72057594562838529"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

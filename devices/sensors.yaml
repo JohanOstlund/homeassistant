@@ -22,6 +22,7 @@
 - platform: time_date
   display_options:
     - 'date_time'
+    - 'date'
   
 - platform: command_line
   name: SSL cert expiry
@@ -44,22 +45,61 @@
           Skalskydd
         {% endif %}
 
+- platform: hasl
+  ri4key: e613fbb06ad040b9888ce8c08e16ff01
+  si2key: 93493e0cc2224042a12ff038fbf3a7b0
+  tl2key: d60baa3e360647078f98b271f3c1879e
+  sensors:
+    - friendly_name: Aprilvägen
+      sensor_type: departures
+      siteid: 5832 
+      lines: 564H
+      sensor: binary_sensor.sl_tid
+      timewindow: 60 
+      scan_interval: 210
+    - friendly_name: Trafikstatus
+      sensor_type: status
+      scan_interval: 300
 
-#- platform: glances
- # host: 192.168.1.222
- # resources:
- #   - 'disk_use_percent'
- #   - 'disk_use'
- #   - 'disk_free'
- #   - 'memory_use_percent'
-  #  - 'memory_use'
-  #  - 'memory_free'
-  #  - 'swap_use_percent'
-  #  - 'swap_use'
-  #  - 'swap_free'
-  #  - 'processor_load'
- #   - 'process_running'
-  #  - 'process_total'
-  #  - 'process_thread'
-  #  - 'process_sleeping'
-  #  - 'cpu_temp'
+- platform: hasl
+  ri4key: d6abdd29d9a449d9afce97e7802eeb9d
+  si2key: d4c38581ce484587823a2a69fc334d68
+ # ti2key: 
+  sensors:
+    - friendly_name: Jakobsberg Station
+      sensor_type: departures
+      siteid: 9702
+      lines: 564V, 43, 43X
+      sensor: binary_sensor.sl_tid
+      direction: 1
+      timewindow: 60
+      scan_interval: 210
+
+- platform: hasl
+  ri4key: 2a384cdee75044c882404d31bedfefae
+  si2key: f4d33cd44beb4865854bc99fa05cce1b
+ # ti2key:
+  sensors:
+    - friendly_name: Stockholm City
+      sensor_type: departures
+      siteid: 1080
+      lines: 43
+      sensor: binary_sensor.sl_tid
+      timewindow: 60
+      direction: 2
+      scan_interval: 210
+
+- platform: hasl
+  ri4key: 778336f50b2b4ef987c2217ef14d1945
+  si2key: 4ef5365043784d9c8c5de2bf70f98cf0
+ # ti2key:
+  sensors:
+    - friendly_name: Stockholm Odenplan
+      sensor_type: departures
+      siteid: 1079
+      lines: 43
+      sensor: binary_sensor.sl_tid
+      timewindow: 60
+      direction: 2
+      scan_interval: 210
+

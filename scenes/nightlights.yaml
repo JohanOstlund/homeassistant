@@ -7,8 +7,7 @@ entities:
   light.uterumslampor_level:
     state: off
   light.masterbedroomspottar_level:
-    state: on
-    brightness: 23
+    state: off
   light.vardagsrumstaklampor_level_2:
     state: off
   light.matbordslampor_level:
@@ -21,7 +20,7 @@ entities:
     state: off
   light.korridorspottar_level:
     state: on
-    brightness: 23
+    brightness: 10
   light.kokspottar_level_2:
     state: off
   light.kokslampor_level_2:
@@ -32,7 +31,7 @@ entities:
     state: off
   light.masterbedroomsanglampor_level:
     state: on
-    brightness: 23
+    brightness: 10
   light.masterbedroomspottar_level_2:
     state: off
   light.hallspottar_level_2:

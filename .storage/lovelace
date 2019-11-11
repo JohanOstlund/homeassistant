@@ -1,0 +1,790 @@
+{
+    "data": {
+        "config": {
+            "resources": [
+                {
+                    "type": "js",
+                    "url": "/local/hasl-departure-card.js"
+                },
+                {
+                    "type": "js",
+                    "url": "/local/hasl-traffic-status-card.js"
+                }
+            ],
+            "title": "Sabbatsv\u00e4gen",
+            "views": [
+                {
+                    "badges": [
+                        "binary_sensor.sensor",
+                        "binary_sensor.brandvarnare_matsal_sensor",
+                        "binary_sensor.brandvarnare_master_bedroom_sensor",
+                        "device_tracker.johan_8",
+                        "device_tracker.sannas_iphone",
+                        "sensor.verisure",
+                        "sensor.allrum_temperature",
+                        "sensor.yr_temperature",
+                        "sensor.aeotec_zw100_multisensor_6_temperature",
+                        "sensor.aeotec_zw100_multisensor_6_relative_humidity",
+                        "sensor.ssl_cert_expiry",
+                        "sensor.popp_access_control_7",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.wallplug3_switch"
+                                }
+                            ],
+                            "title": "Utomhus",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.fonster_barnrum",
+                                "binary_sensor.fonster_kok",
+                                "binary_sensor.fonster_kontor",
+                                "binary_sensor.fonster_sovrum"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "F\u00f6nster",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "group.kokslampor",
+                                "group.masterbedroomslampor",
+                                "group.vardagsrumslampor",
+                                "group.hallampor",
+                                "group.korridorlampor",
+                                "group.matsalslampor",
+                                "group.sovrum3",
+                                "group.sovrum2"
+                            ],
+                            "title": "Innelampor",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "scene.morninglights",
+                                "scene.daylights",
+                                "scene.eveninglights",
+                                "scene.nightlights"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Scener Lampor",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.entredorr",
+                                "binary_sensor.altandorr_vardagsrum",
+                                "binary_sensor.altandorr_barnrum"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "D\u00f6rrar",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.luftvarmepump",
+                            "type": "thermostat"
+                        }
+                    ],
+                    "icon": "mdi:home-assistant",
+                    "path": "default_view",
+                    "title": "Huset"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.kokspottar_level"
+                                },
+                                {
+                                    "entity": "light.kokslampor_level"
+                                },
+                                {
+                                    "entity": "light.matbordslampor_level"
+                                },
+                                {
+                                    "entity": "light.korridorspottar_level"
+                                },
+                                {
+                                    "entity": "sensor.allrum_temperature"
+                                },
+                                {
+                                    "entity": "sensor.brandvarnare_matsal_temperature"
+                                },
+                                {
+                                    "entity": "binary_sensor.brandvarnare_matsal_sensor"
+                                }
+                            ],
+                            "title": "K\u00f6k",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.hallspottar_level",
+                                "light.entrelampa_level",
+                                "lock.entredorr"
+                            ],
+                            "title": "Entr\u00e9",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.vardagsrumstaklampor_level"
+                                },
+                                {
+                                    "entity": "switch.wallplug1_switch"
+                                },
+                                {
+                                    "entity": "light.wallplug_dim_1"
+                                }
+                            ],
+                            "title": "Vardagsrummet",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.masterbedroomspottar_level",
+                                "light.masterbedroomsanglampor_level",
+                                "sensor.brandvarnare_master_bedroom_temperature",
+                                "binary_sensor.brandvarnare_master_bedroom_sensor"
+                            ],
+                            "title": "Master Bedroom",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.wallplug6",
+                                "switch.wallplug7",
+                                "sensor.brandvarnare_sovrum_2_temperature",
+                                "binary_sensor.brandvarnare_sovrum_2_sensor"
+                            ],
+                            "title": "Minelles Rum",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.sovrum3_level"
+                                },
+                                {
+                                    "entity": "switch.wallplug5"
+                                },
+                                {
+                                    "entity": "sensor.brandvarnare_sovrum_3_temperature"
+                                },
+                                {
+                                    "entity": "binary_sensor.brandvarnare_sovrum_3_sensor"
+                                },
+                                {
+                                    "entity": "switch.wallplug2_switch"
+                                }
+                            ],
+                            "title": "Charlies Rum",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.uterumslampor_level"
+                                },
+                                {
+                                    "entity": "switch.wallplug9"
+                                },
+                                {
+                                    "entity": "switch.wallplug8"
+                                },
+                                {
+                                    "entity": "switch.wallplug4"
+                                },
+                                {
+                                    "entity": "sensor.aeotec_zw100_multisensor_6_temperature"
+                                }
+                            ],
+                            "title": "Uterummet",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.ac"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "climate.luftvarmepump",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entities": [
+                                "switch.wallplug3_switch"
+                            ],
+                            "title": "Utomhus",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "rum",
+                    "title": "Rum"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "input_select.spotify_playlist",
+                                "input_select.spotify_source",
+                                "script.spotify_music",
+                                "input_number.spotify_volume"
+                            ],
+                            "title": "Music",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.spotify",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.denon",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.kitchen",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "media_player.apple_tv"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Apple TV",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:ipod",
+                    "path": "media",
+                    "title": "Media"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "camera.entre"
+                                },
+                                {
+                                    "entity": "camera.baksidan_2"
+                                },
+                                {
+                                    "entity": "camera.baksidan"
+                                },
+                                {
+                                    "entity": "camera.entre_2"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Kamera",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:cctv",
+                    "path": "kameror",
+                    "title": "Kameror"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "adjust_times": false,
+                            "departures": true,
+                            "deviations": true,
+                            "entities": [
+                                "sensor.aprilvagen"
+                            ],
+                            "header": false,
+                            "hide_departed": false,
+                            "language": "se-SE",
+                            "name": "Aprilv\u00e4gen",
+                            "timeleft": true,
+                            "type": "custom:hasl-departure-card",
+                            "updated": true
+                        },
+                        {
+                            "adjust_times": false,
+                            "departures": true,
+                            "deviations": false,
+                            "entities": [
+                                "sensor.jakobsberg_station"
+                            ],
+                            "header": false,
+                            "hide_departed": false,
+                            "language": "se-SE",
+                            "name": "Jakobsberg Station",
+                            "timeleft": true,
+                            "type": "custom:hasl-departure-card",
+                            "updated": true
+                        },
+                        {
+                            "adjust_times": false,
+                            "departures": true,
+                            "deviations": false,
+                            "entities": [
+                                "sensor.stockholm_city"
+                            ],
+                            "header": false,
+                            "hide_departed": false,
+                            "language": "se-SE",
+                            "name": "Stockholm City",
+                            "timeleft": true,
+                            "type": "custom:hasl-departure-card",
+                            "updated": true
+                        },
+                        {
+                            "adjust_times": false,
+                            "departures": true,
+                            "deviations": false,
+                            "entities": [
+                                "sensor.stockholm_odenplan"
+                            ],
+                            "header": false,
+                            "hide_departed": false,
+                            "language": "se-SE",
+                            "name": "Stockholm Odenplan",
+                            "timeleft": true,
+                            "type": "custom:hasl-departure-card",
+                            "updated": true
+                        },
+                        {
+                            "entities": [
+                                "sensor.trafikstatus"
+                            ],
+                            "hide_events": false,
+                            "language": "se-SE",
+                            "name": "Trafikstatus",
+                            "show_only_disturbances": false,
+                            "show_time": false,
+                            "type": "custom:hasl-traffic-status-card"
+                        }
+                    ],
+                    "icon": "mdi:bus",
+                    "title": "SL"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "script.homearm",
+                                "script.awayarm"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Verisure",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "alarm_control_panel.sabbatsvagen_alarm",
+                            "type": "alarm-panel"
+                        }
+                    ],
+                    "icon": "mdi:alarm-light",
+                    "path": "verisure",
+                    "title": "Verisure"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "script.calibrate_bedlamps",
+                                "script.calibrate_entrance",
+                                "script.calibrate_kidsceiling",
+                                "script.calibrate_kitchenlamps",
+                                "script.calibrate_kitchentable",
+                                "script.calibrate_lounge",
+                                "script.calibrate_uterum"
+                            ],
+                            "title": "Skript",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:z-wave",
+                    "path": "calibrate_lamps",
+                    "title": "Lampkalibrering"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "automation.nighttime"
+                                },
+                                {
+                                    "entity": "automation.happens_when_alarmed_away"
+                                },
+                                {
+                                    "entity": "automation.skal_larm_off_06_00_10_00"
+                                },
+                                {
+                                    "entity": "automation.alarm_off_09_00_19_00"
+                                },
+                                {
+                                    "entity": "automation.alarm_off_19_00_22_30"
+                                },
+                                {
+                                    "entity": "automation.alarm_off_22_30_05_00"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Larm",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "automation.toggle_masterbedroom_bedlights_one_click"
+                                },
+                                {
+                                    "entity": "automation.toggle_masterbedroom_spots_double_click"
+                                },
+                                {
+                                    "entity": "automation.toggle_masterbedroom_evening_lights_hold"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Lampor",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "automation.soptunnan_nere"
+                                },
+                                {
+                                    "entity": "automation.soptunnan_uppe"
+                                },
+                                {
+                                    "entity": "automation.satt_soptunna_variabel_till_off_efter_00_00"
+                                },
+                                {
+                                    "entity": "automation.play_doorbell_on_audio_alert_morning"
+                                },
+                                {
+                                    "entity": "automation.play_doorbell_on_audio_alert_daytime"
+                                },
+                                {
+                                    "entity": "automation.play_doorbell_on_audio_alert_evening"
+                                },
+                                {
+                                    "entity": "automation.people_greeting"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "\u00d6vriga",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "automation.stang_av_motorvarmaren_11_2_timme"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "V\u00e4rme",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "automation.notify_ios_app_johan_ringer_pa_dorren",
+                                "automation.notify_ios_app_johan_soptunnan",
+                                "automation.notify_ios_app_sanna_soptunnan",
+                                "automation.notify_ios_app_johan_rorelse_baksidan",
+                                "automation.notify_ios_app_johan_rorelse_framsidan",
+                                "automation.notify_ios_app_johan_rorelse_baksidan_larmat",
+                                "automation.notify_ios_app_johan_rorelse_framsidan_larmat",
+                                "automation.notify_ios_app_johan_rorelse_uterummet",
+                                "automation.startup_notification"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "iOSNotify",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "automation.door_open"
+                                },
+                                {
+                                    "entity": "automation.door_lock"
+                                },
+                                {
+                                    "entity": "automation.las_ytterdorren"
+                                },
+                                {
+                                    "entity": "automation.oppna_ytterdorren"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Ytterd\u00f6rr",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "automation.hide_alarm_when_alarmed",
+                                "automation.hide_disarm_when_disarmed",
+                                "automation.show_alarm_when_disarmed",
+                                "automation.show_disarm_when_alarm_armed"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Group Visibility",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home-automation",
+                    "path": "automation_groups",
+                    "title": "Automations"
+                },
+                {
+                    "badges": [
+                        "sensor.memory_usage_real",
+                        "sensor.network_up",
+                        "sensor.network_down",
+                        "sensor.cpu_load_total",
+                        "sensor.total_size_volume_1",
+                        "sensor.used_space_volume_1",
+                        "sensor.volume_used_volume_1"
+                    ],
+                    "cards": [],
+                    "icon": "mdi:nas",
+                    "path": "nas",
+                    "title": "DiskStation"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "sensor.kokspottar_energy",
+                                "sensor.korridorspottar_energy",
+                                "sensor.uterumslampor_energy",
+                                "sensor.matbordslampor_energy",
+                                "sensor.vardagsrumstaklampor_energy",
+                                "sensor.wallplug3_energy",
+                                "sensor.wallplug1_energy",
+                                "sensor.wallplug2_energy"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Energi",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.kokspottar_power",
+                                "sensor.korridorspottar_power",
+                                "sensor.uterumslampor_power",
+                                "sensor.matbordslampor_power",
+                                "sensor.vardagsrumstaklampor_power",
+                                "sensor.wallplug3_power",
+                                "sensor.wallplug1_power",
+                                "sensor.wallplug2_power"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Effekt",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:flash",
+                    "path": "strom",
+                    "title": "Str\u00f6mf\u00f6rbrukning"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.thorax_betalning",
+                            "type": "sensor"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "input_boolean.csgo2betald"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "CSGO server betald",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.1563871483100"
+                                },
+                                {
+                                    "entity": "script.1563871509106"
+                                },
+                                {
+                                    "entity": "script.1563871615981"
+                                },
+                                {
+                                    "entity": "script.1563872406055"
+                                },
+                                {
+                                    "entity": "script.1565297213354"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "theme": "Backend-selected",
+                            "title": "Thorax CSGO",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.1563871653188"
+                                },
+                                {
+                                    "entity": "script.1563871686878"
+                                },
+                                {
+                                    "entity": "script.1563871719954"
+                                },
+                                {
+                                    "entity": "script.1563872441407"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Team Turtle CSGO",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:pistol",
+                    "title": "Uthyrning CSGO"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.1563983444886"
+                                },
+                                {
+                                    "entity": "script.1563983505052"
+                                },
+                                {
+                                    "entity": "script.1563983525831"
+                                },
+                                {
+                                    "entity": "script.1563983562076"
+                                },
+                                {
+                                    "entity": "script.1565297179599"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Gather",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.1563983581474"
+                                },
+                                {
+                                    "entity": "script.1563983598982"
+                                },
+                                {
+                                    "entity": "script.1563983616959"
+                                },
+                                {
+                                    "entity": "script.1563983636649"
+                                },
+                                {
+                                    "entity": "script.1565297198255"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Retake",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.1563983652082"
+                                },
+                                {
+                                    "entity": "script.1563983777315"
+                                },
+                                {
+                                    "entity": "script.1563983795153"
+                                },
+                                {
+                                    "entity": "script.1563983812878"
+                                },
+                                {
+                                    "entity": "script.1565297129026"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Aim",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.1563984300355"
+                                },
+                                {
+                                    "entity": "script.1563984331603"
+                                },
+                                {
+                                    "entity": "script.1563984364990"
+                                },
+                                {
+                                    "entity": "script.1563992136701"
+                                },
+                                {
+                                    "entity": "script.1565297075326"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Arena Match",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:pistol",
+                    "title": "CSGO servrar"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "climate.luftvarmepump"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "theme": "default",
+                            "type": "entities"
+                        }
+                    ],
+                    "title": "Not used"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

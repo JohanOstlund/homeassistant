@@ -5,8 +5,21 @@
   timeout: 15
   verify_ssl: False
   
-- platform: mjpeg
-  name: iPhone5
-  mjpeg_url: http://192.168.1.174/live
-  username: !secret cam_user
-  password: !secret cam_pass
+#- platform: mjpeg
+#  name: iPhone5
+#  mjpeg_url: http://192.168.1.174/live
+#  username: !secret cam_user
+#  password: !secret cam_pass
+
+- platform: generic
+  name: Entré_
+  still_image_url: https://192.168.1.51/camera/entre/snapshot.jpg
+  stream_source: rtsp://syno:256ead3a8b12234e58a129a4039d71df@192.168.1.51:554/Sms=4.unicast
+  verify_ssl: false
+
+- platform: generic
+  name: Baksidan_
+  still_image_url: https://192.168.1.51/camera/baksida/snapshot.jpg
+  stream_source: rtsp://syno:984976fd983f18e9ac83b62d3553f118@192.168.1.51:554/Sms=3.unicast
+  verify_ssl: false
+

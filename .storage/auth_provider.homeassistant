@@ -1,0 +1,21 @@
+{
+    "data": {
+        "salt": "9cdd028fcf4bb86346396b0640aea5602b28263234cc7570bd257b6643b8bed0",
+        "users": [
+            {
+                "password": "JDJiJDEyJHJkMVM0Nkl2TzJ3QloveDMzVkpveE8uQkNNM04wWERNQ0p1b05UQW51ZjNleWRwVS9FaDlx",
+                "username": "johan"
+            },
+            {
+                "password": "JDJiJDEyJENPZkZyMGVkaVlLZ1pyMEpmczZXOGU2MENHZWtwS3VTUkVmMW44czZBVWVHMFREblNNTnZh",
+                "username": "Sanna"
+            },
+            {
+                "password": "JDJiJDEyJGFERG5NanV0UTFEc1UuZlBwZmw1ZmVIeG8zMXpNdEt4QU82SjlTTlJjTXRqNy9WaTFLTzNL",
+                "username": "ipad"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

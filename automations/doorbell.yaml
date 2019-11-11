@@ -1,37 +1,40 @@
 ################# Ringklocka Automationer #####################
+- alias: 'Play doorbell on audio alert morning'
+  trigger:
+    platform: state
+    entity_id: sensor.popp_access_control_7
+    to: '22'
+  condition:
+    condition: time
+    after: '06:45'
+    before: '10:00'
+  action:
+    service: homeassistant.turn_on
+    entity_id: script.play_doorbell_in_kitchen_softly
+
 - alias: 'Play doorbell on audio alert daytime'
   trigger:
     platform: state
-    entity_id: switch.ringklocka
-    to: 'on'
+    entity_id: sensor.popp_access_control_7
+    to: '22'
   condition:
     condition: time
-    after: 08:00
+    after: '10:00'
     before: '19:15'
   action:
     service: homeassistant.turn_on
-    entity_id: script.play_doorbell_on_alert_in_kitchen_daytime
+    entity_id: script.play_doorbell_in_kitchen_loud
 
 - alias: 'Play doorbell on audio alert evening'
   trigger:
     platform: state
-    entity_id: switch.ringklocka
-    to: 'on'
+    entity_id: sensor.popp_access_control_7
+    to: '22'
   condition:
     condition: time
     after: '19:15'
     before: '23:00'
   action:
     service: homeassistant.turn_on
-    entity_id: script.play_doorbell_on_alert_in_kitchen_evening
-    
-- alias: 'Sätt Ringklocka till off'
-  trigger:
-    platform: state
-    entity_id: switch.ringklocka
-    to: 'on'
-  action:
-    - delay: '5'
-    - service: homeassistant.turn_off
-      entity_id: switch.ringklocka
+    entity_id: script.play_doorbell_in_kitchen_softly
     

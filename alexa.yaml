@@ -1,8 +1,15 @@
+  endpoint: https://api.eu.amazonalexa.com/v3/events
+  client_id: !secret alexa_client_id
+  client_secret: !secret alexa_client_secret
   filter:
     include_entities:
       #- group.nighttime
+      - binary_sensor.entredorr
+      - binary_sensor.frontdoor_unlocked
+      - climate.luftvarmepump
       - input_boolean.nighttime
-      - input_boolean.door
+      - input_boolean.unlockdoor
+      - input_boolean.lockdoor
       - switch.wallplug3_switch
       - switch.wallplug1_switch
       - switch.wallplug2_switch
@@ -10,7 +17,12 @@
       - scene.daylights
       - scene.eveninglights
       - scene.nightlights
-      #- switch.ip44
+      - switch.wallplug4
+      - switch.wallplug5
+      - switch.wallplug6
+      - switch.wallplug7
+      - switch.wallplug8
+      - switch.wallplug9
       #- media_player.spotify
       - media_player.apple_tv
       - media_player.denon
@@ -25,21 +37,37 @@
       - light.masterbedroomsanglampor_level
       - light.hallspottar_level
       - light.sovrum3_level
+      - light.wallplug_dim_1
       - lock.entredorr
       - sensor.brandvarnare_master_bedroom_temperature
       - sensor.brandvarnare_sovrum_2_temperature
       - sensor.brandvarnare_sovrum_3_temperature
       - sensor.brandvarnare_matsal_temperature
       - sensor.allrum_temperature
+      - sensor.aprilvagen
       
   entity_config:
+    binary_sensor.frontdoor_unlocked:
+      name: "Ytterdörr"
+      description: "Sensor om dörr låst"
+      display_categories: CONTACT_SENSOR
+
+    climate.luftvarmepump:
+      name: "Heat pump"
+      description: "Luftvärmepump entrén"
+
     input_boolean.nighttime:
       name: "Nighttime"
       description: "Triggers alarm and lights off"
       display_categories: SWITCH
       
-    input_boolean.door:
-      name: "Entrance"
+    input_boolean.unlockdoor:
+      name: "Entrance open"
+      description: "Opens and locks door"
+      display_categories: SMARTLOCK
+
+    input_boolean.lockdoor:
+      name: "Entrance lock"
       description: "Opens and locks door"
       display_categories: SMARTLOCK
 
@@ -64,7 +92,7 @@
       description: The ceiling lamp over the kitchen table
         
     light.vardagsrumstaklampor_level:
-      name: "Ceiling lamp"
+      name: "Lounge Ceiling lamp"
       description: The ceiling lamp in the lounge
         
     light.masterbedroomspottar_level:
@@ -80,13 +108,16 @@
       description: The Downlights in entrance
         
     light.uterumslampor_level:
-      name: "Outdoor lamps"
+      name: "Conservatory wall lamps"
       description: The lamps in the outroom
         
     light.sovrum3_level:
-      name: "Ceiling lamp"
+      name: "Charlie Ceiling lamp"
       description: The ceiling lamp in the Charlies room
         
+    light.wallplug_dim_1:
+      name: "TV lamp"
+      description: "dimbar golvlampa vid TV"
     media_player.apple_tv:
       name: Apple TV
         
@@ -111,17 +142,35 @@
       display_categories: SCENE_TRIGGER
         
     switch.wallplug1_switch:
-      name: "Car Heater"
-      #display_categories: 'LIGHT'
+      name: "Lounge Floor lamp"
       
     switch.wallplug2_switch:
-      name: "Nelly bed"
-      display_categories: 'LIGHT'
+      name: "Charlie bed"
           
     switch.wallplug3_switch:
-      name: "Window lamp"
-      display_categories: 'LIGHT'
-        
+      name: "Car"
+  
+    switch.wallplug4:
+      name: "Heat table"
+      
+    switch.wallplug5:
+      name: "Charlie Window Lamp"
+
+    switch.wallplug6:
+      name: "Nelly Window lamp"
+
+    switch.wallplug7:
+      name: "Nelly bed Lamp"
+
+    switch.wallplug8:
+      name: "Heat lounge"
+
+    switch.wallplug9:
+      name: "Conservatory Floor lamps"
+    sensor.aprilvagen:
+      name: "Bus"
+      display_categories: TEMPERATURE_SENSOR
+
     sensor.brandvarnare_master_bedroom_temperature:
       name: "Temp 1"
       description: Temperature in Master Bedroom

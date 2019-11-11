@@ -1,37 +1,49 @@
    ##Övrigt#
   switch.wallplug3_switch:
+    friendly_name: Kupévärmaren
+    icon: mdi:fan
+
+  sensor.wallplug3_energy:
+    friendly_name: Kupévärmaren
+    
+  sensor.wallplug3_power:
+    friendly_name: Kupévärmaren
+
+  switch.wallplug4:
+    friendly_name: Tältlampor
+    icon: mdi:lightbulb
+
+  switch.wallplug5:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
 
-    
-  sensor.wallplug3_energy:
-    friendly_name: Fönsterlampa
-    
-  sensor.wallplug3_power:
-    friendly_name: Fönsterlampa
+  switch.wallplug6:
+    friendly_name: Smålampor fönster
+    icon: mdi:lightbulb
 
- # switch.ip44:
-  #  friendly_name: Motorvärmaren
-   # icon: mdi:fan
+  switch.wallplug7:
+    friendly_name: Minelles sänglampa
+    icon: mdi:lightbulb
+
+  switch.wallplug9:
+    friendly_name: Myshörnan
+    icon: mdi:lightbulb
 
   switch.wallplug1_switch:
-    friendly_name: Kupévärmare
+    friendly_name: Golvlampa
     # alexa_hidden: false
-    icon: mdi:fan
+    icon: mdi:lightbulb
     
   sensor.wallplug1_power:
-    friendly_name: Kupévärmare
+    friendly_name: Golvlampa
   
   switch.wallplug2_switch:
-    friendly_name: Minelles sänglampa
+    friendly_name: Charlies sänglampa
     icon: mdi:lightbulb
 
   sensor.wallplug2_energy:
-    friendly_name: Minelles sänglampa
+    friendly_name: Charlies sänglampa
 
   sensor.wallplug2_power:
-    friendly_name: Minelles sänglampa
- 
-  switch.ringklocka:
-    assumed_state: false
- 
+    friendly_name: Charlies sänglampa
+   

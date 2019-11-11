@@ -2,8 +2,8 @@
   client_id: !secret spotify_id
   client_secret: !secret spotify_secret
 
-- platform: sonos
-  hosts: 192.168.1.90
+#- platform: sonos
+#  hosts: 192.168.1.91
 
 - platform: denonavr
   host: 192.168.1.80
