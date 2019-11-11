@@ -1,5 +1,5 @@
 project_id: hass-251817
-api_key: AIzaSyA1R0DnyE8G_9cevsHpEYdMwJgQ1pAwlxY
+api_key: !secret google_api
 #expose_by_default: false
 
 entity_config:
